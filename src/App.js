@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Components
 import Home from "./components/Home";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Header />
         <Switch>
           <Route exact path="/" component={() => <Home />} />
           <Route exact path="/about" component={() => <About />} />
