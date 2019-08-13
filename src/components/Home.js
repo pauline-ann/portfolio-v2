@@ -15,10 +15,12 @@ const Home = () => {
     fontSize: '3.5em',
     fontWeight: 'normal',
     marginBottom: 0,
+    fontFamily: "'Fira Code', monospace"
+
   }
 
   const headerStyle2 = {
-    fontSize: '1.2em',
+    fontSize: '1.1em',
     fontWeight: 'normal',
     marginTop: '1.5em'
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, Image, Breadcrumb, MenuItem } from 'semantic-ui-react'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/pb_logo_grey.png";
 import * as Resume from "../assets/document/PaulineBantayanResume.pdf";
 
@@ -27,13 +27,13 @@ const Header = () => {
         <Menu.Menu position="right">
           <Menu.Item>
             <Breadcrumb>
-              <Breadcrumb.Section as={Link} to="/about">About</Breadcrumb.Section>
+              <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/about">About</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section as={Link} to="/projects">Projects</Breadcrumb.Section>
+              <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/projects">Projects</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section as={Link} to="/blog">Blog</Breadcrumb.Section>
+              <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/blog">Blog</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section as={Link} to={Resume}>Resume</Breadcrumb.Section>
+              <Breadcrumb.Section as={NavLink} exact activeClassName="active" to={Resume}>Resume</Breadcrumb.Section>
             </Breadcrumb>
           </Menu.Item>
         </Menu.Menu>
