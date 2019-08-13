@@ -45,7 +45,7 @@ const Home = () => {
         />
         <Header
           as='h2'
-          content='Hi! I am a Full Stack Software Developer & Full-time Eater from Los Angeles, CA.'
+          content='👋🏼Hi! I am a Full Stack Software Developer💻 & Full-time Eater🍜 from Los Angeles, CA.🌃'
           style={headerStyle2}
           inverted
         />
