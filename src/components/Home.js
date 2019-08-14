@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { Container, Header, Image } from "semantic-ui-react";
-import * as Avatar from "../assets/images/anime_me.png";
+import Avatar from "../assets/images/anime_me.png";
 import "./Home.css";
 
 const Home = () => {
