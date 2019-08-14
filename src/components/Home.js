@@ -1,6 +1,7 @@
 import React from "react";
+import Navbar from "./Navbar";
 import { Container, Header, Image } from "semantic-ui-react";
-import * as Avatar from "../assets/images/myAvatar.png";
+import * as Avatar from "../assets/images/anime_me.png";
 import "./Home.css";
 
 const Home = () => {
@@ -20,34 +21,35 @@ const Home = () => {
   }
 
   const headerStyle2 = {
-    fontSize: '1.1em',
+    fontSize: '1em',
     fontWeight: 'normal',
     marginTop: '1.5em'
   }
 
+  const avatarStyle = {
+    marginTop: "7em"
+  }
+
   return (
     <div className="Home">
+      <Navbar />
       <Container
         text
         vertical
         style={containerStyle}
       >
         <Image src={Avatar} size="small" circular centered
-          style={{
-            marginTop: '13.5em'
-          }}
+        style={avatarStyle}
         />
         <Header
           as='h1'
           content='Pauline Ann Bantayan'
           style={headerStyle1}
-          inverted
         />
         <Header
           as='h2'
-          content='👋🏼Hi! I am a Full Stack Software Developer💻 & Full-time Eater🍜 from Los Angeles, CA.🌃'
+          content='👋🏼Hi! I am a 💻Full Stack Software Developer & 🍜Full-time Eater from 🌃Los Angeles, CA.'
           style={headerStyle2}
-          inverted
         />
       </Container>
     </div>
