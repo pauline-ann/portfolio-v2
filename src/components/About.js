@@ -1,14 +1,35 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Segment, Grid, Image, Header, Card, Tab, List } from "semantic-ui-react";
+import { Container, Segment, Grid, Image, Header, Card, Tab, List, Divider } from "semantic-ui-react";
 import Me from "../assets/images/grad_me.jpg";
 
 const About = () => {
 
   const panes = [
-    { menuItem: 'Intro', render: () => <Tab.Pane attached={false}>Tab 1 Content</Tab.Pane> },
-    { menuItem: 'Skills', render: () => <Tab.Pane attached={false}>Tab 2 Content</Tab.Pane> },
-    { menuItem: 'Hobbies', render: () => <Tab.Pane attached={false}>Tab 3 Content</Tab.Pane> },
+    {
+      menuItem: 'Intro',
+      render: () =>
+        <Tab.Pane>
+          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
+          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
+        </Tab.Pane>
+    },
+    {
+      menuItem: 'Skills',
+      render: () =>
+        <Tab.Pane>
+          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
+          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
+        </Tab.Pane>
+    },
+    {
+      menuItem: 'Hobbies',
+      render: () =>
+        <Tab.Pane>
+          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
+          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
+        </Tab.Pane>
+    }
   ]
 
   const listStyle = {
@@ -20,7 +41,7 @@ const About = () => {
     <div>
       <Navbar />
       <Container>
-        <Segment>
+        <Segment basic>
           <Grid>
             <Grid.Column width={5}>
               <Card>
@@ -46,9 +67,14 @@ const About = () => {
             </Grid.Column>
             <Grid.Column width={7}>
               <Container text>
-                <Header as="h2">
-                  About
+                <Header as="h2"
+                style={{
+                  fontFamily: "'Fira Code', monospace",
+                  paddingTop: "1em"
+                  }}>
+                  //About
                 </Header>
+                <Divider hidden />
                 <Tab panes={panes} />
               </Container>
             </Grid.Column>

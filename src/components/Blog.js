@@ -11,7 +11,7 @@ const Blog = () => {
     <div>
       <Navbar />
       <Container>
-        <Segment textAlign="center">
+        <Segment basic textAlign="center">
           <Message color="yellow" size="huge">
             <Message.Content>
               <Divider hidden />
