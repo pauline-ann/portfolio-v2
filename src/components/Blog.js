@@ -12,7 +12,7 @@ const Blog = () => {
       <Navbar />
       <Container>
         <Segment basic textAlign="center">
-          <Message color="yellow" size="huge">
+          <Message color="violet" size="medium">
             <Message.Content>
               <Divider hidden />
               <Icon name='cogs' size="huge" />

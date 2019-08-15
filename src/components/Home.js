@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Header, Image, Button } from "semantic-ui-react";
+import { Container, Header, Image, Button, Divider, Icon } from "semantic-ui-react";
+import { Link } from 'react-router-dom';
 import Avatar from "../assets/images/ny.jpeg";
 import "./Home.css";
 
@@ -50,7 +51,10 @@ const Home = () => {
           content='Full-stack Developer & Full-time Eater from Los Angeles, CA.'
           style={headerStyle2}
         />
-        <Button basic color='violet' content='Violet' />
+        <Divider hidden />
+        <Button as={Link} to='/projects' basic color='violet'><Icon name="globe" /> Projects</Button>
+        <Button as={Link} to='/blog' basic color='violet'><Icon name="food" /> Blog</Button>
+
       </Container>
     </div>
   );
