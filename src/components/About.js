@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Segment, Grid, Image, Header, Card, Tab, List, Divider } from "semantic-ui-react";
+import { Container, Segment, Grid, Image, Header, Card, Tab, List, Divider, Icon } from "semantic-ui-react";
 import Me from "../assets/images/grad_me.jpg";
 
 const About = () => {
@@ -10,30 +10,221 @@ const About = () => {
       menuItem: 'Intro',
       render: () =>
         <Tab.Pane>
-          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
-          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
+          <Header as="h3"
+            style={{
+              fontFamily: "'Fira Code', monospace",
+              paddingTop: "0.5em"
+            }}>
+              //Hello World!
+          </Header>
+          <p>
+            I'm Pauline, a full-stack web developer from Los Angeles, CA.
+          </p>
+          <p>
+            I discovered my desire to pursue technology while working at a tech startup. There, I realized that programming aligned with my drive to solve problems, continue to learn, and get in touch with my creativity. I switched my career path into web development and haven't looked back since!
+          </p>
+          <p>
+            I love the process of transforming ideas into functional, intuitive, and immersive web applications.
+          </p>
+          </Tab.Pane>
+          },
+          {
+            menuItem: 'Stack',
+          render: () =>
+        <Tab.Pane>
+          <Grid divided>
+            <Grid.Row>
+              <Grid.Column>
+                <Header
+                  as="h3"
+                  style={{
+                    fontFamily: "'Fira Code', monospace",
+                    paddingTop: "0.5em"
+                  }}>
+                  //Stack
+                </Header>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row columns={3} >
+              <Grid.Column>
+              <Header as="h4"
+            style={{
+              fontFamily: "'Fira Code', monospace"
+            }}>
+              Front End
+          </Header>
+          <List>
+            <List.Item>
+              <List.Icon name="html5" />
+              <List.Content>HTML</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="css3" />
+              <List.Content>CSS</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="js" />
+              <List.Content>JavaScript</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-jquery-plain" /></List.Icon>
+              <List.Content>jQuery</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="react" />
+              <List.Content>React</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-bootstrap-plain"></i></List.Icon>
+              <List.Content>Bootstrap</List.Content>
+            </List.Item>
+          </List>
+          </Grid.Column>
+          <Grid.Column>
+          <Header as="h4"
+            style={{
+              fontFamily: "'Fira Code', monospace"
+            }}>
+              Back End
+          </Header>
+          <List>
+            <List.Item>
+              <List.Icon><i class="devicon-express-original" /></List.Icon>
+              <List.Content>Express</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="node" />
+              <List.Content>Node</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-mysql-plain" /></List.Icon>
+              <List.Content>MySQL</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-mongodb-plain" /></List.Icon>
+              <List.Content>MongoDB</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="python" />
+              <List.Content>Python</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-sequelize-plain" /></List.Icon>
+              <List.Content>Sequelize</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="wordpress" />
+              <List.Content>WordPress</List.Content>
+            </List.Item>
+          </List>
+          </Grid.Column>
+          <Grid.Column>
+          <Header as="h4"
+            style={{
+              fontFamily: "'Fira Code', monospace"
+            }}>
+              Tools
+          </Header>
+          <List>
+            <List.Item>
+              <List.Icon name="git" />
+              <List.Content>Git</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="github alternate" />
+              <List.Content>GitHub</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="gitlab" />
+              <List.Content>GitLab</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-heroku-original" /></List.Icon>
+              <List.Content>Heroku</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="chrome" />
+              <List.Content>Chrome Developer Tools</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon><i class="devicon-visualstudio-plain" /></List.Icon>
+              <List.Content>Visual Studio Code</List.Content>
+            </List.Item>
+            <List.Item>
+              <List.Icon name="trello" />
+              <List.Content>Trello</List.Content>
+            </List.Item>
+          </List>
+          </Grid.Column>
+          </Grid.Row>
+          </Grid>
         </Tab.Pane>
-    },
+          },
     {
-      menuItem: 'Skills',
+            menuItem: 'Interests',
+          render: () =>
+        <Tab.Pane>
+          <Header as="h3"
+            style={{
+              fontFamily: "'Fira Code', monospace",
+              paddingTop: "0.5em"
+            }}>
+              //Interests
+          </Header>
+            <p>
+              Aside from web development, I want to learn more about machine learning, artificial intelligence, and RPG game development. There is so much more to learn which pushes me to continue building and become a stronger developer everyday.
+            </p>
+            <p>
+              I'm still deeply passionate about environmental issues I studied in college such as renewable energy, sustainability, and environmental justice. A goal of mine is to find the intersection between my passions and develop software that can make a positive social and environmental impact.
+            </p>
+        </Tab.Pane>
+          },
+          {
+            menuItem: 'Hobbies',
       render: () =>
         <Tab.Pane>
-          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
-          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
-        </Tab.Pane>
-    },
-    {
-      menuItem: 'Hobbies',
-      render: () =>
-        <Tab.Pane>
-          In pariatur officia amet aute voluptate minim reprehenderit. Occaecat laboris est aute laborum id in do veniam minim velit adipisicing velit aliqua. Ea id duis do tempor fugiat consequat laborum do. Anim amet reprehenderit anim irure. Exercitation tempor sunt voluptate ut irure nisi incididunt adipisicing qui aute esse. Deserunt exercitation magna sunt labore commodo eu sit et enim eu est duis ullamco.
-          Ut amet cillum labore enim pariatur enim. Anim sunt reprehenderit eiusmod aliquip aliquip excepteur ea duis qui proident culpa laboris nulla. Adipisicing est aute cillum magna cupidatat occaecat. Exercitation in magna enim ut culpa commodo non anim. Minim et excepteur nulla voluptate duis sit pariatur sunt exercitation amet qui cillum adipisicing.
-        </Tab.Pane>
-    }
-  ]
-
-  const listStyle = {
-    paddingLeft: "5%",
+          <Header as="h3"
+            style={{
+              fontFamily: "'Fira Code', monospace",
+              paddingTop: "0.5em"
+            }}>
+              //Hobbies
+          </Header>
+            <p>
+            If I'm not coding or studying you'll find me...
+          </p>
+        <List>
+          <List.Item>
+            <List.Icon name="food" />
+            <List.Content>
+              Looking for the next meal to experience (spiritually)
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name="tree" />
+            <List.Content>
+              Slowing down and enjoying nature through camping and fishing
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name="game" />
+            <List.Content>
+              Waiting for the next Animal Crossing game
+            </List.Content>
+          </List.Item>
+          <List.Item>
+            <List.Icon name="smile outline" />
+            <List.Content>
+              Being wholesome
+            </List.Content>
+          </List.Item>
+          </List>
+          </Tab.Pane>
+          }
+        ]
+      
+  const contactStyle = {
+    paddingLeft: "6%",
     paddingBottom: "5%"
   }
 
@@ -43,16 +234,19 @@ const About = () => {
       <Container>
         <Segment basic>
           <Grid>
-            <Grid.Column width={5}>
-              <Card>
+            <Grid.Column mobile={16} tablet={8} computer={6}>
+              <Card fluid>
                 <Image src={Me} />
                 <Card.Content>
-                  <Card.Header>Pauline Ann Bantayan</Card.Header>
-                  <Card.Meta>UCSB Class of 2017</Card.Meta>
+                  <Card.Meta textAlign="center"
+                    style={{
+                      fontFamily: "'Fira Code', monospace"
+                    }}>
+                    Connect
+                        </Card.Meta>
                 </Card.Content>
                 <Card.Description>
-                  <List style={listStyle}>
-                    <List.Item icon='marker' content='Los Angeles, CA' />
+                  <List style={contactStyle}>
                     <List.Item
                       icon='mail'
                       content={<a href='mailto:paulinebantayan@gmail.com'>paulinebantayan@gmail.com</a>}
@@ -65,16 +259,8 @@ const About = () => {
                 </Card.Description>
               </Card>
             </Grid.Column>
-            <Grid.Column width={7}>
-              <Container text>
-                <Header as="h2"
-                style={{
-                  fontFamily: "'Fira Code', monospace",
-                  paddingTop: "1em"
-                  }}>
-                  //About
-                </Header>
-                <Divider hidden />
+            <Grid.Column mobile={16} tablet={8} computer={10}>
+              <Container fluid>
                 <Tab panes={panes} />
               </Container>
             </Grid.Column>

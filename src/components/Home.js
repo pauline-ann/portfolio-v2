@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Header, Image } from "semantic-ui-react";
-import Avatar from "../assets/images/anime_me.png";
+import { Container, Header, Image, Button } from "semantic-ui-react";
+import Avatar from "../assets/images/ny.jpeg";
 import "./Home.css";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
   }
 
   const headerStyle1 = {
-    fontSize: '3.5em',
+    fontSize: '3.3em',
     fontWeight: 'normal',
     marginBottom: 0,
     fontFamily: "'Fira Code', monospace"
@@ -23,7 +23,7 @@ const Home = () => {
   const headerStyle2 = {
     fontSize: '1em',
     fontWeight: 'normal',
-    marginTop: '1.5em'
+    marginTop: '0.8em'
   }
 
   const avatarStyle = {
@@ -36,10 +36,9 @@ const Home = () => {
       <Container
         text
         vertical
-        style={containerStyle}
-      >
+        style={containerStyle}>
         <Image src={Avatar} size="small" circular centered
-        style={avatarStyle}
+          style={avatarStyle}
         />
         <Header
           as='h1'
@@ -48,9 +47,10 @@ const Home = () => {
         />
         <Header
           as='h2'
-          content='👋🏼Hi! I am a 💻Full Stack Software Developer & 🍜Full-time Eater from 🌃Los Angeles, CA.'
+          content='Full-stack Developer & Full-time Eater from Los Angeles, CA.'
           style={headerStyle2}
         />
+        <Button basic color='violet' content='Violet' />
       </Container>
     </div>
   );

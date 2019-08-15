@@ -19,8 +19,9 @@ const Blog = () => {
               <Divider hidden />
               <Message.Header>
                 Under Construction
-            </Message.Header>
-              Will be delivering delicious content to you very soon!
+              </Message.Header>
+              Coming soon!
+              <Divider hidden />
             <Image.Group size="small">
                 <Image src={ramen} />
                 <Image src={lobster} />
