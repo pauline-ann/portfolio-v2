@@ -1,6 +1,6 @@
 // Dependencies
 import React from "react";
-import { Grid, Container, Header, Image, Icon, Popup, Divider } from "semantic-ui-react";
+import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal } from "semantic-ui-react";
 
 // Components
 import Navbar from "./Navbar";
@@ -100,21 +100,39 @@ const Projects = () => {
     }
   ]
 
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <div>
       <Navbar />
       <Container>
         <Grid>
           <Grid.Row>
+            {/**********  PAGE HEADER  **********/}
             <Grid.Column>
               <Header as="h2" content="//Projects" style={projectHeader} />
             </Grid.Column>
           </Grid.Row>
-
+          {/**********  ZEPHYR NODE  **********/}
           <Grid.Row divided>
+            {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Image fluid src={zephyr1} />
+              <Modal trigger={<Image fluid src={zephyr1} />} basic size="large" closeIcon>
+                <div>
+                  <Image src={zephyr1} />
+                </div>
+                <div>
+                  <Image src={zephyr2} />
+                </div>
+              </Modal>
             </Grid.Column>
+            {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
               <Header as="h3" content="Zephyr Node" style={projectHeader} />
@@ -124,18 +142,27 @@ const Projects = () => {
               {zephyrStack.map((stackItem) => (
                 <Popup
                   key={stackItem.name}
-                  header={stackItem.name}
+                  content={stackItem.name}
                   trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
               ))}
             </Grid.Column>
           </Grid.Row>
-
+          {/**********  LIGHTHOUSE  **********/}
           <Grid.Row divided>
+            {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Image fluid src={lightHouse1} />
+              <Modal trigger={<Image fluid src={lightHouse1} />} basic size="large" closeIcon>
+                <div>
+                  <Image src={lightHouse1} />
+                </div>
+                <div>
+                  <Image src={lightHouse2} />
+                </div>
+              </Modal>
             </Grid.Column>
+            {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
               <Header as="h3" content="lightHouse" style={projectHeader} />
@@ -145,18 +172,27 @@ const Projects = () => {
               {lightHouseStack.map((stackItem) => (
                 <Popup
                   key={stackItem.name}
-                  header={stackItem.name}
+                  content={stackItem.name}
                   trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
               ))}
             </Grid.Column>
           </Grid.Row>
-
+          {/**********  MEET ME HALFWAY  **********/}
           <Grid.Row divided>
+            {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Image fluid src={meetMeHalfway1} />
+              <Modal trigger={<Image fluid src={meetMeHalfway1} />} basic size="large" closeIcon>
+                <div>
+                  <Image src={meetMeHalfway1} />
+                </div>
+                <div>
+                  <Image src={meetMeHalfway2} />
+                </div>
+              </Modal>
             </Grid.Column>
+            {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
               <Header as="h3" content="Meet Me Halfway" style={projectHeader} />
@@ -166,7 +202,7 @@ const Projects = () => {
               {meetMeHalfwayStack.map((stackItem) => (
                 <Popup
                   key={stackItem.name}
-                  header={stackItem.name}
+                  content={stackItem.name}
                   trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
