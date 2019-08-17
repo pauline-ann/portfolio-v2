@@ -198,7 +198,6 @@ const About = () => {
     <div>
       <Navbar />
       <Container>
-        <Segment basic>
           <Grid>
             <Grid.Column mobile={16} tablet={8} computer={6}>
               <Image src={Me} />
@@ -209,7 +208,6 @@ const About = () => {
               </Container>
             </Grid.Column>
           </Grid>
-        </Segment>
       </Container>
     </div>
   );

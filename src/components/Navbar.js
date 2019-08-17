@@ -16,11 +16,15 @@ const Navbar = () => {
     marginBottom: "6em"
   }
 
+  const brand = {
+    paddingLeft: "0"
+  }
+
   return (
     <div>
       <Container>
         <Menu fixed inverted style={nav}>
-          <Menu.Item fixed as={Link} to="/">
+          <Menu.Item fixed as={Link} to="/" style={brand}>
             <Image size="mini" src={logo} />
           </Menu.Item>
           <Menu.Menu position="left">
