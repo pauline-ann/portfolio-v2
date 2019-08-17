@@ -1,9 +1,12 @@
 // Dependencies
 import React from "react";
-import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal } from "semantic-ui-react";
+import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal, List } from "semantic-ui-react";
 
 // Components
 import Navbar from "./Navbar";
+
+// CSS
+import "./Projects.css";
 
 // Images
 import zephyr1 from "../assets/images/project_img/zephyr_1.png";
@@ -100,14 +103,6 @@ const Projects = () => {
     }
   ]
 
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
-
   return (
     <div>
       <Navbar />
@@ -123,13 +118,9 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image fluid src={zephyr1} />} basic size="large" closeIcon>
-                <div>
-                  <Image src={zephyr1} />
-                </div>
-                <div>
-                  <Image src={zephyr2} />
-                </div>
+              <Modal trigger={<Image className="projectImage" fluid src={zephyr1} />} basic size="large" closeIcon>
+                <Image src={zephyr1} />
+                <Image src={zephyr2} />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}
@@ -147,19 +138,20 @@ const Projects = () => {
                   position="bottom center"
                 />
               ))}
+              <Divider hidden />
+              <List>
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Zephyr-Node'>GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://zephyr-node.herokuapp.com/'>Site</a>} />
+              </List>
             </Grid.Column>
           </Grid.Row>
           {/**********  LIGHTHOUSE  **********/}
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image fluid src={lightHouse1} />} basic size="large" closeIcon>
-                <div>
-                  <Image src={lightHouse1} />
-                </div>
-                <div>
-                  <Image src={lightHouse2} />
-                </div>
+              <Modal trigger={<Image className="projectImage" fluid src={lightHouse1} />} basic size="large" closeIcon>
+                <Image src={lightHouse1} />
+                <Image src={lightHouse2} />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}
@@ -177,19 +169,20 @@ const Projects = () => {
                   position="bottom center"
                 />
               ))}
+              <Divider hidden />
+              <List>
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/LightHouse'>GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://lighthouse-project2.herokuapp.com/'>Site</a>} />
+              </List>
             </Grid.Column>
           </Grid.Row>
           {/**********  MEET ME HALFWAY  **********/}
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image fluid src={meetMeHalfway1} />} basic size="large" closeIcon>
-                <div>
-                  <Image src={meetMeHalfway1} />
-                </div>
-                <div>
-                  <Image src={meetMeHalfway2} />
-                </div>
+              <Modal trigger={<Image className="projectImage" fluid src={meetMeHalfway1} />} basic size="large" closeIcon>
+                <Image src={meetMeHalfway1} />
+                <Image src={meetMeHalfway2} />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}
@@ -207,6 +200,10 @@ const Projects = () => {
                   position="bottom center"
                 />
               ))}
+              <List>
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Meet-Me-Halfway'>GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://pauline-ann.github.io/Meet-Me-Halfway/'>Site</a>} />
+              </List>
             </Grid.Column>
           </Grid.Row>
         </Grid>

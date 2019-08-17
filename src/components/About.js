@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Container, Segment, Grid, Image, Header, Tab, List } from "semantic-ui-react";
+import { Container, Grid, Image, Header, Tab, List } from "semantic-ui-react";
 import Me from "../assets/images/grad_me.jpg";
 
 const About = () => {
