@@ -17,7 +17,7 @@ const Blog = () => {
           <Message color="violet" size="large">
             <Message.Content>
               <Divider hidden />
-              <Icon name='cogs' size="huge" />
+              <Icon name='cogs' color="violet" size="huge" />
               <Divider hidden />
               <Message.Header content="Under Construction" />
               Coming soon!

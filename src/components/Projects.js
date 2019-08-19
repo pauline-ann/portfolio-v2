@@ -123,9 +123,6 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Container text centered>
-                Hello
-                </Container>
               <Modal trigger={
                 <Image className="projectImage" fluid src={zephyr1} />
               } basic size="large" closeIcon>
@@ -150,8 +147,8 @@ const Projects = () => {
               ))}
               <Divider hidden />
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Zephyr-Node'>GitHub</a>} />
-                <List.Item icon='globe' content={<a href='https://zephyr-node.herokuapp.com/'>Site</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Zephyr-Node' className="listLink">GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://zephyr-node.herokuapp.com/' className="listLink">Site</a>} />
               </List>
             </Grid.Column>
           </Grid.Row>
@@ -181,8 +178,8 @@ const Projects = () => {
               ))}
               <Divider hidden />
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/LightHouse'>GitHub</a>} />
-                <List.Item icon='globe' content={<a href='https://lighthouse-project2.herokuapp.com/'>Site</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/LightHouse' className="listLink">GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://lighthouse-project2.herokuapp.com/' className="listLink">Site</a>} />
               </List>
             </Grid.Column>
           </Grid.Row>
@@ -211,8 +208,8 @@ const Projects = () => {
                 />
               ))}
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Meet-Me-Halfway'>GitHub</a>} />
-                <List.Item icon='globe' content={<a href='https://pauline-ann.github.io/Meet-Me-Halfway/'>Site</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Meet-Me-Halfway' className="listLink">GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://pauline-ann.github.io/Meet-Me-Halfway/' className="listLink">Site</a>} />
               </List>
             </Grid.Column>
           </Grid.Row>

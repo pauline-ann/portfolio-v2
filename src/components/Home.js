@@ -57,8 +57,8 @@ const Home = () => {
           style={headerStyle2}
         />
         <Divider hidden />
-        <Button as={Link} to='/projects' basic color='violet'><Icon name="globe" /> Projects</Button>
-        <Button as={Link} to='/blog' basic color='violet'><Icon name="food" /> Blog</Button>
+        <Button as={Link} to='/projects' basic color='violet'><Icon color="violet" name="globe" /> Projects</Button>
+        <Button as={Link} to='/blog' basic color='violet'><Icon color="violet" name="food" /> Blog</Button>
 
       </Container>
       <Footer page="Home"/>

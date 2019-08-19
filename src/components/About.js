@@ -38,7 +38,7 @@ const About = () => {
           <List>
             <List.Item
               icon='mail'
-              content={<a href='mailto:paulinebantayan@gmail.com'>paulinebantayan@gmail.com</a>}
+              content={<a className="listLink" href='mailto:paulinebantayan@gmail.com'>paulinebantayan@gmail.com</a>}
             />
             <List.Item
               icon='phone volume'
@@ -187,7 +187,7 @@ const About = () => {
               <List.Content>
                 <List.Header>Udemy</List.Header>
                 <List.Description>
-                  2019 | <a href="https://www.udemy.com/react-the-complete-guide-incl-redux/">React - The Complete Guide (incl Hooks, React Router, Redux)</a>
+                  2019 | <a className="listLink" href="https://www.udemy.com/react-the-complete-guide-incl-redux/">React - The Complete Guide (incl Hooks, React Router, Redux)</a>
                 </List.Description>
               </List.Content>
             </List.Item>
@@ -196,7 +196,7 @@ const About = () => {
               <List.Content>
                 <List.Header>Udemy</List.Header>
                 <List.Description>
-                  2019 | <a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/">JavaScript Algorithms and Data Structures Masterclass</a>
+                  2019 | <a className="listLink" href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/">JavaScript Algorithms and Data Structures Masterclass</a>
                 </List.Description>
               </List.Content>
             </List.Item>
