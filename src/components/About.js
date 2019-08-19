@@ -1,7 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Container, Grid, Image, Header, Tab, List, Divider } from "semantic-ui-react";
 import Me from "../assets/images/grad_me.jpg";
+
+//Components
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const About = () => {
 
@@ -12,6 +15,11 @@ const About = () => {
 
   const tabPaneHeader = {
     fontFamily: "'Fira Code', monospace"
+  }
+
+  const aboutStyle ={
+    position: "relative",
+    minHeight: "100vh"
   }
 
   const panes = [
@@ -241,7 +249,7 @@ const About = () => {
   ]
 
   return (
-    <div>
+    <div style={aboutStyle}>
       <Navbar />
       <Container>
         <Grid>
@@ -255,6 +263,7 @@ const About = () => {
           </Grid.Column>
         </Grid>
       </Container>
+      <Footer page="About" />
     </div>
   );
 }

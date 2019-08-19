@@ -4,6 +4,7 @@ import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal, List } fro
 
 // Components
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 // CSS
 import "./Projects.css";
@@ -20,6 +21,10 @@ const Projects = () => {
 
   const projectHeader = {
     fontFamily: "'Fira Code', monospace"
+  }
+
+  const projectsStyle = {
+    marginBottom: "1em"
   }
 
   const zephyrStack = [
@@ -106,7 +111,7 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-      <Container>
+      <Container style={projectsStyle}>
         <Grid>
           <Grid.Row>
             {/**********  PAGE HEADER  **********/}
@@ -118,7 +123,12 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image className="projectImage" fluid src={zephyr1} />} basic size="large" closeIcon>
+              <Container text centered>
+                Hello
+                </Container>
+              <Modal trigger={
+                <Image className="projectImage" fluid src={zephyr1} />
+              } basic size="large" closeIcon>
                 <Image src={zephyr1} />
                 <Image src={zephyr2} />
               </Modal>
@@ -208,6 +218,7 @@ const Projects = () => {
           </Grid.Row>
         </Grid>
       </Container>
+      <Footer page="Projects" />
     </div>
   );
 }

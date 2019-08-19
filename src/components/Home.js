@@ -1,16 +1,20 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Container, Header, Image, Button, Divider, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom';
 import Avatar from "../assets/images/ny.jpeg";
+
+//Components
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+//CSS
 import "./Home.css";
 
 const Home = () => {
 
   const containerStyle = {
     minHeight: 750,
-    padding: '1em 0em',
-    textAlign: 'center'
+    padding: '1em 0em'
   }
 
   const headerStyle1 = {
@@ -37,6 +41,7 @@ const Home = () => {
       <Container
         text
         vertical
+        textAlign="center"
         style={containerStyle}>
         <Image src={Avatar} size="small" circular centered
           style={avatarStyle}
@@ -56,6 +61,7 @@ const Home = () => {
         <Button as={Link} to='/blog' basic color='violet'><Icon name="food" /> Blog</Button>
 
       </Container>
+      <Footer page="Home"/>
     </div>
   );
 }

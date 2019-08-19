@@ -1,9 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Container, Image, Icon, Message, Divider } from "semantic-ui-react";
 import lobster from "../assets/images/lobster.png";
 import sushi from "../assets/images/sushi.png";
 import ramen from "../assets/images/ramen.png";
+
+//Components
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Blog = () => {
 
@@ -28,6 +31,7 @@ const Blog = () => {
             </Message.Content>
           </Message>
       </Container>
+      <Footer page="Blog" />
     </div>
   );
 }
