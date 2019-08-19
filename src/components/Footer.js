@@ -31,10 +31,10 @@ const Footer = (props) => {
     return (
         <div style={footerStyle}>
             <Container textAlign="center">
-                <a href='https://github.com/pauline-ann'>
+                <a href='https://www.linkedin.com/in/pauline-ann/'>
                     <Icon
                         name="linkedin"
-                        link='https://www.linkedin.com/in/pauline-ann/'
+                        link
                         size="large" />
                 </a>
                 <a href='https://github.com/pauline-ann'>
