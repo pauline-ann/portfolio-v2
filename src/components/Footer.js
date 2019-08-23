@@ -11,7 +11,8 @@ const Footer = (props) => {
         right: "0",
         paddingTop: "5em",
         paddingBottom: "0.8em",
-        marginBottom: "0"
+        marginBottom: "0",
+        position: "relative"
     }
 
     const footerText = {
@@ -21,11 +22,7 @@ const Footer = (props) => {
     }
 
     if (props.page === "About" || props.page === "Blog") {
-        footerStyle.position = "absolute"
-    }
-
-    if (props.page === "Home" || props.page === "Projects") {
-        footerStyle.position = "relative"
+        footerStyle.paddingTop = "0"
     }
 
     return (

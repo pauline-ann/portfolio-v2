@@ -10,10 +10,14 @@ import Footer from "./Footer";
 
 const Blog = () => {
 
+  const blogStyle = {
+    minHeight: "100vh"
+  }
+
   return (
     <div>
       <Navbar />
-      <Container text textAlign="center">
+      <Container text textAlign="center" style={blogStyle}>
           <Message color="violet" size="large">
             <Message.Content>
               <Divider hidden />

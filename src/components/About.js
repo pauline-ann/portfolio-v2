@@ -17,9 +17,9 @@ const About = () => {
     fontFamily: "'Fira Code', monospace"
   }
 
-  const aboutStyle ={
+  const aboutStyle = {
     position: "relative",
-    minHeight: "100vh"
+    minHeight: "80vh"
   }
 
   const panes = [
@@ -212,23 +212,16 @@ const About = () => {
             Aside from web development, I want to learn more about machine learning, artificial intelligence, and RPG game development. There is still so much more for me to learn which pushes me to continue building and become a stronger developer everyday.
           </p>
           <p>
-            I care deeply about environmental issues I studied in college such as renewable energy, sustainability, and environmental justice. It's my goal to work within where my passions intersect and develop software that can make a positive social and environmental impact down the line.
+            Additionally, I care deeply about environmental issues I studied in college such as renewable energy, sustainability, and environmental justice. It's my goal to work within where my passions intersect and develop software that can make a positive social and environmental impact down the line.
           </p>
-        </Tab.Pane>
-    },
-    {
-      menuItem: 'Hobbies',
-      render: () =>
-        <Tab.Pane style={tabPaneStyle}>
-          <Header as="h3" style={tabPaneHeader} content="//Hobbies" />
           <p>
-            If I'm not coding or studying you'll find me...
-        </p>
+            When I'm not programming or studying you can find me
+          </p>
           <List>
             <List.Item>
               <List.Icon name="food" />
               <List.Content>
-                Looking for the next entrée
+                Looking for the next meal
             </List.Content>
             </List.Item>
             <List.Item>
@@ -249,9 +242,9 @@ const About = () => {
   ]
 
   return (
-    <div style={aboutStyle}>
+    <div>
       <Navbar />
-      <Container>
+      <Container style={aboutStyle}>
         <Grid>
           <Grid.Column mobile={16} tablet={8} computer={6}>
             <Image src={Me} />
