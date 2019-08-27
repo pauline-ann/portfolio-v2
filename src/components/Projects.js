@@ -1,6 +1,7 @@
 // Dependencies
 import React from "react";
 import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal, List } from "semantic-ui-react";
+import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from "../assets/data/icon-stack";
 
 // Components
 import Navbar from "./Navbar";
@@ -10,10 +11,13 @@ import Footer from "./Footer";
 import "./Projects.css";
 
 // Images
+import zephyr_small from "../assets/images/project_img/zephyr_small.png";
 import zephyr1 from "../assets/images/project_img/zephyr_1.png";
 import zephyr2 from "../assets/images/project_img/zephyr_2.png";
+import lightHouse_small from "../assets/images/project_img/lighthouse_small.png";
 import lightHouse1 from "../assets/images/project_img/lighthouse_1.png";
 import lightHouse2 from "../assets/images/project_img/lighthouse_2.png";
+import meetMeHalfway_small from "../assets/images/project_img/mmh_small.png";
 import meetMeHalfway1 from "../assets/images/project_img/mmh_1.png";
 import meetMeHalfway2 from "../assets/images/project_img/mmh_2.png";
 
@@ -26,87 +30,6 @@ const Projects = () => {
   const projectsStyle = {
     marginBottom: "1em"
   }
-
-  const zephyrStack = [
-    {
-      name: "HTML",
-      iconName: "devicon-html5-plain"
-    },
-    {
-      name: "CSS",
-      iconName: "devicon-css3-plain"
-    },
-    {
-      name: "JavaScript",
-      iconName: "devicon-javascript-plain"
-    },
-    {
-      name: "React",
-      iconName: "devicon-react-plain"
-    },
-    {
-      name: "MySQL",
-      iconName: "devicon-mysql-plain"
-    },
-    {
-      name: "Sequelize",
-      iconName: "devicon-sequelize-plain"
-    },
-    {
-      name: "Heroku",
-      iconName: "devicon-heroku-plain"
-    }
-  ]
-
-  const lightHouseStack = [
-    {
-      name: "HTML",
-      iconName: "devicon-html5-plain"
-    },
-    {
-      name: "CSS",
-      iconName: "devicon-css3-plain"
-    },
-    {
-      name: "JavaScript",
-      iconName: "devicon-javascript-plain"
-    },
-    {
-      name: "Node",
-      iconName: "devicon-nodejs-plain"
-    },
-    {
-      name: "Express",
-      iconName: "devicon-express-original"
-    },
-    {
-      name: "MySQL",
-      iconName: "devicon-mysql-plain"
-    },
-    {
-      name: "Heroku",
-      iconName: "devicon-heroku-plain"
-    }
-  ]
-
-  const meetMeHalfwayStack = [
-    {
-      name: "HTML",
-      iconName: "devicon-html5-plain"
-    },
-    {
-      name: "CSS",
-      iconName: "devicon-css3-plain"
-    },
-    {
-      name: "JavaScript",
-      iconName: "devicon-javascript-plain"
-    },
-    {
-      name: "jQuery",
-      iconName: "devicon-jquery-plain"
-    }
-  ]
 
   return (
     <div>
@@ -124,7 +47,7 @@ const Projects = () => {
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
               <Modal trigger={
-                <Image className="projectImage" fluid src={zephyr1} />
+                <Image className="projectImage" fluid src={zephyr_small} />
               } basic size="large" closeIcon>
                 <Image src={zephyr1} />
                 <Image src={zephyr2} />
@@ -156,7 +79,7 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image className="projectImage" fluid src={lightHouse1} />} basic size="large" closeIcon>
+              <Modal trigger={<Image className="projectImage" fluid src={lightHouse_small} />} basic size="large" closeIcon>
                 <Image src={lightHouse1} />
                 <Image src={lightHouse2} />
               </Modal>
@@ -187,7 +110,7 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image className="projectImage" fluid src={meetMeHalfway1} />} basic size="large" closeIcon>
+              <Modal trigger={<Image className="projectImage" fluid src={meetMeHalfway_small} />} basic size="large" closeIcon>
                 <Image src={meetMeHalfway1} />
                 <Image src={meetMeHalfway2} />
               </Modal>
