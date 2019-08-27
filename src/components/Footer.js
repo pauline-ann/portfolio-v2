@@ -42,7 +42,7 @@ const Footer = (props) => {
 
                 </a>
                 <p style={footerText}>
-                    © 2019 Pauline Ann Bantayan | Made with <i class="devicon-react-original" /> & ♡
+                    © 2019 Pauline Ann Bantayan | Made with <i className="devicon-react-original" /> & ♡
                 </p>
             </Container>
         </div>

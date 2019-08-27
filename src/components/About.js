@@ -78,7 +78,7 @@ const About = () => {
                     <List.Content>JavaScript</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-jquery-plain" /></List.Icon>
+                    <List.Icon><i className="devicon-jquery-plain" /></List.Icon>
                     <List.Content>jQuery</List.Content>
                   </List.Item>
                   <List.Item>
@@ -86,7 +86,7 @@ const About = () => {
                     <List.Content>React</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-bootstrap-plain"></i></List.Icon>
+                    <List.Icon><i className="devicon-bootstrap-plain"></i></List.Icon>
                     <List.Content>Bootstrap</List.Content>
                   </List.Item>
                 </List>
@@ -95,7 +95,7 @@ const About = () => {
                 <Header as="h4" style={tabPaneHeader} content="Back End" />
                 <List>
                   <List.Item>
-                    <List.Icon><i class="devicon-express-original" /></List.Icon>
+                    <List.Icon><i className="devicon-express-original" /></List.Icon>
                     <List.Content>Express</List.Content>
                   </List.Item>
                   <List.Item>
@@ -103,11 +103,11 @@ const About = () => {
                     <List.Content>Node</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-mysql-plain" /></List.Icon>
+                    <List.Icon><i className="devicon-mysql-plain" /></List.Icon>
                     <List.Content>MySQL</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-mongodb-plain" /></List.Icon>
+                    <List.Icon><i className="devicon-mongodb-plain" /></List.Icon>
                     <List.Content>MongoDB</List.Content>
                   </List.Item>
                   <List.Item>
@@ -115,7 +115,7 @@ const About = () => {
                     <List.Content>Python</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-sequelize-plain" /></List.Icon>
+                    <List.Icon><i className="devicon-sequelize-plain" /></List.Icon>
                     <List.Content>Sequelize</List.Content>
                   </List.Item>
                   <List.Item>
@@ -140,7 +140,7 @@ const About = () => {
                     <List.Content>GitLab</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-heroku-original" /></List.Icon>
+                    <List.Icon><i className="devicon-heroku-original" /></List.Icon>
                     <List.Content>Heroku</List.Content>
                   </List.Item>
                   <List.Item>
@@ -148,7 +148,7 @@ const About = () => {
                     <List.Content>Chrome Developer Tools</List.Content>
                   </List.Item>
                   <List.Item>
-                    <List.Icon><i class="devicon-visualstudio-plain" /></List.Icon>
+                    <List.Icon><i className="devicon-visualstudio-plain" /></List.Icon>
                     <List.Content>Visual Studio Code</List.Content>
                   </List.Item>
                   <List.Item>

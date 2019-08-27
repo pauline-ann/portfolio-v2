@@ -63,7 +63,7 @@ const Home = () => {
             <Image
               src={Avatar}
               style={avatarStyle}
-              transitionTime="1.5s"
+              transitionTime="1.2s"
               alt="avatar"
             />
             <Header
@@ -73,7 +73,7 @@ const Home = () => {
             />
             <Header
               as='h2'
-              content='Full-stack Developer & Full-time Eater from Los Angeles, CA.'
+              content='Full-stack Developer from Los Angeles, CA.'
               style={headerStyle2}
             />
             <Divider hidden />

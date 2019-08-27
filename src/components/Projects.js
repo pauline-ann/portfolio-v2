@@ -78,7 +78,7 @@ const Projects = () => {
                 <Popup
                   key={stackItem.name}
                   content={stackItem.name}
-                  trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
+                  trigger={<Icon size="small" color="violet" circular><i className={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
               ))}
@@ -123,7 +123,7 @@ const Projects = () => {
                 <Popup
                   key={stackItem.name}
                   content={stackItem.name}
-                  trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
+                  trigger={<Icon size="small" color="violet" circular><i className={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
               ))}
@@ -168,7 +168,7 @@ const Projects = () => {
                 <Popup
                   key={stackItem.name}
                   content={stackItem.name}
-                  trigger={<Icon size="small" color="violet" circular><i class={stackItem.iconName} /></Icon>}
+                  trigger={<Icon size="small" color="violet" circular><i className={stackItem.iconName} /></Icon>}
                   position="bottom center"
                 />
               ))}

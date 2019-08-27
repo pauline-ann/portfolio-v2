@@ -23,12 +23,12 @@ const Navbar = () => {
   return (
     <div>
       <Container>
-        <Menu top inverted style={nav}>
-          <Menu.Item fixed as={Link} to="/" style={brand}>
+        <Menu top="true" inverted style={nav}>
+          <Menu.Item fixed="true" as={Link} to="/" style={brand}>
             <Image size="mini" src={logo} />
           </Menu.Item>
           <Menu.Menu position="left">
-            <Menu.Item fixed>
+            <Menu.Item fixed="true">
               <Breadcrumb>
                 <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/about" style={linkNav}>About</Breadcrumb.Section>
                 <Breadcrumb.Divider />
