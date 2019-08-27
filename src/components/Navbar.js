@@ -34,8 +34,6 @@ const Navbar = () => {
                 <Breadcrumb.Divider />
                 <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/projects" style={linkNav}>Projects</Breadcrumb.Section>
                 <Breadcrumb.Divider />
-                <Breadcrumb.Section as={NavLink} exact activeClassName="active" to="/blog" style={linkNav}>Blog</Breadcrumb.Section>
-                <Breadcrumb.Divider />
                 <Breadcrumb.Section as={NavLink} exact activeClassName="active" to={pdf} target="_blank" style={linkNav}>Resume</Breadcrumb.Section>
               </Breadcrumb>
             </Menu.Item>

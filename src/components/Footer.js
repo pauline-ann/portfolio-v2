@@ -21,7 +21,7 @@ const Footer = (props) => {
         fontSize: "0.9em"
     }
 
-    if (props.page === "About" || props.page === "Blog") {
+    if (props.page === "About") {
         footerStyle.paddingTop = "0"
     }
 

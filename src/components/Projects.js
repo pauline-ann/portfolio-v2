@@ -11,15 +11,15 @@ import Footer from "./Footer";
 import "./Projects.css";
 
 // Images
-import zephyr_small from "../assets/images/project_img/zephyr_small.png";
-import zephyr1 from "../assets/images/project_img/zephyr_1.png";
-import zephyr2 from "../assets/images/project_img/zephyr_2.png";
-import lightHouse_small from "../assets/images/project_img/lighthouse_small.png";
-import lightHouse1 from "../assets/images/project_img/lighthouse_1.png";
-import lightHouse2 from "../assets/images/project_img/lighthouse_2.png";
-import meetMeHalfway_small from "../assets/images/project_img/mmh_small.png";
-import meetMeHalfway1 from "../assets/images/project_img/mmh_1.png";
-import meetMeHalfway2 from "../assets/images/project_img/mmh_2.png";
+import zephyr_small from "../assets/images/project_img/zephyr_small.jpg";
+import zephyr1 from "../assets/images/project_img/zephyr_1.jpg";
+import zephyr2 from "../assets/images/project_img/zephyr_2.jpg";
+import lightHouse_small from "../assets/images/project_img/lighthouse_small.jpg";
+import lightHouse1 from "../assets/images/project_img/lighthouse_1.jpg";
+import lightHouse2 from "../assets/images/project_img/lighthouse_2.jpg";
+import meetMeHalfway_small from "../assets/images/project_img/mmh_small.jpg";
+import meetMeHalfway1 from "../assets/images/project_img/mmh_1.jpg";
+import meetMeHalfway2 from "../assets/images/project_img/mmh_2.jpg";
 
 const Projects = () => {
 

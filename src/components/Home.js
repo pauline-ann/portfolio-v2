@@ -76,39 +76,13 @@ const Home = () => {
               style={headerStyle2}
             />
             <Divider hidden />
+            <Button as={Link} to='/about' basic color='violet'><Icon color="violet" name="address card outline" /> About</Button>
             <Button as={Link} to='/projects' basic color='violet'><Icon color="violet" name="globe" /> Projects</Button>
-            <Button as={Link} to='/blog' basic color='violet'><Icon color="violet" name="food" /> Blog</Button>
 
           </Container>
           <Footer page="Home" />
         </div>
       </BackgroundImage>
-      {/* <Navbar />
-      <Container
-        text
-        vertical
-        textAlign="center"
-        style={containerStyle}
-      >
-        <Image src={Avatar} size="small" circular centered
-          style={avatarStyle}
-        />
-        <Header
-          as='h1'
-          content='Pauline Ann Bantayan'
-          style={headerStyle1}
-        />
-        <Header
-          as='h2'
-          content='Full-stack Developer & Full-time Eater from Los Angeles, CA.'
-          style={headerStyle2}
-        />
-        <Divider hidden />
-        <Button as={Link} to='/projects' basic color='violet'><Icon color="violet" name="globe" /> Projects</Button>
-        <Button as={Link} to='/blog' basic color='violet'><Icon color="violet" name="food" /> Blog</Button>
-
-      </Container>
-      <Footer page="Home" /> */}
     </div>
   );
 }
