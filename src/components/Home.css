@@ -1,9 +1,5 @@
 .Home {
-    background-image: url("../assets/images/desk.jpg") !important;
-    background-size: cover !important;
-    display: block;
-    position: relative;
-    min-height: 100vh;
+    background-size: cover;
 }
 
 .Home-content {
