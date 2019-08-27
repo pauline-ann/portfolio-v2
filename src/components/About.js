@@ -1,5 +1,9 @@
+//Dependencies
 import React from "react";
-import { Container, Grid, Image, Header, Tab, List, Divider } from "semantic-ui-react";
+import { Container, Grid, Header, Tab, List, Divider } from "semantic-ui-react";
+import { Image } from 'react-image-and-background-image-fade';
+
+//Image
 import Me from "../assets/images/grad.jpg";
 
 //Components
@@ -19,7 +23,7 @@ const About = () => {
 
   const aboutStyle = {
     position: "relative",
-    minHeight: "80vh"
+    minHeight: "90vh"
   }
 
   const panes = [
@@ -247,7 +251,11 @@ const About = () => {
       <Container style={aboutStyle}>
         <Grid>
           <Grid.Column mobile={16} tablet={8} computer={6}>
-            <Image src={Me} />
+            <Image
+              src={Me}
+              transitionTime="0.7s"
+              alt="graduation-profile"
+            />
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={10}>
             <Container fluid>

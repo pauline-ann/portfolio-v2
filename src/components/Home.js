@@ -1,3 +1,4 @@
+//Dependencies
 import React from "react";
 import { Container, Header, Button, Divider, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom';
@@ -55,14 +56,14 @@ const Home = () => {
           <Navbar />
           <Container
             text
-            vertical
+            vertical="true"
             textAlign="center"
             style={containerStyle}
           >
             <Image
               src={Avatar}
               style={avatarStyle}
-              transitionTime="1.8s"
+              transitionTime="1.5s"
               alt="avatar"
             />
             <Header

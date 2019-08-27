@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div>
       <Container>
-        <Menu fixed inverted style={nav}>
+        <Menu top inverted style={nav}>
           <Menu.Item fixed as={Link} to="/" style={brand}>
             <Image size="mini" src={logo} />
           </Menu.Item>

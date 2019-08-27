@@ -1,7 +1,8 @@
 // Dependencies
 import React from "react";
-import { Grid, Container, Header, Image, Icon, Popup, Divider, Modal, List } from "semantic-ui-react";
+import { Grid, Container, Header, Icon, Popup, Divider, Modal, List } from "semantic-ui-react";
 import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from "../assets/data/icon-stack";
+import { Image } from 'react-image-and-background-image-fade';
 
 // Components
 import Navbar from "./Navbar";
@@ -47,10 +48,23 @@ const Projects = () => {
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
               <Modal trigger={
-                <Image className="projectImage" fluid src={zephyr_small} />
+                <Image
+                  className="projectImage"
+                  src={zephyr_small}
+                  transitionTime="0.7s"
+                  alt="zephyr_small"
+                />
               } basic size="large" closeIcon>
-                <Image src={zephyr1} />
-                <Image src={zephyr2} />
+                <Image
+                  src={zephyr1}
+                  transitionTime="0.5s"
+                  alt="zephyr"
+                />
+                <Image
+                  src={zephyr2}
+                  transitionTime="0.5s"
+                  alt="zephyr"
+                />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}
@@ -79,9 +93,23 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image className="projectImage" fluid src={lightHouse_small} />} basic size="large" closeIcon>
-                <Image src={lightHouse1} />
-                <Image src={lightHouse2} />
+              <Modal trigger={
+                <Image
+                  className="projectImage"
+                  src={lightHouse_small}
+                  transitionTime="0.7s"
+                  alt="lightHouse_small"
+                />} basic size="large" closeIcon>
+                <Image
+                  src={lightHouse1}
+                  transitionTime="0.5s"
+                  alt="lightHouse"
+                />
+                <Image
+                  src={lightHouse2}
+                  transitionTime="0.5s"
+                  alt="lightHouse"
+                />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}
@@ -110,9 +138,23 @@ const Projects = () => {
           <Grid.Row divided>
             {/**********  IMAGE/POPUP  **********/}
             <Grid.Column mobile={16} tablet={8} computer={6}>
-              <Modal trigger={<Image className="projectImage" fluid src={meetMeHalfway_small} />} basic size="large" closeIcon>
-                <Image src={meetMeHalfway1} />
-                <Image src={meetMeHalfway2} />
+              <Modal trigger={
+                <Image
+                  className="projectImage"
+                  src={meetMeHalfway_small}
+                  transitionTime="0.7s"
+                  alt="meetMeHalfway_small"
+                />} basic size="large" closeIcon>
+                <Image
+                  src={meetMeHalfway1}
+                  transitionTime="0.5s"
+                  alt="meetMeHalfway"
+                />
+                <Image
+                  src={meetMeHalfway2}
+                  transitionTime="0.5s"
+                  alt="meetMeHalfway"
+                />
               </Modal>
             </Grid.Column>
             {/**********  DESCRIPTION  **********/}

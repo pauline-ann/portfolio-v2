@@ -36,7 +36,7 @@ const Footer = (props) => {
                 </a>
                 <a href='https://github.com/pauline-ann'>
                     <Icon
-                        name="github alternative"
+                        name="github alternate"
                         link
                         size="large" />
 
