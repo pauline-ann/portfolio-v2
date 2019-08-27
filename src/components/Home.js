@@ -2,7 +2,6 @@
 import React from "react";
 import { Container, Header, Button, Divider, Icon } from "semantic-ui-react";
 import { Link } from 'react-router-dom';
-import CSSTransition from 'react-transition-group/CSSTransition';
 import { Image, BackgroundImage } from 'react-image-and-background-image-fade';
 
 // Image
@@ -70,16 +69,41 @@ const Home = () => {
               as='h1'
               content='Pauline Ann Bantayan'
               style={headerStyle1}
+              className="Home-item"
             />
             <Header
               as='h2'
               content='Full-stack Developer from Los Angeles, CA.'
               style={headerStyle2}
+              className="Home-item"
             />
             <Divider hidden />
-            <Button as={Link} to='/about' basic color='violet'><Icon color="violet" name="address card outline" /> About</Button>
-            <Button as={Link} to='/projects' basic color='violet'><Icon color="violet" name="globe" /> Projects</Button>
-
+            <Button
+              as={Link}
+              to='/about'
+              basic
+              color='violet'
+              className="Home-item"
+            >
+              <Icon
+                color="violet"
+                name="address card outline"
+              />
+              About
+            </Button>
+            <Button
+              as={Link}
+              to='/projects'
+              basic
+              color='violet'
+              className="Home-item"
+            >
+              <Icon
+                color="violet"
+                name="globe"
+              />
+              Projects
+              </Button>
           </Container>
           <Footer page="Home" />
         </div>
