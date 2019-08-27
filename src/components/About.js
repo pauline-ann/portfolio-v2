@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Grid, Image, Header, Tab, List, Divider } from "semantic-ui-react";
-import Me from "../assets/images/grad_me.jpg";
+import Me from "../assets/images/grad.jpg";
 
 //Components
 import Navbar from "./Navbar";
