@@ -46,7 +46,7 @@ const Home = () => {
             />
             <Header
               as='h2'
-              content='Full-stack Developer from Los Angeles, CA.'
+              content='Full Stack Developer from Los Angeles, CA.'
               className="Home-header-description"
             />
             <Divider hidden />

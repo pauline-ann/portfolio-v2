@@ -25,7 +25,7 @@ const About = () => {
         <Tab.Pane className="About-tab-pane">
           <Header as="h3" className="About-tab-pane-header" content="//Hello World!" />
           <p>
-            I'm Pauline, a full-stack web developer from Los Angeles, CA.
+            I'm Pauline, a full stack web developer from Los Angeles, CA.
           </p>
           <p>
             My desire to pursue technology began when I worked at a tech startup. I realized there that programming aligned with my drive to solve problems, learn continuously, and get in touch with my creativity. I switched my career path to web development and haven't looked back since. I love the process of transforming ideas into functional, intuitive, and immersive web applications.
