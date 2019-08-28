@@ -1,0 +1,12 @@
+.Navbar-menu {
+    background: transparent !important;
+    margin-bottom: 6em !important;
+}
+
+.Navbar-menu-item {
+    padding-left: 0;
+}
+
+.Navbar-navlink {
+    color: black !important;
+}

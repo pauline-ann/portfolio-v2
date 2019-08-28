@@ -1,46 +1,38 @@
 // Dependencies
 import React from "react";
 import { Grid, Container, Header, Icon, Popup, Divider, Modal, List } from "semantic-ui-react";
-import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from "../assets/data/icon-stack";
+import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from "../../assets/data/icon-stack";
 import { Image } from 'react-image-and-background-image-fade';
 
 // Components
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 // CSS
 import "./Projects.css";
 
 // Images
-import zephyr_small from "../assets/images/project_img/zephyr_small.jpg";
-import zephyr1 from "../assets/images/project_img/zephyr_1.jpg";
-import zephyr2 from "../assets/images/project_img/zephyr_2.jpg";
-import lightHouse_small from "../assets/images/project_img/lighthouse_small.jpg";
-import lightHouse1 from "../assets/images/project_img/lighthouse_1.jpg";
-import lightHouse2 from "../assets/images/project_img/lighthouse_2.jpg";
-import meetMeHalfway_small from "../assets/images/project_img/mmh_small.jpg";
-import meetMeHalfway1 from "../assets/images/project_img/mmh_1.jpg";
-import meetMeHalfway2 from "../assets/images/project_img/mmh_2.jpg";
+import zephyr_small from "../../assets/images/project_img/zephyr_small.jpg";
+import zephyr1 from "../../assets/images/project_img/zephyr_1.jpg";
+import zephyr2 from "../../assets/images/project_img/zephyr_2.jpg";
+import lightHouse_small from "../../assets/images/project_img/lighthouse_small.jpg";
+import lightHouse1 from "../../assets/images/project_img/lighthouse_1.jpg";
+import lightHouse2 from "../../assets/images/project_img/lighthouse_2.jpg";
+import meetMeHalfway_small from "../../assets/images/project_img/mmh_small.jpg";
+import meetMeHalfway1 from "../../assets/images/project_img/mmh_1.jpg";
+import meetMeHalfway2 from "../../assets/images/project_img/mmh_2.jpg";
 
 const Projects = () => {
-
-  const projectHeader = {
-    fontFamily: "'Fira Code', monospace"
-  }
-
-  const projectsStyle = {
-    marginBottom: "1em"
-  }
 
   return (
     <div>
       <Navbar />
-      <Container style={projectsStyle}>
+      <Container className="Projects-container">
         <Grid>
           <Grid.Row>
             {/**********  PAGE HEADER  **********/}
             <Grid.Column>
-              <Header as="h2" content="//Projects" style={projectHeader} />
+              <Header as="h2" content="//Projects" className="Projects-header" />
             </Grid.Column>
           </Grid.Row>
           {/**********  ZEPHYR NODE  **********/}
@@ -70,7 +62,7 @@ const Projects = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
-              <Header as="h3" content="Zephyr Node" style={projectHeader} />
+              <Header as="h3" content="Zephyr Node" className="Projects-header" />
               <p>
                 A web application that utilizes the Google Maps and Yelp APIs to ease the process of making plans with friends. Populates businesses/restaurants onto a map, based off of a middle point between 2 addresses.
               </p>
@@ -115,7 +107,7 @@ const Projects = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
-              <Header as="h3" content="lightHouse" style={projectHeader} />
+              <Header as="h3" content="lightHouse" className="Projects-header" />
               <p>
                 Full-stack web application that is meant to help women navigate their social outings in Los Angeles. Allows users to search neighborhoods for safety reviews, as well as provide their own input regarding its safety.
               </p>
@@ -160,7 +152,7 @@ const Projects = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={10}>
               <Divider hidden />
-              <Header as="h3" content="Meet Me Halfway" style={projectHeader} />
+              <Header as="h3" content="Meet Me Halfway" className="Projects-header" />
               <p>
                 A study application made using React.js. Some of its features include: user log-in, quote generator, flashcards, to-do lists, reminders, notes, and a homepage summarizing all of the user's information.
               </p>
@@ -180,7 +172,7 @@ const Projects = () => {
           </Grid.Row>
         </Grid>
       </Container>
-      <Footer page="Projects" />
+      <Footer />
     </div>
   );
 }

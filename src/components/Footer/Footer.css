@@ -1,0 +1,16 @@
+.Footer-container {
+    background: transparent;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5em;
+    padding-bottom: 0.8em;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.Footer-text {
+    font-weight: normal;
+    padding-top: 0.6em;
+    font-size: 0.9em;
+}

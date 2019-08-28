@@ -1,33 +1,15 @@
+//Dependencies
 import React from "react";
 import { Container, Icon } from 'semantic-ui-react'
 
-// Footer
-const Footer = (props) => {
+//CSS
+import "./Footer.css";
 
-    const footerStyle = {
-        background: "transparent",
-        bottom: "0",
-        left: "0",
-        right: "0",
-        paddingTop: "5em",
-        paddingBottom: "0.8em",
-        marginBottom: "0",
-        position: "relative"
-    }
-
-    const footerText = {
-        fontWeight: 'normal',
-        paddingTop: "0.6em",
-        fontSize: "0.9em"
-    }
-
-    if (props.page === "About") {
-        footerStyle.paddingTop = "0"
-    }
+const Footer = () => {
 
     return (
-        <div style={footerStyle}>
-            <Container textAlign="center">
+        <div>
+            <Container textAlign="center" className="Footer-container">
                 <a href='https://www.linkedin.com/in/pauline-ann/'>
                     <Icon
                         name="linkedin"
@@ -41,7 +23,7 @@ const Footer = (props) => {
                         size="large" />
 
                 </a>
-                <p style={footerText}>
+                <p className="Footer-text">
                     © 2019 Pauline Ann Bantayan | Made with <i className="devicon-react-original" /> & ♡
                 </p>
             </Container>

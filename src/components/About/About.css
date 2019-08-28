@@ -1,0 +1,13 @@
+.About-container {
+    position: relative;
+    min-height: 90vh;
+}
+
+.About-tab-pane {
+    border: 0 !important;
+    padding-top: 1em !important;
+}
+
+.About-tab-pane-header {
+    font-family: 'Fira Code', monospace !important;
+}

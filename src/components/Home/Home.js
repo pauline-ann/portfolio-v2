@@ -5,43 +5,17 @@ import { Link } from 'react-router-dom';
 import { Image, BackgroundImage } from 'react-image-and-background-image-fade';
 
 // Image
-import Avatar from "../assets/images/ny.jpeg";
-import Background from "../assets/images/desk.jpg"
+import Avatar from "../../assets/images/ny.jpeg";
+import Background from "../../assets/images/desk.jpg"
 
 //Components
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 //CSS
 import "./Home.css";
 
 const Home = () => {
-
-  const containerStyle = {
-    minHeight: 750,
-    padding: '1em 0em'
-  }
-
-  const headerStyle1 = {
-    fontSize: '3.3em',
-    fontWeight: 'normal',
-    marginBottom: 0,
-    fontFamily: "'Fira Code', monospace"
-
-  }
-
-  const headerStyle2 = {
-    fontSize: '1em',
-    fontWeight: 'normal',
-    marginTop: '0.8em'
-  }
-
-  const avatarStyle = {
-    marginTop: "7em",
-    width: "160px",
-    height: "160px",
-    borderRadius: "50%"
-  }
 
   return (
     <div>
@@ -57,25 +31,23 @@ const Home = () => {
             text
             vertical="true"
             textAlign="center"
-            style={containerStyle}
+            className="Home-container"
           >
             <Image
               src={Avatar}
-              style={avatarStyle}
               transitionTime="1.2s"
               alt="avatar"
+              className="Home-avatar"
             />
             <Header
               as='h1'
               content='Pauline Ann Bantayan'
-              style={headerStyle1}
-              className="Home-item"
+              className="Home-header-name"
             />
             <Header
               as='h2'
               content='Full-stack Developer from Los Angeles, CA.'
-              style={headerStyle2}
-              className="Home-item"
+              className="Home-header-description"
             />
             <Divider hidden />
             <Button
@@ -83,7 +55,7 @@ const Home = () => {
               to='/about'
               basic
               color='violet'
-              className="Home-item"
+              className="Home-header-button"
             >
               <Icon
                 color="violet"
@@ -96,7 +68,7 @@ const Home = () => {
               to='/projects'
               basic
               color='violet'
-              className="Home-item"
+              className="Home-header-button"
             >
               <Icon
                 color="violet"
@@ -105,7 +77,7 @@ const Home = () => {
               Projects
               </Button>
           </Container>
-          <Footer page="Home" />
+          <Footer />
         </div>
       </BackgroundImage>
     </div>

@@ -4,41 +4,30 @@ import { Container, Grid, Header, Tab, List, Divider } from "semantic-ui-react";
 import { Image } from 'react-image-and-background-image-fade';
 
 //Image
-import Me from "../assets/images/grad.jpg";
+import Me from "../../assets/images/grad.jpg";
 
 //Components
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+
+//CSS
+import "./About.css";
 
 const About = () => {
-
-  const tabPaneStyle = {
-    border: "0",
-    paddingTop: "1em"
-  }
-
-  const tabPaneHeader = {
-    fontFamily: "'Fira Code', monospace"
-  }
-
-  const aboutStyle = {
-    position: "relative",
-    minHeight: "90vh"
-  }
 
   const panes = [
     {
       menuItem: 'Intro',
       render: () =>
-        <Tab.Pane style={tabPaneStyle}>
-          <Header as="h3" style={tabPaneHeader} content="//Hello World!" />
+        <Tab.Pane className="About-tab-pane">
+          <Header as="h3" className="About-tab-pane-header" content="//Hello World!" />
           <p>
             I'm Pauline, a full-stack web developer from Los Angeles, CA.
           </p>
           <p>
             My desire to pursue technology began when I worked at a tech startup. I realized there that programming aligned with my drive to solve problems, learn continuously, and get in touch with my creativity. I switched my career path to web development and haven't looked back since. I love the process of transforming ideas into functional, intuitive, and immersive web applications.
           </p>
-          <Header as="h5" style={tabPaneHeader} content="Contact" />
+          <Header as="h5" className="About-tab-pane-header" content="Contact" />
           <List>
             <List.Item
               icon='mail'
@@ -54,16 +43,16 @@ const About = () => {
     {
       menuItem: 'Stack',
       render: () =>
-        <Tab.Pane style={tabPaneStyle}>
+        <Tab.Pane className="About-tab-pane">
           <Grid divided>
             <Grid.Row>
               <Grid.Column>
-                <Header as="h3" style={tabPaneHeader} content="//Stack" />
+                <Header as="h3" className="About-tab-pane-header" content="//Stack" />
               </Grid.Column>
             </Grid.Row>
             <Grid.Row columns={3} >
               <Grid.Column>
-                <Header as="h4" style={tabPaneHeader} content="Front End" />
+                <Header as="h4" className="About-tab-pane-header" content="Front End" />
                 <List>
                   <List.Item>
                     <List.Icon name="html5" />
@@ -92,7 +81,7 @@ const About = () => {
                 </List>
               </Grid.Column>
               <Grid.Column>
-                <Header as="h4" style={tabPaneHeader} content="Back End" />
+                <Header as="h4" className="About-tab-pane-header" content="Back End" />
                 <List>
                   <List.Item>
                     <List.Icon><i className="devicon-express-original" /></List.Icon>
@@ -125,7 +114,7 @@ const About = () => {
                 </List>
               </Grid.Column>
               <Grid.Column>
-                <Header as="h4" style={tabPaneHeader} content="Tools" />
+                <Header as="h4" className="About-tab-pane-header" content="Tools" />
                 <List>
                   <List.Item>
                     <List.Icon name="git" />
@@ -164,8 +153,8 @@ const About = () => {
     {
       menuItem: 'Education',
       render: () =>
-        <Tab.Pane style={tabPaneStyle}>
-          <Header as="h3" style={tabPaneHeader} content="//Education" />
+        <Tab.Pane className="About-tab-pane">
+          <Header as="h3" className="About-tab-pane-header" content="//Education" />
           <List>
             <List.Item>
               <List.Icon name='graduation' />
@@ -210,8 +199,8 @@ const About = () => {
     {
       menuItem: 'Interests',
       render: () =>
-        <Tab.Pane style={tabPaneStyle}>
-          <Header as="h3" style={tabPaneHeader} content="//Interests" />
+        <Tab.Pane className="About-tab-pane">
+          <Header as="h3" className="About-tab-pane-header" content="//Interests" />
           <p>
             Aside from web development, I want to learn more about machine learning, artificial intelligence, and RPG game development. There is still so much more for me to learn which pushes me to continue building and become a stronger developer everyday.
           </p>
@@ -248,7 +237,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <Container style={aboutStyle}>
+      <Container className="About-container">
         <Grid>
           <Grid.Column mobile={16} tablet={8} computer={6}>
             <Image
@@ -264,7 +253,7 @@ const About = () => {
           </Grid.Column>
         </Grid>
       </Container>
-      <Footer page="About" />
+      <Footer />
     </div>
   );
 }

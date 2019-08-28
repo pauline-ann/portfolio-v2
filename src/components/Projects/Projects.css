@@ -1,0 +1,11 @@
+.Projects-container {
+    margin-bottom: 3em;
+}
+
+.Projects-header {
+    font-family: 'Fira Code', monospace !important;
+}
+
+.projectImage:hover {
+    opacity: 0.5;
+}
