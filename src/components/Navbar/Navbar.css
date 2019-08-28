@@ -10,3 +10,7 @@
 .Navbar-navlink {
     color: black !important;
 }
+
+.Navbar-navlink:hover {
+    font-weight: 1000;
+}

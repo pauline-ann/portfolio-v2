@@ -15,6 +15,9 @@ import "./About.css";
 
 const About = () => {
 
+  const phoneNum = "(".concat("3", "2", "3", ")", " ", "3", "4", "7", "-", "9", "0", "5", "7");
+  const email = "pauline".concat("bantayan", "@", "gmail", ".", "com");
+
   const panes = [
     {
       menuItem: 'Intro',
@@ -31,11 +34,11 @@ const About = () => {
           <List>
             <List.Item
               icon='mail'
-              content={<a className="listLink" href='mailto:paulinebantayan@gmail.com'>paulinebantayan@gmail.com</a>}
+              content={<a className="listLink" href='mailto:paulinebantayan@gmail.com'>{email}</a>}
             />
             <List.Item
               icon='phone volume'
-              content="323-347-9057"
+              content={phoneNum}
             />
           </List>
         </Tab.Pane>
