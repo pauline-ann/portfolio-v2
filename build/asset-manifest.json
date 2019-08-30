@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0af9dea6.chunk.css",
+    "main.js": "/static/js/main.5d8c9f25.chunk.js",
+    "main.js.map": "/static/js/main.5d8c9f25.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.9f6b3058.js",
+    "runtime~main.js.map": "/static/js/runtime~main.9f6b3058.js.map",
+    "static/css/2.e70aa027.chunk.css": "/static/css/2.e70aa027.chunk.css",
+    "static/js/2.54fcd2c1.chunk.js": "/static/js/2.54fcd2c1.chunk.js",
+    "static/js/2.54fcd2c1.chunk.js.map": "/static/js/2.54fcd2c1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e87d046ea1e421cbd9e0720ec176c26d.js": "/precache-manifest.e87d046ea1e421cbd9e0720ec176c26d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e70aa027.chunk.css.map": "/static/css/2.e70aa027.chunk.css.map",
+    "static/css/main.0af9dea6.chunk.css.map": "/static/css/main.0af9dea6.chunk.css.map",
+    "static/media/PaulineBantayanResume.pdf": "/static/media/PaulineBantayanResume.d8096629.pdf",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/desk.jpg": "/static/media/desk.8882f5d9.jpg",
+    "static/media/grad.jpg": "/static/media/grad.60bb5c0e.jpg",
+    "static/media/lighthouse_1.jpg": "/static/media/lighthouse_1.25dc9602.jpg",
+    "static/media/lighthouse_2.jpg": "/static/media/lighthouse_2.de1e0f66.jpg",
+    "static/media/lighthouse_small.jpg": "/static/media/lighthouse_small.25dc9602.jpg",
+    "static/media/mmh_1.jpg": "/static/media/mmh_1.13233098.jpg",
+    "static/media/mmh_2.jpg": "/static/media/mmh_2.1a6d97b4.jpg",
+    "static/media/mmh_small.jpg": "/static/media/mmh_small.13233098.jpg",
+    "static/media/ny.jpeg": "/static/media/ny.f046fc82.jpeg",
+    "static/media/pb_logo_grey.png": "/static/media/pb_logo_grey.9e6fb47d.png",
+    "static/media/zephyr_1.jpg": "/static/media/zephyr_1.e443f6fb.jpg",
+    "static/media/zephyr_2.jpg": "/static/media/zephyr_2.6b6bab66.jpg",
+    "static/media/zephyr_small.jpg": "/static/media/zephyr_small.7ecaa21e.jpg"
+  }
+}
