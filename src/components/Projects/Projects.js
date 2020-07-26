@@ -4,10 +4,6 @@ import { Grid, Container, Header, Icon, Popup, Divider, Modal, List } from "sema
 import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from "../../assets/data/icon-stack";
 import { Image } from 'react-image-and-background-image-fade';
 
-// Components
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
-
 // CSS
 import "./Projects.css";
 
@@ -26,13 +22,11 @@ const Projects = () => {
 
   return (
     <div>
-      <Navbar />
-      <Container className="Projects-container">
         <Grid>
           <Grid.Row>
             {/**********  PAGE HEADER  **********/}
             <Grid.Column>
-              <Header as="h2" content="//Projects" className="Projects-header" />
+              <Header as="h2" content="Projects" className="Section-header" />
             </Grid.Column>
           </Grid.Row>
           {/**********  ZEPHYR NODE  **********/}
@@ -171,8 +165,6 @@ const Projects = () => {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-      </Container>
-      <Footer />
     </div>
   );
 }

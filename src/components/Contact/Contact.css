@@ -1,4 +1,4 @@
-.Footer-container {
+.Contact-container {
     background: transparent;
     bottom: 0;
     left: 0;
@@ -9,7 +9,7 @@
     position: relative;
 }
 
-.Footer-text {
+.Contact-text {
     font-weight: normal;
     padding-top: 0.6em;
     font-size: 0.9em;

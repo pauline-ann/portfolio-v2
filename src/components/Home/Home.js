@@ -1,19 +1,21 @@
 //Dependencies
-import React from "react";
-import { Container, Header, Button, Divider, Icon } from "semantic-ui-react";
+import React from 'react';
+import { Container, Header, Button, Divider, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { Image, BackgroundImage } from 'react-image-and-background-image-fade';
 
 // Image
-import Avatar from "../../assets/images/ny.jpeg";
-import Background from "../../assets/images/desk.jpg"
+import Avatar from '../../assets/images/ny.jpeg';
+import Background from '../../assets/images/desk.jpg'
 
 //Components
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import Navbar from '../Navbar/Navbar';
+import Contact from '../Contact/Contact';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
 
 //CSS
-import "./Home.css";
+import './Home.css';
 
 const Home = () => {
 
@@ -21,33 +23,33 @@ const Home = () => {
     <div>
       <BackgroundImage
         useChild
-        transitionTime="0.2s"
+        transitionTime='0.2s'
         src={Background}
-        className="Home"
+        className='Home'
       >
-        <div className="Home">
+        <div className='Home'>
           <Navbar />
           <Container
             text
-            vertical="true"
-            textAlign="center"
-            className="Home-container"
+            vertical='true'
+            textAlign='center'
+            className='Home-container'
           >
             <Image
               src={Avatar}
-              transitionTime="1.2s"
-              alt="avatar"
-              className="Home-avatar"
+              transitionTime='1.2s'
+              alt='avatar'
+              className='Home-avatar'
             />
             <Header
               as='h1'
               content='Pauline Ann Bantayan'
-              className="Home-header-name"
+              className='Home-header-name'
             />
             <Header
               as='h2'
               content='Full Stack Developer from Los Angeles, CA.'
-              className="Home-header-description"
+              className='Home-header-description'
             />
             <Divider hidden />
             <Button
@@ -55,11 +57,11 @@ const Home = () => {
               to='/about'
               basic
               color='violet'
-              className="Home-header-button"
+              className='Home-header-button'
             >
               <Icon
-                color="violet"
-                name="address card outline"
+                color='violet'
+                name='address card outline'
               />
               About
             </Button>
@@ -68,16 +70,22 @@ const Home = () => {
               to='/projects'
               basic
               color='violet'
-              className="Home-header-button"
+              className='Home-header-button'
             >
               <Icon
-                color="violet"
-                name="globe"
+                color='violet'
+                name='globe'
               />
               Projects
               </Button>
           </Container>
-          <Footer />
+          <Container className='About-container' id='about'>
+            <About/>
+          </Container>
+          <Container className='Projects-container' id='projects'>
+            <Projects/>
+          </Container>
+          <Contact />
         </div>
       </BackgroundImage>
     </div>

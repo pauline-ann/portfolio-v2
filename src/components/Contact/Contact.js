@@ -3,13 +3,13 @@ import React from "react";
 import { Container, Icon } from 'semantic-ui-react'
 
 //CSS
-import "./Footer.css";
+import "./Contact.css";
 
-const Footer = () => {
+const Contact = () => {
 
     return (
         <div>
-            <Container textAlign="center" className="Footer-container">
+            <Container textAlign="center" className="Contact-container">
                 <a href='https://www.linkedin.com/in/pauline-ann/'>
                     <Icon
                         name="linkedin"
@@ -23,7 +23,7 @@ const Footer = () => {
                         size="large" />
 
                 </a>
-                <p className="Footer-text">
+                <p className="Contact-text">
                     © 2019 Pauline Ann Bantayan | Made with <i className="devicon-react-original" /> & ♡
                 </p>
             </Container>
@@ -31,4 +31,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default Contact;

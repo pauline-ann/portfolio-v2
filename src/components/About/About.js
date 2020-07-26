@@ -6,10 +6,6 @@ import { Image } from 'react-image-and-background-image-fade';
 //Image
 import Me from "../../assets/images/grad.jpg";
 
-//Components
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
-
 //CSS
 import "./About.css";
 
@@ -239,9 +235,14 @@ const About = () => {
 
   return (
     <div>
-      <Navbar />
-      <Container className="About-container">
-        <Grid>
+      <Grid>
+        <Grid.Row>
+          {/**********  PAGE HEADER  **********/}
+          <Grid.Column>
+            <Header as="h2" content="About" className="Section-header" />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
           <Grid.Column mobile={16} tablet={8} computer={6}>
             <Image
               src={Me}
@@ -254,9 +255,8 @@ const About = () => {
               <Tab menu={{ secondary: true, pointing: true }} panes={panes} />
             </Container>
           </Grid.Column>
-        </Grid>
-      </Container>
-      <Footer />
+        </Grid.Row>
+      </Grid>
     </div>
   );
 }

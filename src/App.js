@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Components
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
 import Error404 from "./components/Error404";
 
 // CSS
@@ -16,8 +14,6 @@ const App = () => {
       <div className="App">
         <Switch>
           <Route exact path="/" component={() => <Home />} />
-          <Route exact path="/about" component={() => <About />} />
-          <Route exact path="/projects" component={() => <Projects />} />
           <Route component={Error404} />
         </Switch>
       </div>
