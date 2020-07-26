@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aab9395ddb8a0a366681d4b9834aaf1a",
+    "revision": "cd71d9ec8a3853c76da4587f8cc421fe",
     "url": "/index.html"
   },
   {
-    "revision": "f5df35b899bec8e5159e",
-    "url": "/static/css/2.e70aa027.chunk.css"
+    "revision": "592b5656aff4d633cfbc",
+    "url": "/static/css/2.c19aca96.chunk.css"
   },
   {
-    "revision": "de42e805de0e43b920f4",
-    "url": "/static/css/main.0af9dea6.chunk.css"
+    "revision": "35bbb446617e90485424",
+    "url": "/static/css/main.fe5b0f06.chunk.css"
   },
   {
-    "revision": "f5df35b899bec8e5159e",
-    "url": "/static/js/2.54fcd2c1.chunk.js"
+    "revision": "592b5656aff4d633cfbc",
+    "url": "/static/js/2.d6b44576.chunk.js"
   },
   {
-    "revision": "de42e805de0e43b920f4",
-    "url": "/static/js/main.5d8c9f25.chunk.js"
+    "revision": "35bbb446617e90485424",
+    "url": "/static/js/main.eae6261e.chunk.js"
   },
   {
-    "revision": "56bf258127c6ab1846d2",
-    "url": "/static/js/runtime~main.9f6b3058.js"
+    "revision": "939b15a7df8ea3ac1e79",
+    "url": "/static/js/runtime~main.aa8ed3e2.js"
   },
   {
-    "revision": "d8096629e71502fc3f18d6b6f040f83d",
-    "url": "/static/media/PaulineBantayanResume.d8096629.pdf"
+    "revision": "efab08547b7637487f18b496c7e894ea",
+    "url": "/static/media/PaulineBantayanResume2020.efab0854.pdf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",

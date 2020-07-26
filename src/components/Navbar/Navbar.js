@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 
 //Assets
 import logo from "../../assets/images/pb_logo_grey.png";
-import pdf from "../../assets/document/PaulineBantayanResume.pdf";
+import pdf from "../../assets/document/PaulineBantayanResume2020.pdf";
 
 //CSS
 import "./Navbar.css";
