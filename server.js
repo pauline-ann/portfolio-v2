@@ -33,6 +33,6 @@ app.get('/*', function (req, res) {
 
 // ----- Listen
 app.listen(port, () => {
-  console.log("------------------------------------------------------------");
+  console.log('------------------------------------------------------------');
   console.log(`React portfolio application running on port ${port}...`);
 });

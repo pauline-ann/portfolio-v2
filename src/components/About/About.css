@@ -1,6 +1,5 @@
 .About-container {
-    position: relative;
-    min-height: 90vh;
+    padding-top: 13rem;
 }
 
 .About-tab-pane {
@@ -9,5 +8,5 @@
 }
 
 .About-tab-pane-header {
-    font-family: 'Fira Code', monospace !important;
+    font-size: 1.5em;
 }

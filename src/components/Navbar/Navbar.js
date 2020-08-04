@@ -25,9 +25,7 @@ const Navbar = () => {
               <Breadcrumb>
                 <Breadcrumb.Section as={HashLink} exact activeClassName='active' to='#about' className='Navbar-navlink'>About</Breadcrumb.Section>
                 <Breadcrumb.Divider />
-                <Breadcrumb.Section as={HashLink} exact activeClassName='active' to='#projects' className='Navbar-navlink'>Projects</Breadcrumb.Section>
-                <Breadcrumb.Divider />
-                <Breadcrumb.Section as={NavLink} exact activeClassName='active' to={pdf} target='_blank' className='Navbar-navlink'>Resume</Breadcrumb.Section>
+                <Breadcrumb.Section as={HashLink} exact activeClassName='active' to='#work' className='Navbar-navlink'>Work</Breadcrumb.Section>
               </Breadcrumb>
             </Menu.Item>
           </Menu.Menu>

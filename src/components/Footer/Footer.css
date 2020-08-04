@@ -1,17 +1,16 @@
-.Contact-container {
+.Footer-container {
     background: transparent;
     bottom: 0;
     left: 0;
     right: 0;
     padding-top: 5em;
-    padding-bottom: 0.8em;
+    padding-bottom: 1.5em;
     margin-bottom: 0;
     position: relative;
+    text-align: center;
 }
 
-.Contact-text {
+.Footer-text {
     font-weight: normal;
-    padding-top: 0.6em;
-    font-size: 0.9em;
-    text-align: center;
+    font-size: 1em;
 }
