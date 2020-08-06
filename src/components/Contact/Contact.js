@@ -21,34 +21,46 @@ const Contact = () => {
                             <Header as='h1' content='Get in touch!' className='Section-header' />
                         </Grid.Column>
                     </Grid.Row>
+                </Grid>
+                <Grid textAlign='center' columns={4}>
                     <Grid.Row>
-                        <a href='https://www.linkedin.com/in/pauline-ann/'>
-                            <Icon
-                                name='linkedin'
-                                link
-                                size='large' />
-                        </a>
-                        <a href='https://github.com/pauline-ann'>
-                            <Icon
-                                name='github alternate'
-                                link
-                                size='large' />
+                        <Grid.Column>
+                            <a href='https://www.linkedin.com/in/pauline-ann/'>
+                                <Icon
+                                    name='linkedin'
+                                    link
+                                    size='huge' />
+                            </a>
+                        </Grid.Column>
+                        <Grid.Column>
+                            <a href='https://github.com/pauline-ann'>
+                                <Icon
+                                    name='github alternate'
+                                    link
+                                    size='huge' />
 
-                        </a>
-                        <List>
-                            <List.Item
-                                icon='mail'
-                                content={<a className='listLink' href='mailto:paulinebantayan@gmail.com'>{email}</a>}
-                            />
-                            <List.Item
-                                icon='phone volume'
-                                content={phoneNum}
-                            />
-                        </List>
+                            </a>
+                        </Grid.Column>
+                        <Grid.Column>
+                            <a href='mailto:paulinebantayan@gmail.com'>
+                                <Icon
+                                    name='mail'
+                                    link
+                                    size='huge' />
+                            </a>
+                        </Grid.Column>
+                        <Grid.Column>
+                            <a href='tel:3233479057'>
+                                <Icon
+                                    name='phone volume'
+                                    link
+                                    size='huge' />
+                            </a>
+                        </Grid.Column>
                     </Grid.Row>
                 </Grid>
             </Container>
-        </div>
+        </div >
     );
 }
 

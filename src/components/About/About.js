@@ -1,10 +1,12 @@
 //Dependencies
 import React from 'react';
-import { Container, Grid, Header, Tab, List, Divider } from 'semantic-ui-react';
+import { Container, Grid, Header, Tab, List, Divider, Button } from 'semantic-ui-react';
 import { Image } from 'react-image-and-background-image-fade';
+import { HashLink as HashLink } from 'react-router-hash-link';
 
 //Image
 import Me from '../../assets/images/grad.jpg';
+import Resume from '../../assets/document/PaulineBantayanResume2020.pdf';
 
 //CSS
 import './About.css';
@@ -22,6 +24,17 @@ const About = () => {
           </p>
           <p>
             My desire to pursue technology began when I worked at a tech startup. I realized there that programming aligned with my drive to solve problems, learn continuously, and get in touch with my creativity. I switched my career path to web development and haven't looked back since. I love the process of transforming ideas into functional, intuitive, and immersive web applications.
+          </p>
+          <p>
+            <a href={Resume} target='_blank'>
+              <Button
+                basic
+                color='violet'
+                className='Masthead-header-button'
+              >
+                View Resume
+            </Button>
+            </a>
           </p>
         </Tab.Pane>
     },

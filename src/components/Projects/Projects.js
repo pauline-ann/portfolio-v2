@@ -21,7 +21,7 @@ import meetMeHalfway2 from '../../assets/images/project_img/mmh_2.jpg';
 const Projects = () => {
 
   return (
-    <div>
+    <div className='hey'>
       <Container className='Projects-container' id='work'>
         <Grid>
           <Grid.Row>

@@ -3,11 +3,11 @@ import React from 'react';
 import { Container, Header, Button, Divider, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { Image, BackgroundImage } from 'react-image-and-background-image-fade';
-import { HashLink as HashLink} from 'react-router-hash-link';
+import { HashLink as HashLink } from 'react-router-hash-link';
 
 // Image
 import Avatar from '../../assets/images/ny.jpeg';
-import Background from '../../assets/images/desk.jpg'
+import Background from '../../assets/images/desk.jpg';
 
 //Components
 import Navbar from '../Navbar/Navbar';

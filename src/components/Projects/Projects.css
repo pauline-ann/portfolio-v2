@@ -1,6 +1,7 @@
 .Projects-container {
     margin-bottom: 3em;
-    padding-top: 13rem;
+    padding: 10rem 0;
+    background-color: lavender;
 }
 
 .projectImage:hover {
