@@ -1,5 +1,6 @@
 .About-container {
-    padding: 10rem 0;
+    padding-top: 9em;
+    padding-bottom: 10em;
 }
 
 .About-tab-pane {
@@ -8,9 +9,5 @@
 }
 
 .About-tab-pane-header {
-    font-size: 1.5em;
-}
-
-.hey {
-    background-color: lavender;
+    font-size: 1.6em;
 }

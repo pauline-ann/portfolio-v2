@@ -4,14 +4,14 @@
 
 .Masthead-container {
     min-height: 90vh;
-    padding: 1em 0em;
+    padding: 1rem 0em;
     text-align: left !important;
 }
 
 .Masthead-avatar {
-    margin-top: 7em;
-    width: 160px !important;
-    height: 160px !important;
+    margin-top: 5.5rem;
+    width: 13rem !important;
+    height: 13rem !important;
     border-radius: 50%;
 }
 
@@ -27,9 +27,9 @@
 }
 
 .Masthead-header-description {
-    font-size: 1em !important;
+    font-size: 1rem !important;
     font-weight: normal !important;
-    margin-top: 0.8em !important;
+    margin-top: 0.8rem !important;
     animation-name: Fade-down;
     animation-duration: 1.5s;
 }
@@ -37,8 +37,20 @@
 .Masthead-header-button {
     animation-name: Fade-down;
     animation-duration: 1.5s;
-    border-radius: 30px !important;
+    border-radius: 10rem !important;
 }
+
+@media (max-width: 75em) {
+     
+  }
+  
+  @media (max-width: 56.25em) {
+    
+  }
+  
+  @media (max-width: 112.5em) {
+    
+  }
 
 @keyframes Fade-down {
     from {

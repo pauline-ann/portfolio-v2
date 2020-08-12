@@ -1,13 +1,18 @@
 // Dependencies
 import React from 'react';
 import { Grid, Container, Header, Icon, Popup, Divider, Modal, List } from 'semantic-ui-react';
-import { zephyrStack, lightHouseStack, meetMeHalfwayStack } from '../../assets/data/icon-stack';
+import { lomStack, zephyrStack, lightHouseStack, meetMeHalfwayStack } from '../../assets/data/icon-stack';
 import { Image } from 'react-image-and-background-image-fade';
 
 // CSS
 import './Projects.css';
 
 // Images
+import lom_small from '../../assets/images/project_img/lom_small.png';
+import lom1 from '../../assets/images/project_img/lom_1.png';
+import lom2 from '../../assets/images/project_img/lom_2.png';
+import lom3 from '../../assets/images/project_img/lom_3.png';
+import lom4 from '../../assets/images/project_img/lom_4.png';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';
 import zephyr1 from '../../assets/images/project_img/zephyr_1.jpg';
 import zephyr2 from '../../assets/images/project_img/zephyr_2.jpg';
@@ -21,13 +26,68 @@ import meetMeHalfway2 from '../../assets/images/project_img/mmh_2.jpg';
 const Projects = () => {
 
   return (
-    <div className='hey'>
+    <div className='projects-div'>
       <Container className='Projects-container' id='work'>
         <Grid>
           <Grid.Row>
             {/**********  PAGE HEADER  **********/}
             <Grid.Column>
               <Header as='h1' content='Projects' className='Section-header' />
+            </Grid.Column>
+          </Grid.Row>
+          {/**********  LEGEND OF MARCELINE  **********/}
+          <Grid.Row divided>
+            {/**********  IMAGE/POPUP  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={6}>
+              <Modal trigger={
+                <Image
+                  className='projectImage'
+                  src={lom_small}
+                  transitionTime='0.7s'
+                  alt='lom_small'
+                />
+              } basic size='large' closeIcon>
+                <Image
+                  src={lom1}
+                  transitionTime='0.5s'
+                  alt='Legend of Marceline screenshot'
+                />
+                <Image
+                  src={lom2}
+                  transitionTime='0.5s'
+                  alt='Legend of Marceline screenshot'
+                />
+                <Image
+                  src={lom3}
+                  transitionTime='0.5s'
+                  alt='Legend of Marceline screenshot'
+                />
+                <Image
+                  src={lom4}
+                  transitionTime='0.5s'
+                  alt='Legend of Marceline screenshot'
+                />
+              </Modal>
+            </Grid.Column>
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={10}>
+              <Divider hidden />
+              <Header as='h3' content='The Legend of Marceline' className='Projects-header' />
+              <p>
+                A promotional website designed and built for a fictional video game, "The Legend of Marceline". Built entirely with HTML and compiled Sass code; no open source CSS frameworks were used.              </p>
+              {lomStack.map((stackItem) => (
+                <Popup
+                  key={stackItem.name}
+                  content={stackItem.name}
+                  trigger={<Icon size='small' color='violet' circular><i className={stackItem.iconName} /></Icon>}
+                  position='bottom center'
+                />
+              ))}
+              <Divider hidden />
+              <List>
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink'>GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://adventure-game-lom.herokuapp.com/' className='listLink'>Site</a>} />
+              </List>
             </Grid.Column>
           </Grid.Row>
           {/**********  ZEPHYR NODE  **********/}
