@@ -41,19 +41,10 @@ const Masthead = () => {
                         />
                         <Header
                             as='h1'
-                            content='Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA'
+                            content='Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA.'
                             className='Masthead-header-name'
                         />
                         <Divider hidden />
-                        <Button
-                            as={HashLink}
-                            to='#about'
-                            basic
-                            color='violet'
-                            className='Masthead-header-button'
-                        >
-                            About
-            </Button>
                         <Button circular
                             as={HashLink}
                             to='#work'
@@ -63,6 +54,15 @@ const Masthead = () => {
                         >
                             Work
               </Button>
+                        <Button
+                            as={HashLink}
+                            to='#about'
+                            basic
+                            color='violet'
+                            className='Masthead-header-button'
+                        >
+                            About
+            </Button>
                     </Container>
                 </div>
             </BackgroundImage>
