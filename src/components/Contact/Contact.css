@@ -1,3 +1,7 @@
+.contact-div {
+    background-color: lavender;
+}
+
 .Contact-container {
     background: transparent;
     bottom: 0;
@@ -6,7 +10,7 @@
     margin-bottom: 0;
     position: relative;
     padding-top: 7rem;
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 
 .Contact-text {

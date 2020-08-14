@@ -12,12 +12,12 @@ const Contact = () => {
     const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com');
 
     return (
-        <div>
+        <div className='contact-div'>
             <Container className='Contact-container' id='contact'>
                 <Grid>
                     <Grid.Row>
                         {/**********  PAGE HEADER  **********/}
-                        <Grid.Column>
+                        <Grid.Column textAlign='center'>
                             <Header as='h1' content='Get in touch' className='Section-header' />
                         </Grid.Column>
                     </Grid.Row>

@@ -31,7 +31,7 @@ const Work = () => {
         <Grid>
           <Grid.Row>
             {/**********  PAGE HEADER  **********/}
-            <Grid.Column>
+            <Grid.Column textAlign='center'>
               <Header as='h1' content='Work' className='Section-header' />
             </Grid.Column>
           </Grid.Row>
@@ -85,8 +85,8 @@ const Work = () => {
               ))}
               <Divider hidden />
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink'>GitHub</a>} />
-                <List.Item icon='globe' content={<a href='https://adventure-game-lom.herokuapp.com/' className='listLink'>Site</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank'>GitHub</a>} />
+                <List.Item icon='globe' content={<a href='https://adventure-game-lom.herokuapp.com/' className='listLink' target='_blank'>Site</a>} />
               </List>
             </Grid.Column>
           </Grid.Row>

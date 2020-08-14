@@ -5,7 +5,7 @@ import React from 'react';
 import Masthead from '../Masthead/Masthead';
 import Work from '../Work/Work';
 import Skills from '../Skills/Skills';
-// Education
+import Education from '../Education/Education';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
@@ -22,6 +22,8 @@ const Home = () => {
       <Work />
       {/* SKILLS */}
       <Skills />
+      {/* EDUCATION */}
+      <Education />
       {/* ABOUT */}
       <About />
       {/* CONTACT */}

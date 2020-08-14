@@ -14,16 +14,14 @@ const Skills = () => {
     return (
         <div className='skills-div'>
             <Container className='Skills-container' id='skills'>
-                <Grid textAlign='justified'>
-                    <Grid.Row>
+                <Grid textAlign='left'>
+                    <Grid.Row columns={4}>
                         {/**********  PAGE HEADER  **********/}
-                        <Grid.Column>
+                        <Grid.Column mobile={16} tablet={4} computer={4}>
                             <Header as='h1' content='Skills' className='Section-header' />
                         </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row columns={3} divided centered >
-                        <Grid.Column>
-                            <Header as='h4' className='About-tab-pane-header' content='Front End' />
+                        <Grid.Column mobile={16} tablet={4} computer={4}>
+                            <Header as='h3' content='Front End' className='Skills-header' />
                             <List>
                                 <List.Item>
                                     <List.Icon name='html5' />
@@ -51,8 +49,8 @@ const Skills = () => {
                                 </List.Item>
                             </List>
                         </Grid.Column>
-                        <Grid.Column>
-                            <Header as='h4' className='About-tab-pane-header' content='Back End' />
+                        <Grid.Column mobile={16} tablet={4} computer={4}>
+                            <Header as='h3' content='Back End' className='Skills-header' />
                             <List>
                                 <List.Item>
                                     <List.Icon><i className='devicon-express-original' /></List.Icon>
@@ -84,8 +82,8 @@ const Skills = () => {
                                 </List.Item>
                             </List>
                         </Grid.Column>
-                        <Grid.Column>
-                            <Header as='h4' className='About-tab-pane-header' content='Tools' />
+                        <Grid.Column mobile={16} tablet={4} computer={4}>
+                            <Header as='h3' content='Tools' className='Skills-header' />
                             <List>
                                 <List.Item>
                                     <List.Icon name='git' />
@@ -118,6 +116,7 @@ const Skills = () => {
                             </List>
                         </Grid.Column>
                     </Grid.Row>
+                    <Divider className='Section-divider'/>
                 </Grid>
             </Container >
         </div >
