@@ -1,3 +1,22 @@
+const lomStack = [
+    {
+        name: "HTML",
+        iconName: "devicon-html5-plain"
+    },
+    {
+        name: "CSS",
+        iconName: "devicon-css3-plain"
+    },
+    {
+        name: "Sass",
+        iconName: "devicon-sass-plain"
+    },
+    {
+        name: "Heroku",
+        iconName: "devicon-heroku-plain"
+    }
+]
+
 const zephyrStack = [
     {
         name: "HTML",
@@ -79,4 +98,4 @@ const meetMeHalfwayStack = [
     }
 ]
 
-export {zephyrStack, lightHouseStack, meetMeHalfwayStack}
+export {lomStack, zephyrStack, lightHouseStack, meetMeHalfwayStack}

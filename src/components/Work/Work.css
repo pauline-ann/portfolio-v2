@@ -1,0 +1,12 @@
+.work-div {
+    background-color: lavender;
+}
+
+.Work-container {
+    padding-top: 9em;
+    padding-bottom: 10em;
+}
+
+.projectImage:hover {
+    opacity: 0.5;
+}

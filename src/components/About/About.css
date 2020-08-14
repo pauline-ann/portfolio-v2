@@ -1,16 +1,10 @@
-.About-container {
-    padding: 10rem 0;
-}
+/* .about-div {
+} */
 
-.About-tab-pane {
-    border: 0 !important;
-    padding-top: 1em !important;
+.About-container {
+    padding-bottom: 5em;
 }
 
 .About-tab-pane-header {
-    font-size: 1.5em;
-}
-
-.hey {
-    background-color: lavender;
+    font-size: 1.6em;
 }

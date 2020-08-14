@@ -1,10 +1,14 @@
+.footer-div {
+    background-color: lavender;
+}
+
 .Footer-container {
+    background-color: lavender;
     background: transparent;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-top: 5em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
     margin-bottom: 0;
     position: relative;
     text-align: center;
@@ -12,5 +16,5 @@
 
 .Footer-text {
     font-weight: normal;
-    font-size: 1em;
+    font-size: .9em;
 }
