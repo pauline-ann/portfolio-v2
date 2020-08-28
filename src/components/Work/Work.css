@@ -10,3 +10,7 @@
 .projectImage:hover {
     opacity: 0.5;
 }
+
+.Project-row {
+    padding: 2rem !important;
+}

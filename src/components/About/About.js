@@ -37,7 +37,7 @@ const About = () => {
                   I switched career paths after realizing that web development aligns with my drive to solve problems, learn continuously, and get in touch with my creativity.
                 </p>
                 <p>
-                  When I'm not coding, you can find me enjoying my favorite leisure activities such as trying new recipes to cook, playing video games, or camping and backapacking!
+                  When I'm not coding, you can find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring!
                 </p>
                 <p>
                   <a href={Resume} target='_blank'>

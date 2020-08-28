@@ -39,11 +39,9 @@ const Masthead = () => {
                             alt='avatar'
                             className='Masthead-avatar'
                         />
-                        <Header
-                            as='h1'
-                            content='Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA.'
-                            className='Masthead-header-name'
-                        />
+                        <p className='Masthead-header-name'>
+                            Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA.
+                        </p>
                         <Divider hidden />
                         <Button circular
                             as={HashLink}
