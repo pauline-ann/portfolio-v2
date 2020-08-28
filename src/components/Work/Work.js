@@ -28,10 +28,10 @@ const Work = () => {
     <div className='work-div'>
       <Container className='Work-container' id='work'>
         <Grid>
-          {/**********  LEGEND OF MARCELINE  **********/}
           <Grid.Row className='Project-row'>
+            {/**********  LEGEND OF MARCELINE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={8} computer={10}>
+            <Grid.Column mobile={16} tablet={16} computer={8}>
               <Image
                 className='projectImage'
                 src={lom_small}
@@ -48,12 +48,11 @@ const Work = () => {
               <List>
                 <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank'>View Source Code</a>} />
               </List>
+              <Divider hidden />
             </Grid.Column>
-          </Grid.Row>
-          {/**********  ZEPHYR NODE  **********/}
-          <Grid.Row className='Project-row'>
+            {/**********  ZEPHYR NODE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={8} computer={10}>
+            <Grid.Column mobile={16} tablet={16} computer={8}>
               <Image
                 className='projectImage'
                 src={zephyr_small}
@@ -73,10 +72,10 @@ const Work = () => {
               </List>
             </Grid.Column>
           </Grid.Row>
-          {/**********  LIGHTHOUSE  **********/}
           <Grid.Row className='Project-row'>
+            {/**********  LIGHTHOUSE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={8} computer={10}>
+            <Grid.Column mobile={16} tablet={16} computer={8}>
               <Image
                 className='projectImage'
                 src={lightHouse_small}
@@ -94,12 +93,11 @@ const Work = () => {
               <List>
                 <List.Item icon='github' content={<a href='https://github.com/pauline-ann/LightHouse' className='listLink'>View Source Code</a>} />
               </List>
+              <Divider hidden />
             </Grid.Column>
-          </Grid.Row>
-          {/**********  MEET ME HALFWAY  **********/}
-          <Grid.Row className='Project-row'>
+            {/**********  MEET ME HALFWAY  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={8} computer={10}>
+            <Grid.Column mobile={16} tablet={16} computer={8}>
               <Image
                 className='projectImage'
                 src={meetMeHalfway_small}

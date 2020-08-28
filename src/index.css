@@ -63,7 +63,7 @@ a:hover, a.listLink:hover {
 .Section-header {
   font-family: 'Assistant', sans-serif !important;
   font-weight: 600 !important;
-  font-size: 4rem !important;
+  font-size: 3.2rem !important;
   padding-bottom: .7em !important;
   color: rgb(199, 171, 231) !important;
 }
@@ -75,5 +75,6 @@ a:hover, a.listLink:hover {
 @media (max-width: 37.5em) {
   .Section-header {
     text-align: center;
+    font-size: 4rem !important;
   }
 }
