@@ -19,6 +19,12 @@ i.file.alternate.outline.icon {
 
 @media (max-width: 37.5em) {
     .About-column {
-        padding: 0 2rem !important;
+        padding: 0 2rem 2rem 2rem !important;
+    }
+    i.file.alternate.outline.icon {
+        font-size: 3rem;
+    }
+    .About-resume-button {
+        font-size: 2rem;
     }
 }

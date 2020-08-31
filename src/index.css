@@ -37,7 +37,11 @@ html {
 
 @media (max-width: 37.5em) {
   html {
-    font-size: 40.25% !important;
+    font-size: 39.25% !important;
+  }
+  .Section-header {
+    text-align: center;
+    font-size: 4.2rem !important;
   }
 }
 
@@ -46,7 +50,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'calluna', 'calluna-sans', 'Open Sans' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.2rem !important;
+  font-size: 1.2rem;
   color: rgba(0, 0, 0, .87) !important;
 }
 
@@ -69,7 +73,6 @@ a:hover, a.listLink:hover {
 .Section-header {
   font-family: 'Assistant', sans-serif !important;
   font-weight: 600 !important;
-  font-size: 3.2rem !important;
   padding-bottom: .7em !important;
   color: rgb(199, 171, 231) !important;
 }

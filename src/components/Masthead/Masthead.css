@@ -74,14 +74,18 @@
 
 @media (max-width: 56.25em) {
     .Masthead-header-name {
-        font-size: 3.2rem;
+        font-size: 4.5rem;
     }
     .Masthead-avatar {
-        height: 11.5rem;
-        width: 11.5rem;
+        height: 16rem;
+        width: 16rem;
+        margin-top: 35%;
     }
     .Masthead-container {
         height: 100vh;
+    }
+    .Masthead-header-button {
+        font-size: 1.8rem !important
     }
 }
 

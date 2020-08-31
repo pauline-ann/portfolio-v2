@@ -34,7 +34,6 @@ const About = () => {
                 <p>
                   When I'm not coding, you can find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
-                <br />
                 <List className='About-resume-icon'>
                   <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink About-resume-button'>View Resume</a>} />
                 </List>
@@ -48,6 +47,7 @@ const About = () => {
                   alt='graduation-profile'
                 />
               </Container>
+              <br />
             </Grid.Column>
           </Grid.Row>
         </Grid>
