@@ -20,7 +20,7 @@ const Education = () => {
                         <Grid.Column mobile={16} tablet={4} computer={4}>
                             <Header as='h1' content='Education' className='Section-header' />
                         </Grid.Column>
-                        <Grid.Column mobile={16} tablet={12} computer={12}>
+                        <Grid.Column mobile={16} tablet={12} computer={12} className='Education-column'>
                             <List>
                                 <List.Item>
                                     <List.Icon name='graduation' />

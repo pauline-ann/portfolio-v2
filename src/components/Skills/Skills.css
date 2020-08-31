@@ -1,10 +1,13 @@
-/* .skills-div {
-} */
-
 .Skills-container {
     padding-top: 7em;
 }
 
 .Skills-header {
     text-decoration: underline;
+}
+
+@media (max-width: 37.5em) {
+    .Skills-column {
+        padding-left: 3rem !important;
+    }
 }

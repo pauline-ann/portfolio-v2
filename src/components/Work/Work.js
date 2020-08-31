@@ -31,7 +31,7 @@ const Work = () => {
           <Grid.Row className='Project-row'>
             {/**********  LEGEND OF MARCELINE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={16} computer={8}>
+            <Grid.Column mobile={16} tablet={16} computer={8} className='Project-top-column'>
               <Image
                 className='projectImage'
                 src={lom_small}
@@ -75,7 +75,7 @@ const Work = () => {
           <Grid.Row className='Project-row'>
             {/**********  LIGHTHOUSE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column mobile={16} tablet={16} computer={8}>
+            <Grid.Column mobile={16} tablet={16} computer={8} className='Project-top-column'>
               <Image
                 className='projectImage'
                 src={lightHouse_small}

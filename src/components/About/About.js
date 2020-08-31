@@ -1,7 +1,6 @@
 //Dependencies
 import React from 'react';
 import { Container, Grid, Header, Tab, List, Divider, Button, Icon, Image } from 'semantic-ui-react';
-import { HashLink as HashLink } from 'react-router-hash-link';
 
 //Image
 import Me from '../../assets/images/grad.jpg';
@@ -16,12 +15,12 @@ const About = () => {
     <div className='about-div'>
       <Container className='About-container' id='about'>
         <Grid>
-          <Grid.Row>
+          <Grid.Row centered>
             {/**********  PAGE HEADER  **********/}
             <Grid.Column mobile={16} tablet={16} computer={4}>
               <Header as='h1' content='About' className='Section-header' />
             </Grid.Column>
-            <Grid.Column mobile={16} tablet={8} computer={8}>
+            <Grid.Column mobile={16} tablet={8} computer={8} className='About-column'>
               <Container fluid>
                 <p>
                   Hello! I'm Pauline, a Full Stack Software Developer from Los Angeles, CA.
@@ -35,17 +34,19 @@ const About = () => {
                 <p>
                   When I'm not coding, you can find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
-                  <List>
-                    <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink'>View Resume</a>} />
-                  </List>
+                <List>
+                  <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink'>View Resume</a>} />
+                </List>
               </Container>
             </Grid.Column>
-            <Grid.Column mobile={8} tablet={8} computer={4}>
-              <Image
-                centered
-                src={Me}
-                alt='graduation-profile'
-              />
+            <Grid.Column mobile={6} tablet={8} computer={4}>
+              <Container fluid>
+                <Image
+                  centered
+                  src={Me}
+                  alt='graduation-profile'
+                />
+              </Container>
             </Grid.Column>
           </Grid.Row>
         </Grid>

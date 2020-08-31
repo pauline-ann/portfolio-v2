@@ -8,3 +8,7 @@
 .About-tab-pane-header {
     font-size: 1.6em;
 }
+
+.About-column {
+    padding: 2rem !important;
+}
