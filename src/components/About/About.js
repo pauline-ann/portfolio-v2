@@ -34,8 +34,9 @@ const About = () => {
                 <p>
                   When I'm not coding, you can find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
-                <List>
-                  <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink'>View Resume</a>} />
+                <br />
+                <List className='About-resume-icon'>
+                  <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink About-resume-button'>View Resume</a>} />
                 </List>
               </Container>
             </Grid.Column>
