@@ -9,5 +9,10 @@
 @media (max-width: 37.5em) {
     .Skills-column {
         padding-left: 3rem !important;
+        text-align: center !important;
+    }
+    h3.ui.header {
+        text-align: left;
+        padding-bottom: 1rem;
     }
 }

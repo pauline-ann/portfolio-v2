@@ -17,10 +17,10 @@ const About = () => {
         <Grid>
           <Grid.Row centered>
             {/**********  PAGE HEADER  **********/}
-            <Grid.Column mobile={16} tablet={16} computer={4}>
+            <Grid.Column mobile={16} tablet={4} computer={4}>
               <Header as='h1' content='About' className='Section-header' />
             </Grid.Column>
-            <Grid.Column mobile={16} tablet={8} computer={8} className='About-column'>
+            <Grid.Column mobile={16} tablet={9} computer={8} className='About-column'>
               <Container fluid>
                 <p>
                   Hello! I'm Pauline, a Full Stack Software Developer from Los Angeles, CA.
@@ -40,7 +40,7 @@ const About = () => {
                 </List>
               </Container>
             </Grid.Column>
-            <Grid.Column mobile={6} tablet={8} computer={4}>
+            <Grid.Column mobile={6} tablet={3} computer={4}>
               <Container fluid>
                 <Image
                   centered
