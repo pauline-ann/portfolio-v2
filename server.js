@@ -8,7 +8,7 @@ const path = require('path');
 // ----- Setup -/
 
 // Server Port
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 9000;
 const app = express();
 
 // Serve up static assets
