@@ -1,26 +1,15 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Icon, Popup, Divider, Modal, List, Image } from 'semantic-ui-react';
-import { lomStack, zephyrStack, lightHouseStack, meetMeHalfwayStack } from '../../assets/data/icon-stack';
+import { Grid, Container, Header, Divider, List, Image } from 'semantic-ui-react';
 
 // CSS
 import './Work.css';
 
 // Images
 import lom_small from '../../assets/images/project_img/lom_small.png';
-import lom1 from '../../assets/images/project_img/lom_1.png';
-import lom2 from '../../assets/images/project_img/lom_2.png';
-import lom3 from '../../assets/images/project_img/lom_3.png';
-import lom4 from '../../assets/images/project_img/lom_4.png';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';
-import zephyr1 from '../../assets/images/project_img/zephyr_1.jpg';
-import zephyr2 from '../../assets/images/project_img/zephyr_2.jpg';
 import lightHouse_small from '../../assets/images/project_img/lighthouse_small.jpg';
-import lightHouse1 from '../../assets/images/project_img/lighthouse_1.jpg';
-import lightHouse2 from '../../assets/images/project_img/lighthouse_2.jpg';
 import meetMeHalfway_small from '../../assets/images/project_img/mmh_small.jpg';
-import meetMeHalfway1 from '../../assets/images/project_img/mmh_1.jpg';
-import meetMeHalfway2 from '../../assets/images/project_img/mmh_2.jpg';
 
 const Work = () => {
 

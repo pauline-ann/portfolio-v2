@@ -1,8 +1,7 @@
 //Dependencies
 import React from 'react';
-import { Container, Header, Button, Divider, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
-import { Image, BackgroundImage } from 'react-image-and-background-image-fade';
+import { Header, Button, Divider } from 'semantic-ui-react';
+import { Image } from 'react-image-and-background-image-fade';
 import { HashLink as HashLink } from 'react-router-hash-link';
 
 // Image
