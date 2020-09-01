@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Icon, Grid, Header, List } from 'semantic-ui-react'
+import { Container, Icon, Grid, Header } from 'semantic-ui-react'
 
 
 //CSS

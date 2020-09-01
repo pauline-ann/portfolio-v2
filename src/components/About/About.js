@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Grid, Header, Tab, List, Divider, Button, Icon, Image } from 'semantic-ui-react';
+import { Container, Grid, Header, List, Image } from 'semantic-ui-react';
 
 //Image
 import Me from '../../assets/images/grad.jpg';

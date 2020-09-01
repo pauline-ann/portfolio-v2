@@ -7,7 +7,6 @@ import './Education.css';
 
 // Images
 
-
 const Education = () => {
 
     return (
