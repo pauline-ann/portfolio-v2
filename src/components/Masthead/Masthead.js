@@ -1,7 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Header, Button, Divider } from 'semantic-ui-react';
-import { Image } from 'react-image-and-background-image-fade';
+import { Header, Button, Divider, Image } from 'semantic-ui-react';
 import { HashLink as HashLink } from 'react-router-hash-link';
 
 // Image
@@ -25,8 +24,8 @@ const Masthead = () => {
                 </div>
                 <div className='Masthead-main-box'>
                     <Image
+                        centered
                         src={Avatar}
-                        transitionTime='1.2s'
                         alt='avatar'
                         className='Masthead-avatar'
                     />

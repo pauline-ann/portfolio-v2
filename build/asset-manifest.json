@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6377726b.chunk.css",
+    "main.js": "/static/js/main.68774b30.chunk.js",
+    "main.js.map": "/static/js/main.68774b30.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.aa8ed3e2.js",
+    "runtime~main.js.map": "/static/js/runtime~main.aa8ed3e2.js.map",
+    "static/css/2.c19aca96.chunk.css": "/static/css/2.c19aca96.chunk.css",
+    "static/js/2.cdd7545c.chunk.js": "/static/js/2.cdd7545c.chunk.js",
+    "static/js/2.cdd7545c.chunk.js.map": "/static/js/2.cdd7545c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5b14a37401219a496bd27535b557705d.js": "/precache-manifest.5b14a37401219a496bd27535b557705d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c19aca96.chunk.css.map": "/static/css/2.c19aca96.chunk.css.map",
+    "static/css/main.6377726b.chunk.css.map": "/static/css/main.6377726b.chunk.css.map",
+    "static/media/PaulineBantayanResume2020.pdf": "/static/media/PaulineBantayanResume2020.e62e4c45.pdf",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/Masthead.css": "/static/media/desk.8882f5d9.jpg",
+    "static/media/grad.jpg": "/static/media/grad.60bb5c0e.jpg",
+    "static/media/lighthouse_small.jpg": "/static/media/lighthouse_small.7cf54c16.jpg",
+    "static/media/lom_small.png": "/static/media/lom_small.dc1d30bc.png",
+    "static/media/mmh_small.jpg": "/static/media/mmh_small.83c92f6b.jpg",
+    "static/media/ny.jpeg": "/static/media/ny.f046fc82.jpeg",
+    "static/media/pb_logo_grey.png": "/static/media/pb_logo_grey.9e6fb47d.png",
+    "static/media/zephyr_small.jpg": "/static/media/zephyr_small.9fe93937.jpg"
+  }
+}
