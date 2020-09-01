@@ -1,25 +1,40 @@
 .Masthead {
     background-size: cover;
-    height: 100%;
-    background-position: center;
+    height: 100vh;
+    background-image: url('../../assets/images/desk.jpg');
+    background-position: top;
     background-repeat: no-repeat;
+    position: relative;
 }
 
-.Masthead-container {
-    min-height: 90vh;
+.Masthead-logo-box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.Masthead-logo {
+    height: 35px;
+    width: auto;
+}
+
+.Masthead-main-box {
     text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
 }
 
 .Masthead-avatar {
-    margin-top: 20%;
     margin-bottom: 1rem;
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
 }
 
-.Masthead-header-name {
-    font-size: 4.5rem;
+h1.ui.header.Masthead-header-name {
+    font-size: 4rem;
     font-weight: 400;
     font-family: 'Assistant', sans-serif;
     color: rgb(199, 171, 231);
@@ -45,53 +60,47 @@
 }
 
 @media (max-width: 112.5em) {
-    .Masthead-header-name {
-        font-size: 3.5rem;
-    }
     .Masthead-avatar {
-        margin-top: 30%;
         height: 11.5rem;
         width: 11.5rem;
     }
-    .Masthead-container {
+    .Masthead-main-box {
         height: 100vh;
     }
 }
 
-
 @media (max-width: 75em) {
-    .Masthead-header-name {
-        font-size: 3.2rem;
-    }
     .Masthead-avatar {
         height: 11.5rem;
         width: 11.5rem;
     }
-    .Masthead-container {
+    .Masthead-main-box {
         height: 100vh;
     }
 }
 
 @media (max-width: 56.25em) {
     .Masthead-header-name {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     .Masthead-avatar {
-        height: 16rem;
-        width: 16rem;
-        margin-top: 35%;
+        height: 15rem;
+        width: 15rem;
     }
-    .Masthead-container {
-        height: 100vh;
+    .Masthead-main-box {
+        width: 80%;
     }
     .Masthead-header-button {
-        font-size: 1.8rem !important
+        font-size: 1.7rem !important
+    }
+    h1.ui.header.Masthead-header-name {
+        font-size: 5rem;
     }
 }
 
 @media (max-width: 37.5em) {
     .Masthead-avatar {
-        margin-top: 40%;
+        /* margin-top: 40%; */
         height: 15rem;
         width: 15rem;
     }
@@ -102,7 +111,7 @@
     .Masthead-header-button {
         font-size: 1.7rem !important
     }
-  }
+}
 
 @keyframes Fade-down {
     from {

@@ -17,14 +17,17 @@ i.file.alternate.outline.icon {
     font-size: 1.5rem;
 }
 
-@media (max-width: 37.5em) {
-    .About-column {
-        padding: 0 2rem 2rem 2rem !important;
-    }
+@media (max-width: 56.25em) {
     i.file.alternate.outline.icon {
         font-size: 3rem;
     }
     .About-resume-button {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .About-column {
+        padding: 0 2rem 2rem 2rem !important;
     }
 }

@@ -18,7 +18,7 @@ const Contact = () => {
                     <Grid.Row>
                         {/**********  PAGE HEADER  **********/}
                         <Grid.Column textAlign='center'>
-                            <Header as='h1' content='Get in touch' className='Section-header' />
+                            <Header as='h2' content='Get in touch' className='Section-header' />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

@@ -7,10 +7,7 @@ import { HashLink as HashLink } from 'react-router-hash-link';
 
 // Image
 import Avatar from '../../assets/images/ny.jpeg';
-import Background from '../../assets/images/desk.jpg';
-
-//Components
-import Navbar from '../Navbar/Navbar';
+import logo from '../../assets/images/pb_logo_grey.png';
 
 //CSS
 import './Masthead.css';
@@ -19,51 +16,45 @@ const Masthead = () => {
 
     return (
         <div>
-            <BackgroundImage
-                useChild
-                transitionTime='0.2s'
-                src={Background}
-                className='Masthead'
-            >
-                <div className='Masthead'>
-                    <Navbar />
-                    <Container
-                        text
-                        vertical='true'
-                        textAlign='center'
-                        className='Masthead-container'
-                    >
-                        <Image
-                            src={Avatar}
-                            transitionTime='1.2s'
-                            alt='avatar'
-                            className='Masthead-avatar'
-                        />
-                        <p className='Masthead-header-name'>
-                            Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA.
-                        </p>
-                        <Divider hidden />
-                        <Button circular
-                            as={HashLink}
-                            to='#work'
-                            basic
-                            color='violet'
-                            className='Masthead-header-button'
-                        >
-                            Work
-              </Button>
-                        <Button
-                            as={HashLink}
-                            to='#about'
-                            basic
-                            color='violet'
-                            className='Masthead-header-button'
-                        >
-                            About
-            </Button>
-                    </Container>
+            <div className='Masthead'>
+                <div className='Masthead-logo-box'>
+                    <Image
+                        src={logo}
+                        alt='logo'
+                        className='Masthead-logo'
+                    />
                 </div>
-            </BackgroundImage>
+                <div className='Masthead-main-box'>
+                    <Image
+                        src={Avatar}
+                        transitionTime='1.2s'
+                        alt='avatar'
+                        className='Masthead-avatar'
+                    />
+                    <Header as='h1' className='Masthead-header-name'>
+                        Pauline Ann Bantayan is a Software Developer based in Los Angeles, CA.
+                        </Header>
+                    <Divider hidden />
+                    <Button circular
+                        as={HashLink}
+                        to='#work'
+                        basic
+                        color='violet'
+                        className='Masthead-header-button'
+                    >
+                        Work
+              </Button>
+                    <Button
+                        as={HashLink}
+                        to='#about'
+                        basic
+                        color='violet'
+                        className='Masthead-header-button'
+                    >
+                        About
+            </Button>
+                </div>
+            </div>
         </div>
     );
 }

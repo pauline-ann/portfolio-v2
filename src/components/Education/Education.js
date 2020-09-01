@@ -18,7 +18,7 @@ const Education = () => {
                     <Grid.Row textAlign='left'>
                         {/**********  PAGE HEADER  **********/}
                         <Grid.Column mobile={16} tablet={4} computer={4}>
-                            <Header as='h1' content='Education' className='Section-header' />
+                            <Header as='h2' content='Education' className='Section-header' />
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={12} computer={12} className='Education-column'>
                             <List>

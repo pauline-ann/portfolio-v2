@@ -19,8 +19,18 @@
     padding-bottom: 2rem;
 }
 
-@media (max-width: 37.5em) {
-    .Work-header {
+h2.ui.header.Work-header {
+    color: rgba(29, 29, 29, 0.87) !important;
+}
+
+@media (max-width: 112.5em) {
+    h2.ui.header.Work-header {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 75em) {
+    h2.ui.header.Work-header {
         font-size: 2.5rem !important;
     }
 }

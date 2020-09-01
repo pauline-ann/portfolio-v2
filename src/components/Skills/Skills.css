@@ -10,12 +10,12 @@
     h3.ui.header {
         font-size: 1.8rem;
     }
-}
-
-@media (max-width: 37.5em) {
     .Skills-column {
         padding-left: 3rem !important;
     }
+}
+
+@media (max-width: 37.5em) {
     h3.ui.header {
         text-align: center !important;
         padding-bottom: 1rem;

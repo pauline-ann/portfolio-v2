@@ -38,11 +38,11 @@ const Work = () => {
                 alt='lom_small'
                 as='a'
                 href='https://adventure-game-lom.herokuapp.com/'
-                size='large'
                 target='_blank'
+                fluid
               />
               <Divider hidden />
-              <Header as='h1' content='The Legend of Marceline' className='Work-header' />
+              <Header as='h2' content='The Legend of Marceline' className='Work-header' />
               <p>
                 A promotional website designed and built for a fictional video game, "The Legend of Marceline". Built entirely with HTML and compiled Sass code; no open source CSS frameworks were used.              </p>
               <List>
@@ -59,11 +59,11 @@ const Work = () => {
                 alt='zephyr_small'
                 as='a'
                 href='https://zephyr-node.herokuapp.com/'
-                size='large'
                 target='_blank'
+                fluid
               />
               <Divider hidden />
-              <Header as='h1' content='Zephyr Node' className='Work-header' />
+              <Header as='h2' content='Zephyr Node' className='Work-header' />
               <p>
                 A web application that utilizes the Google Maps and Yelp APIs to ease the process of making plans with friends. Populates businesses/restaurants onto a map, based off of a middle point between 2 addresses.
               </p>
@@ -82,11 +82,11 @@ const Work = () => {
                 alt='lightHouse_small'
                 as='a'
                 href='https://lighthouse-project2.herokuapp.com/'
-                size='large'
                 target='_blank'
+                fluid
               />
               <Divider hidden />
-              <Header as='h1' content='lightHouse' className='Work-header' />
+              <Header as='h2' content='lightHouse' className='Work-header' />
               <p>
                 Full-stack web application that is meant to help women navigate their social outings in Los Angeles. Allows users to search neighborhoods for safety reviews, as well as provide their own input regarding its safety.
               </p>
@@ -105,11 +105,11 @@ const Work = () => {
                 alt='meetMeHalfway_small'
                 as='a'
                 href='https://pauline-ann.github.io/Meet-Me-Halfway/'
-                size='large'
                 target='_blank'
+                fluid
               />
               <Divider hidden />
-              <Header as='h1' content='Meet Me Halfway' className='Work-header' />
+              <Header as='h2' content='Meet Me Halfway' className='Work-header' />
               <p>
                 A study application made using React.js. Some of its features include: user log-in, quote generator, flashcards, to-do lists, reminders, notes, and a homepage summarizing all of the user's information.
               </p>

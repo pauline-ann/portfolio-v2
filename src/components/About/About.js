@@ -18,7 +18,7 @@ const About = () => {
           <Grid.Row centered>
             {/**********  PAGE HEADER  **********/}
             <Grid.Column mobile={16} tablet={4} computer={4}>
-              <Header as='h1' content='About' className='Section-header' />
+              <Header as='h2' content='About' className='Section-header' />
             </Grid.Column>
             <Grid.Column mobile={16} tablet={9} computer={8} className='About-column'>
               <Container fluid>
