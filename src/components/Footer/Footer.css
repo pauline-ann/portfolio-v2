@@ -18,3 +18,7 @@
     font-weight: normal;
     font-size: .9em;
 }
+
+i.huge.icon {
+    font-size: 4.8rem !important;
+}

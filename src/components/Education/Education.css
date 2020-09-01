@@ -1,5 +1,13 @@
-/* .education-div {
+div.content div.header {
+    padding-bottom: .5rem;
 }
 
-.Education-container {
-} */
+div.content div.description {
+    padding-bottom: .85rem;
+}
+
+@media (max-width: 56.25em) {
+    .Education-column {
+        padding: 0 3rem !important;
+    }
+}

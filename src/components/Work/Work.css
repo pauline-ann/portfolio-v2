@@ -10,3 +10,27 @@
 .projectImage:hover {
     opacity: 0.5;
 }
+
+.Project-row {
+    padding: 2rem !important;
+}
+
+.Project-top-column {
+    padding-bottom: 2rem;
+}
+
+h2.ui.header.Work-header {
+    color: rgba(29, 29, 29, 0.87) !important;
+}
+
+@media (max-width: 112.5em) {
+    h2.ui.header.Work-header {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 75em) {
+    h2.ui.header.Work-header {
+        font-size: 2.5rem !important;
+    }
+}
