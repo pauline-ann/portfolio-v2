@@ -1,13 +1,27 @@
 div.content div.header {
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 div.content div.description {
     padding-bottom: .85rem;
 }
 
+@media (max-width: 112.5em) {
+    div.content div.header {
+        padding-bottom: .5rem;
+        font-size: 1.5rem;
+    }   
+    div.content div.description {
+        padding-bottom: .85rem;
+    }
+}
+    
 @media (max-width: 56.25em) {
     .Education-column {
         padding: 0 3rem !important;
+    }
+    div.content div.header {
+        font-size: 2rem;
     }
 }

@@ -9,32 +9,31 @@
 
 .Masthead-logo-box {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 50px;
+    left: 50px;
 }
 
 .Masthead-logo {
-    height: 35px;
+    height: 75px;
     width: auto;
 }
 
 .Masthead-main-box {
     text-align: center !important;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
 
 .Masthead-avatar {
-    margin-bottom: 1rem;
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
 }
 
 h1.ui.header.Masthead-header-name {
-    font-size: 4rem;
+    font-size: 5.2rem;
     font-weight: 400;
     font-family: 'Assistant', sans-serif;
     color: rgb(199, 171, 231);
@@ -56,26 +55,33 @@ h1.ui.header.Masthead-header-name {
     animation-name: Fade-down;
     animation-duration: 1.5s;
     border-radius: 10rem !important;
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
 }
 
 @media (max-width: 112.5em) {
     .Masthead-avatar {
-        height: 11.5rem;
-        width: 11.5rem;
+        height: 13rem;
+        width: 13rem;
     }
     .Masthead-main-box {
         height: 100vh;
     }
-}
-
-@media (max-width: 75em) {
-    .Masthead-avatar {
-        height: 11.5rem;
-        width: 11.5rem;
+    h1.ui.header.Masthead-header-name {
+        font-size: 4rem;
+    }
+    .Masthead-logo {
+        height: 41px;
+        width: auto;
+    }
+    .Masthead-logo-box {
+        top: 30px;
+        left: 30px;
+    }
+    .Masthead-header-button {
+        font-size: 1.2rem !important;
     }
     .Masthead-main-box {
-        height: 100vh;
+        top: 50%;
     }
 }
 
@@ -94,15 +100,18 @@ h1.ui.header.Masthead-header-name {
         font-size: 1.7rem !important
     }
     h1.ui.header.Masthead-header-name {
-        font-size: 5rem;
+        font-size: 4.5rem;
+    }
+    .Masthead-logo {
+        height: 35px;
+        width: auto;
     }
 }
 
 @media (max-width: 37.5em) {
     .Masthead-avatar {
-        /* margin-top: 40%; */
-        height: 15rem;
-        width: 15rem;
+        height: 16rem;
+        width: 16rem;
     }
     .Masthead-header-name {
         font-size: 4.6rem;
