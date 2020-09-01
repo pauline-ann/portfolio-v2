@@ -16,6 +16,12 @@ h3.ui.header {
     }
 }
 
+@media (max-width: 75em) {
+    h3.ui.header {
+        font-size: 1.6rem;
+    }
+}
+
 @media (max-width: 52.65em) {
     .Skills-column {
         padding-left: 3rem !important;

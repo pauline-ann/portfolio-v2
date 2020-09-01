@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Icon } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 //CSS
 import './Footer.css';

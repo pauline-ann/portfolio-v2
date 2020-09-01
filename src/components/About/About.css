@@ -10,19 +10,19 @@
 }
 
 i.file.alternate.outline.icon {
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 .About-resume-button {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 75em) {
     i.file.alternate.outline.icon {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .About-resume-button {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 

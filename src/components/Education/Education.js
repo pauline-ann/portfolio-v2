@@ -1,7 +1,6 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Icon, Popup, Divider, Modal, List } from 'semantic-ui-react';
-import { Image } from 'react-image-and-background-image-fade';
+import { Grid, Container, Header, Divider, List } from 'semantic-ui-react';
 
 // CSS
 import './Education.css';
