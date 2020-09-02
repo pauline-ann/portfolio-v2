@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Divider, List, Image } from 'semantic-ui-react';
+import { Grid, Container, Header, Divider, List, Image, Icon } from 'semantic-ui-react';
 
 // CSS
 import './Work.css';
@@ -21,15 +21,22 @@ const Work = () => {
             {/**********  LEGEND OF MARCELINE  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column'>
-              <Image
-                className='projectImage'
-                src={lom_small}
-                alt='lom_small'
-                as='a'
-                href='https://adventure-game-lom.herokuapp.com/'
-                target='_blank'
-                fluid
-              />
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={lom_small}
+                  alt='lom_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://adventure-game-lom.herokuapp.com/' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
               <Divider hidden />
               <Header as='h2' content='The Legend of Marceline' className='Work-header' />
               <p>
@@ -42,15 +49,22 @@ const Work = () => {
             {/**********  ZEPHYR NODE  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Image
-                className='projectImage'
-                src={zephyr_small}
-                alt='zephyr_small'
-                as='a'
-                href='https://zephyr-node.herokuapp.com/'
-                target='_blank'
-                fluid
-              />
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={zephyr_small}
+                  alt='zephyr_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://zephyr-node.herokuapp.com/' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
               <Divider hidden />
               <Header as='h2' content='Zephyr Node' className='Work-header' />
               <p>
@@ -65,15 +79,22 @@ const Work = () => {
             {/**********  LIGHTHOUSE  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column'>
-              <Image
-                className='projectImage'
-                src={lightHouse_small}
-                alt='lightHouse_small'
-                as='a'
-                href='https://lighthouse-project2.herokuapp.com/'
-                target='_blank'
-                fluid
-              />
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={lightHouse_small}
+                  alt='lightHouse_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://lighthouse-project2.herokuapp.com/' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
               <Divider hidden />
               <Header as='h2' content='lightHouse' className='Work-header' />
               <p>
@@ -87,16 +108,23 @@ const Work = () => {
             {/**********  MEET ME HALFWAY  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8}>
-              <Image
-                className='projectImage'
-                src={meetMeHalfway_small}
-                transitionTime='0.7s'
-                alt='meetMeHalfway_small'
-                as='a'
-                href='https://pauline-ann.github.io/Meet-Me-Halfway/'
-                target='_blank'
-                fluid
-              />
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={meetMeHalfway_small}
+                  transitionTime='0.7s'
+                  alt='meetMeHalfway_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://pauline-ann.github.io/Meet-Me-Halfway/' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
               <Divider hidden />
               <Header as='h2' content='Meet Me Halfway' className='Work-header' />
               <p>
