@@ -13,7 +13,6 @@
     "path": "^0.12.7",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-image-and-background-image-fade": "^1.0.4",
     "react-router-dom": "^5.0.1",
     "react-router-hash-link": "^2.0.0",
     "react-scripts": "3.1.0",

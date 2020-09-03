@@ -43,7 +43,8 @@ a, a.listLink {
 }
 
 a:hover, a.listLink:hover {
-  text-decoration: underline;
+  text-decoration: none !important;
+  transform: scale(1.1);
 }
 
 .Section-divider {
