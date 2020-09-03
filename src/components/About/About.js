@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Grid, Header, List, Image } from 'semantic-ui-react';
+import { Container, Grid, Header, List, Image, Icon, Divider } from 'semantic-ui-react';
 
 //Image
 import Me from '../../assets/images/grad.jpg';
@@ -49,7 +49,6 @@ const About = () => {
                   className='About-image'
                 />
               </Container>
-              <br />
             </Grid.Column>
           </Grid.Row>
         </Grid>
