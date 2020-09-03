@@ -35,4 +35,7 @@ h3.ui.header.Skills-header {
         padding-bottom: 1rem;
         font-size: 2rem;
     }
+    div.ui.list {
+        padding-left: 1rem;
+    }
 }
