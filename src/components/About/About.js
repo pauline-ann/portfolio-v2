@@ -46,6 +46,7 @@ const About = () => {
                   centered
                   src={Me}
                   alt='graduation-profile'
+                  className='About-image'
                 />
               </Container>
               <br />

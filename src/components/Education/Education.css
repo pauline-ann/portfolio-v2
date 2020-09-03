@@ -1,6 +1,7 @@
 div.content div.header {
     padding-bottom: 1rem;
     font-size: 1.3rem;
+    color: rgba(26, 26, 26, 0.87) !important;
 }
 
 div.content div.description {

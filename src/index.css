@@ -27,7 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.5rem !important;
   font-weight: 400;
-  color: rgba(39, 39, 39, 0.87) !important;
+  color: rgba(44, 44, 44, 0.87) !important;
 }
 
 code {
@@ -35,7 +35,7 @@ code {
 }
 
 i {
-  color: rgba(39, 39, 39, 0.87) !important;
+  color: rgba(44, 44, 44, 0.87) !important;
 }
 
 a, a.listLink {
@@ -54,7 +54,7 @@ a:hover, a.listLink:hover {
 
 @media (max-width: 112.5em) {
   html {
-    font-size: 75% !important;
+    font-size: 70% !important;
   }
   .Section-header {
     font-size: 3rem !important;

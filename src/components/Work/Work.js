@@ -52,7 +52,7 @@ const Work = () => {
               <div className='Work-image-wrap'>
                 <Image
                   className='Work-image'
-                  src={zephyr_small}
+                  src={zephyr_small}r
                   alt='zephyr_small'
                   fluid
                 />

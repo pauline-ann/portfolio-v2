@@ -6,6 +6,12 @@
     font-size: 1.6em;
 }
 
+.About-image {
+    animation: fadeIn ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
 i.file.alternate.outline.icon {
     font-size: 2rem;
 }
