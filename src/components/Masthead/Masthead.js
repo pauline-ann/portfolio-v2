@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Header, Button, Divider, Image } from 'semantic-ui-react';
+import { Header, Button, Divider, Image, Icon } from 'semantic-ui-react';
 import { HashLink as HashLink } from 'react-router-hash-link';
 
 // Image
@@ -39,18 +39,26 @@ const Masthead = () => {
                         basic
                         color='violet'
                         className='Masthead-header-button'
+                        animated
                     >
-                        Work
-              </Button>
+                        <Button.Content visible>Work</Button.Content>
+                        <Button.Content hidden>
+                            <Icon name='angle double down' className='Masthead-header-button-icon'/>
+                        </Button.Content>
+                    </Button>
                     <Button
                         as={HashLink}
                         to='#about'
                         basic
                         color='violet'
                         className='Masthead-header-button'
+                        animated
                     >
-                        About
-            </Button>
+                        <Button.Content visible>About</Button.Content>
+                        <Button.Content hidden>
+                            <Icon name='angle double down' className='Masthead-header-button-icon'/>
+                        </Button.Content>
+                    </Button>
                 </div>
             </div>
         </div>
