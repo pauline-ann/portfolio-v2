@@ -19,7 +19,10 @@ const Masthead = () => {
                     <Image
                         src={logo}
                         alt='logo'
+                        as='a'
+                        href='https://www.paulineann.me/'
                         className='Masthead-logo'
+                        size='mini'
                     />
                 </div>
                 <div className='Masthead-main-box'>

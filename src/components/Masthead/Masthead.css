@@ -17,7 +17,7 @@
 }
 
 .Masthead-logo {
-    height: 75px;
+    height: 75px !important;
     width: auto;
 }
 
