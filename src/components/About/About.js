@@ -29,10 +29,10 @@ const About = () => {
                   I love the process of transforming ideas into functional, intuitive, and immersive web applications through design and code. Software development aligns with my innnate drive to solve problems, learn continuously, and get in touch with my creativity.
                 </p>
                 <p>
-                  Aside from continue to grow in skill as a developer, I'm interested in learning about artificial intelligence, video game development, and sustainable engineering. It's my goal to work within where my passions intersect and develop software that can make a positive social and environmental impact.
+                  Aside from continuing to grow in skill as a developer, I'm interested in learning about artificial intelligence, video game development, and sustainable engineering. It's my goal to work within where my passions intersect and develop software that can make a positive social and environmental impact.
                 </p>
                 <p>
-                  When I'm not coding, you can find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
+                  When I'm not coding, you may find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
                 <br />
                 <List className='About-resume-icon'>
