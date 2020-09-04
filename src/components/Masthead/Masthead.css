@@ -5,9 +5,9 @@
     background-position: top;
     background-repeat: no-repeat;
     position: relative;
-    animation: fadeIn ease 1.5s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    animation: fadeIn ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .Masthead-logo-box {
@@ -132,6 +132,15 @@ h1.ui.header.Masthead-header-name {
     }
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @keyframes fadeDown {
     from {
         opacity: 0;
@@ -140,14 +149,5 @@ h1.ui.header.Masthead-header-name {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
     }
 }
