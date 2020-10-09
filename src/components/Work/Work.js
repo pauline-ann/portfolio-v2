@@ -7,7 +7,7 @@ import './Work.css';
 
 // Images
 import outlandish_small from '../../assets/images/project_img/outlandish_small.png';
-import runyon_small from '../../assets/images/project_img/runyon_small.jpg';
+import runyon_small from '../../assets/images/project_img/runyon_small.png';
 import lom_small from '../../assets/images/project_img/lom_small.png';
 import plants_small from '../../assets/images/project_img/plants_small.jpg';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';

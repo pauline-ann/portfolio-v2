@@ -12,11 +12,12 @@
 }
 
 .Work-image {
-    opacity: 1;
+    opacity: .9;
     width: 100%;
     height: auto;
     transition: .3s ease;
     backface-visibility: hidden;
+    filter:drop-shadow(7px 7px 10px rgb(138, 138, 138));
 }
 
 .Work-image-description {
