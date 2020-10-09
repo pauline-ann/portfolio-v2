@@ -42,7 +42,7 @@ const Work = () => {
               <Divider hidden />
               <Header as='h2' content='Blog' className='Work-header' />
               <p>
-                Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (SEO, image optimization, mobile responsiveness) and tailored the WordPress theme's CSS to achieve our desired function and design.</p>
+                Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.</p>
               <Divider hidden />
             </Grid.Column>
             {/**********  RUNYON CANYON  **********/}
@@ -67,7 +67,7 @@ const Work = () => {
               <Divider hidden />
               <Header as='h2' content='Runyon Canyon' className='Work-header' />
               <p>
-                Collaborated with the Department of Parks and Recreation to create this informative website for Runyon Canyon Park in Los Angeles, CA.
+                Collaborated with the Department of Recreation and Parks to create this informative website for Runyon Canyon Park in Los Angeles, CA.
               </p>
               <Divider hidden />
             </Grid.Column>
@@ -95,7 +95,7 @@ const Work = () => {
               <Divider hidden />
               <Header as='h2' content='Promotional' className='Work-header' />
               <p>
-                A promotional website designed and built for a fictional video game, "The Legend of Marceline". Built to be modern and highly responsive entirely with HTML and compiled Sass code; no open source CSS frameworks were used.              </p>
+                A promotional website designed and built for a fictional video game, The Legend of Marceline. Built to be modern, highly responsive, and filled with animations using HTML, Sass, and one line of JavaScript.              </p>
               <List>
                 <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank'>View Source Code</a>} />
               </List>
@@ -153,7 +153,7 @@ const Work = () => {
               <Divider hidden />
               <Header as='h2' content='Productivity' className='Work-header' />
               <p>
-                "Zephyr Node" is a React web application that seeks to help users reach their productivity goals.  Features include user log-in, a quote generator, flashcards, to-do lists, reminders, notes, and a homepage that summarizes all of the user's information.
+                Zephyr Node is a React web application that seeks to help users reach their productivity goals.  Features include user log-in, a quote generator, flashcards, to-do lists, reminders, notes, and a homepage that summarizes all of the user's information.
               </p>
               <List>
                 <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Zephyr-Node' className='listLink'>View Source Code</a>} />
@@ -182,7 +182,7 @@ const Work = () => {
               <Divider hidden />
               <Header as='h2' content='Maps & Food' className='Work-header' />
               <p>
-                "Meet Me Halfway" utilizes the Google Maps and Yelp APIs to ease the process of making plans with friends. This app populates businesses/restaurants onto a map, based off of a middle point between 2 addresses.
+                Meet Me Halfway utilizes the Google Maps and Yelp APIs to ease the process of making plans with friends. This app populates businesses/restaurants onto a map, based off of a middle point between 2 addresses.
               </p>
               <List>
                 <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Meet-Me-Halfway' className='listLink'>View Source Code</a>} />
