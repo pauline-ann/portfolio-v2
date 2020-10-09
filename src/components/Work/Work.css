@@ -47,11 +47,15 @@
 }
 
 .Project-row {
-    padding: 2rem !important;
+    padding: 0 2rem !important;
 }
 
 .Project-top-column {
     padding-bottom: 2rem;
+}
+
+.Project-column {
+    padding: .8rem 2rem !important;
 }
 
 h2.ui.header.Work-header {

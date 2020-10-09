@@ -20,7 +20,7 @@ const Masthead = () => {
                         src={logo}
                         alt='logo'
                         as='a'
-                        href='https://www.paulineann.me/'
+                        href='/'
                         className='Masthead-logo'
                         size='mini'
                     />

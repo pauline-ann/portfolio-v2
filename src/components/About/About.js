@@ -23,16 +23,13 @@ const About = () => {
             <Grid.Column mobile={16} tablet={9} computer={8} className='About-column'>
               <Container fluid>
                 <p>
-                  Hello! I'm Pauline, a Full Stack Software Developer from Los Angeles, CA.
+                  Software development aligns with my innate drive to solve problems, learn continuously, and get in touch with my creativity. I love the process of transforming ideas into functional, intuitive, and immersive web applications through design and code.
                 </p>
                 <p>
-                  I love the process of transforming ideas into functional, intuitive, and immersive web applications through design and code. Software development aligns with my innnate drive to solve problems, learn continuously, and get in touch with my creativity.
+                  I am constantly keeping up to date with industry best practices and emerging trends, looking for ways to implement them into my work. It is important to me to always striving to improve and being open to learn new ideas.
                 </p>
                 <p>
-                  Aside from continuing to grow in skill as a developer, I'm interested in learning about artificial intelligence, video game development, and sustainable engineering. It's my goal to work within where my passions intersect and develop software that can make a positive social and environmental impact.
-                </p>
-                <p>
-                  When I'm not coding, you may find me enjoying my favorite leisure activities such as trying out new recipes, playing video games, or backpacking and exploring the world!
+                  When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing or painting, trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
                 <br />
                 <List className='About-resume-icon'>
