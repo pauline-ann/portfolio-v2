@@ -16,7 +16,7 @@ html {
   font-family: 'Assistant', sans-serif !important;
   font-weight: 600 !important;
   padding-bottom: .7em !important;
-  color: rgb(192, 161, 226) !important;
+  color: rgb(118, 152, 212) !important;
   font-size: 3.2rem !important;
 }
 
@@ -39,7 +39,7 @@ i {
 }
 
 a, a.listLink {
-  color: rgb(151, 112, 196)!important;
+  color: rgb(118, 152, 212) !important;
 }
 
 a:hover, a.listLink:hover {

@@ -40,7 +40,7 @@ const Masthead = () => {
                         as={HashLink}
                         to='#work'
                         basic
-                        color='violet'
+                        color='primary'
                         className='Masthead-header-button'
                         animated
                     >
@@ -53,7 +53,7 @@ const Masthead = () => {
                         as={HashLink}
                         to='#about'
                         basic
-                        color='violet'
+                        color='primary'
                         className='Masthead-header-button'
                         animated
                     >

@@ -12,10 +12,11 @@ const Error404 = (props) => {
                     as={Link}
                     to='/'
                     basic
-                    color='violet'
+                    color='primary'
+                    size='huge'
                 >
                     <Icon
-                        color='violet'
+                        color='primary'
                         name='home'
                     />
                     Back to home

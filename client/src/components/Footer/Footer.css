@@ -1,14 +1,13 @@
 .footer-div {
-    background-color: lavender;
+    background-color: #f5f5f5;
 }
 
 .Footer-container {
-    background-color: lavender;
     background: transparent;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 1em;
+    padding: 1em 0;
     margin-bottom: 0;
     position: relative;
     text-align: center;
@@ -26,5 +25,5 @@ i.huge.icon {
 
 i.huge.icon:hover {
     color: slategrey;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
