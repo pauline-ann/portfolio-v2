@@ -6,10 +6,10 @@ import { Grid, Container, Header, Divider, List, Image, Icon } from 'semantic-ui
 import './Work.css';
 
 // Images
-import outlandish_small from '../../assets/images/project_img/outlandish_small.jp2';
-import griffith_small from '../../assets/images/project_img/griffith_small.jp2';
+import outlandish_small from '../../assets/images/project_img/outlandish_small.jpg';
+import griffith_small from '../../assets/images/project_img/griffith_small.jpg';
 import runyon_small from '../../assets/images/project_img/runyon_small.png';
-import learntoswim_small from '../../assets/images/project_img/learntoswim_small.jp2';
+import learntoswim_small from '../../assets/images/project_img/learntoswim_small.jpg';
 import lom_small from '../../assets/images/project_img/lom_small.png';
 import plants_small from '../../assets/images/project_img/plants_small.jpg';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';
@@ -19,9 +19,6 @@ const Work = () => {
 
   return (
     <div className='work-div'>
-      <picture>
-        <source type='image/jp2' srcset='../../assets/images/project_img/outlandish_small.jp2' />
-      </picture>
       <Container className='Work-container' id='work'>
         <Grid>
           <Grid.Row className='Project-row'>
@@ -29,18 +26,15 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <picture>
-                  <source type='image/jp2' srcset='../../assets/images/project_img/outlandish_small.jp2' />
-                </picture>
-                {/* <Image
+                <Image
                   className='Work-image'
                   src={outlandish_small}
                   alt='outlandish_small'
                   type='image/jp2'
                   fluid
-                /> */}
+                />
                 <div className='Work-image-description'>
-                  <a href='https://outlandish.blog/' target='_blank'
+                  <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -65,7 +59,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank'
+                  <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -94,7 +88,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://www.laparks.org/runyon' target='_blank'
+                  <a href='https://www.laparks.org/runyon' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -119,7 +113,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://www.swimla.org/' target='_blank'
+                  <a href='https://www.swimla.org/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -148,7 +142,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://adventure-game-lom.herokuapp.com/' target='_blank'
+                  <a href='https://adventure-game-lom.herokuapp.com/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -161,7 +155,7 @@ const Work = () => {
               <p>
                 A promotional website designed and built for a fictional video game, The Legend of Marceline. Built to be modern, highly responsive, and filled with animations using HTML, Sass, and one line of JavaScript.              </p>
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank'>View Source Code</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank' rel='noreferrer'>View Source Code</a>} />
               </List>
               <Divider hidden />
             </Grid.Column>
@@ -176,7 +170,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://pauline-ann.github.io/template-1/' target='_blank'
+                  <a href='https://pauline-ann.github.io/template-1/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -189,7 +183,7 @@ const Work = () => {
               <p>
                 A very simple layout template for a plant store featuring a sleek and minimal design that follows the color palette of the header. Includes a responsive navbar and image hover effects.</p>
               <List>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank'>View Source Code</a>} />
+                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank' rel='noreferrer'>View Source Code</a>} />
               </List>
               <Divider hidden />
             </Grid.Column>
@@ -206,7 +200,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://zephyr-node.herokuapp.com/' target='_blank'
+                  <a href='https://zephyr-node.herokuapp.com/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'
@@ -235,7 +229,7 @@ const Work = () => {
                   fluid
                 />
                 <div className='Work-image-description'>
-                  <a href='https://pauline-ann.github.io/Meet-Me-Halfway/' target='_blank'
+                  <a href='https://pauline-ann.github.io/Meet-Me-Halfway/' target='_blank' rel='noreferrer'
                   ><Icon
                       name='linkify'
                       color='grey'

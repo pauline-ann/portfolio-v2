@@ -42,7 +42,7 @@ const Contact = () => {
                             </a>
                         </Grid.Column>
                         <Grid.Column>
-                            <a href='mailto:paulinebantayan@gmail.com'>
+                            <a href={`mailto:${email}`}>
                                 <Icon
                                     name='mail'
                                     link
@@ -50,7 +50,7 @@ const Contact = () => {
                             </a>
                         </Grid.Column>
                         <Grid.Column>
-                            <a href='tel:3233479057'>
+                            <a href={`tel:${phoneNum}`}>
                                 <Icon
                                     name='phone volume'
                                     link

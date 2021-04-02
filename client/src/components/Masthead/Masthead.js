@@ -1,7 +1,7 @@
 //Dependencies
 import React from 'react';
 import { Header, Button, Divider, Image, Icon } from 'semantic-ui-react';
-import { HashLink as HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 // Image
 import Avatar from '../../assets/images/ny.jpeg';
