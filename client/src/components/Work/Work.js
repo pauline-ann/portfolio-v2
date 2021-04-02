@@ -6,8 +6,10 @@ import { Grid, Container, Header, Divider, List, Image, Icon } from 'semantic-ui
 import './Work.css';
 
 // Images
-import outlandish_small from '../../assets/images/project_img/outlandish_small.png';
+import outlandish_small from '../../assets/images/project_img/outlandish_small.jp2';
+import griffith_small from '../../assets/images/project_img/griffith_small.jp2';
 import runyon_small from '../../assets/images/project_img/runyon_small.png';
+import learntoswim_small from '../../assets/images/project_img/learntoswim_small.jp2';
 import lom_small from '../../assets/images/project_img/lom_small.png';
 import plants_small from '../../assets/images/project_img/plants_small.jpg';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';
@@ -17,6 +19,9 @@ const Work = () => {
 
   return (
     <div className='work-div'>
+      <picture>
+        <source type='image/jp2' srcset='../../assets/images/project_img/outlandish_small.jp2' />
+      </picture>
       <Container className='Work-container' id='work'>
         <Grid>
           <Grid.Row className='Project-row'>
@@ -24,12 +29,16 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <picture>
+                  <source type='image/jp2' srcset='../../assets/images/project_img/outlandish_small.jp2' />
+                </picture>
+                {/* <Image
                   className='Work-image'
                   src={outlandish_small}
                   alt='outlandish_small'
+                  type='image/jp2'
                   fluid
-                />
+                /> */}
                 <div className='Work-image-description'>
                   <a href='https://outlandish.blog/' target='_blank'
                   ><Icon
@@ -45,6 +54,35 @@ const Work = () => {
                 Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.</p>
               <Divider hidden />
             </Grid.Column>
+            {/**********  GRIFFITH PARK  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={griffith_small}
+                  alt='griffith_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
+              <Divider hidden />
+              <Header as='h2' content='Griffith Park' className='Work-header' />
+              <p>
+                Collaborated with the Department of Recreation and Parks to create this informative website for Griffith Park in Los Angeles, CA.
+              </p>
+              <Divider hidden />
+            </Grid.Column>
+          </Grid.Row>
+
+          <Grid.Row className='Project-row'>
             {/**********  RUNYON CANYON  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
@@ -69,9 +107,35 @@ const Work = () => {
               <p>
                 Collaborated with the Department of Recreation and Parks to create this informative website for Runyon Canyon Park in Los Angeles, CA.
               </p>
+            </Grid.Column>
+            {/**********  Swim LA **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={learntoswim_small}
+                  alt='learntoswim_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://www.swimla.org/' target='_blank'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
+              <Divider hidden />
+              <Header as='h2' content='Swim LA' className='Work-header' />
+              <p>
+                Collaborated with the Department of Recreation and Parks to help create this promotional website for Swim LA, a swimming program to teach the youth in Los Angeles, CA.
+              </p>
               <Divider hidden />
             </Grid.Column>
           </Grid.Row>
+
           <Grid.Row className='Project-row'>
             {/**********  LEGEND OF MARCELINE  **********/}
             {/**********  DESCRIPTION  **********/}

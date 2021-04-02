@@ -1,44 +1,25 @@
 {
-  "name": "reactfolio",
-  "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "npm": "6.9.0",
-    "yarn": "1.10.1",
-    "node": "12.5.0"
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Pauline Ann Bantayan's Online Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "dev": "concurrently \"node server.js\" \"cd client && yarn start\"",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauline-ann/portfolio-v2.git"
+  },
+  "author": "Pauline Ann Bantayan",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "path": "^0.12.7",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
-    "react-router-hash-link": "^2.0.0",
-    "react-scripts": "3.1.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.3"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "dev-start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "concurrently": "^4.1.2"
   }
 }
