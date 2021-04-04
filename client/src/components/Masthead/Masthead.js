@@ -13,7 +13,7 @@ import './Masthead.css';
 const Masthead = () => {
 
     return (
-        <div>
+        <React.Fragment>
             <div className='Masthead'>
                 <div className='Masthead-logo-box'>
                     <Image
@@ -46,7 +46,7 @@ const Masthead = () => {
                     >
                         <Button.Content visible>Work</Button.Content>
                         <Button.Content hidden>
-                            <Icon name='angle double down' className='Masthead-header-button-icon'/>
+                            <Icon name='angle double down' className='Masthead-header-button-icon' />
                         </Button.Content>
                     </Button>
                     <Button
@@ -59,12 +59,12 @@ const Masthead = () => {
                     >
                         <Button.Content visible>About</Button.Content>
                         <Button.Content hidden>
-                            <Icon name='angle double down' className='Masthead-header-button-icon'/>
+                            <Icon name='angle double down' className='Masthead-header-button-icon' />
                         </Button.Content>
                     </Button>
                 </div>
             </div>
-        </div>
+        </React.Fragment>
     );
 }
 

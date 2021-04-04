@@ -1,10 +1,6 @@
-.work-div {
-    background-color: rgb(195, 213, 241);
-}
-
 .Work-container {
     padding-top: 9em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
 }
 
 .Work-image-wrap {
@@ -17,7 +13,7 @@
     height: auto;
     transition: .3s ease;
     backface-visibility: hidden;
-    filter:drop-shadow(7px 7px 10px rgb(138, 138, 138));
+    filter:drop-shadow(7px 7px 10px rgb(52, 39, 61));
 }
 
 .Work-image-description {
@@ -34,10 +30,6 @@
     transition: opacity .5s ease visibility .2s;
 }
 
-.Work-image-wrap .Work-image-description a{
-    color: grey !important;
-}
-
 .Work-image-wrap:hover .Work-image {
     opacity: .3;
 }
@@ -45,10 +37,6 @@
 .Work-image-wrap:hover .Work-image-description {
     visibility: visible;
     opacity: 1;
-}
-
-.Project-row {
-    padding: 0 2rem !important;
 }
 
 .Project-top-column {
@@ -60,7 +48,7 @@
 }
 
 h2.ui.header.Work-header {
-    color: rgba(29, 29, 29, 0.87) !important;
+    color: #edf7f6  !important;
     font-size: 2.3rem !important;
 }
 

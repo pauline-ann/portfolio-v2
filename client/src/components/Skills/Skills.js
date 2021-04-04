@@ -11,7 +11,7 @@ import './Skills.css';
 const Skills = () => {
 
     return (
-        <div className='skills-div'>
+        <div className='skills-div' id='skills'>
             <Container className='Skills-container' id='skills'>
                 <Grid>
                     <Grid.Row columns={4} >

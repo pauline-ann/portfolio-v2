@@ -17,9 +17,9 @@
   "author": "Pauline Ann Bantayan",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^4.1.2",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
-    "path": "^0.12.7",
-    "concurrently": "^4.1.2"
+    "path": "^0.12.7"
   }
 }

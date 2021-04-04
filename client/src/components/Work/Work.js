@@ -18,7 +18,7 @@ import meetMeHalfway_small from '../../assets/images/project_img/mmh_small.jpg';
 const Work = () => {
 
   return (
-    <div className='work-div'>
+    <div className='work-div' id='work'>
       <Container className='Work-container' id='work'>
         <Grid>
           <Grid.Row className='Project-row'>
@@ -247,6 +247,7 @@ const Work = () => {
               </List>
             </Grid.Column>
           </Grid.Row>
+          <Divider className='Section-divider'/>
         </Grid>
       </Container>
     </div>
