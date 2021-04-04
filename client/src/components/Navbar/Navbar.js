@@ -12,7 +12,7 @@ const Navbar = () => {
     const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com');
 
     return (
-        <React.Fragment>
+        <React.Fragment id='top'>
             <Container className='Navbar-container' textAlign='center'>
                 <a href='/'>
                     <Header as='h2'>

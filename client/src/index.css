@@ -42,7 +42,6 @@ i {
 
 a, a.listLink {
   color: #f595a5 !important;
-  text-decoration: underline;
 }
 
 a:hover, a.listLink:hover {
