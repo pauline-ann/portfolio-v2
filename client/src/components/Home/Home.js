@@ -3,7 +3,6 @@ import React from 'react';
 
 //Components
 import Navbar from '../Navbar/Navbar';
-import Masthead from '../Masthead/Masthead';
 import Work from '../Work/Work';
 import Skills from '../Skills/Skills';
 import Education from '../Education/Education';
@@ -18,7 +17,6 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      {/* <Masthead /> */}
       <Work />
       <Skills />
       <Education />
