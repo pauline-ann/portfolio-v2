@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Grid, Header, List, Image, Divider } from 'semantic-ui-react';
+import { Container, Grid, Header, List, Image } from 'semantic-ui-react';
 
 //Image
 import Me from '../../assets/images/grad.jpg';
@@ -12,7 +12,7 @@ import './About.css';
 const About = () => {
 
   return (
-    <div className='about-div'>
+    <div>
       <Container className='About-container' id='about'>
         <Grid>
           <Grid.Row centered>
