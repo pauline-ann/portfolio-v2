@@ -1,6 +1,7 @@
 // Dependencies
 import React from 'react';
 import { Grid, Container, Header, Divider, List, Image, Icon, Tab } from 'semantic-ui-react';
+import ImageFadeIn from 'react-image-fade-in';
 
 // CSS
 import './Work.css';
@@ -30,7 +31,7 @@ const Work = () => {
               {/**********  DESCRIPTION  **********/}
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <div className='Work-image-wrap'>
-                  <Image
+                  <ImageFadeIn
                     className='Work-image'
                     src={kdara_small}
                     alt='kdara_small'
@@ -56,7 +57,7 @@ const Work = () => {
               {/**********  DESCRIPTION  **********/}
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <div className='Work-image-wrap'>
-                  <Image
+                  <ImageFadeIn
                     className='Work-image'
                     src={griffith_small}
                     alt='griffith_small'
@@ -85,7 +86,7 @@ const Work = () => {
               {/**********  DESCRIPTION  **********/}
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <div className='Work-image-wrap'>
-                  <Image
+                  <ImageFadeIn
                     className='Work-image'
                     src={runyon_small}
                     alt='runyon_small'
@@ -110,7 +111,7 @@ const Work = () => {
               {/**********  DESCRIPTION  **********/}
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <div className='Work-image-wrap'>
-                  <Image
+                  <ImageFadeIn
                     className='Work-image'
                     src={learntoswim_small}
                     alt='learntoswim_small'
@@ -145,7 +146,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={foodie_small}
                   alt='foodie_small'
@@ -175,7 +176,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={outlandish_small}
                   alt='outlandish_small'
@@ -202,7 +203,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={lom_small}
                   alt='lom_small'
@@ -230,7 +231,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={plants_small}
                   alt='plants_small'
@@ -258,7 +259,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={zephyr_small} r
                   alt='zephyr_small'
@@ -286,7 +287,7 @@ const Work = () => {
             {/**********  DESCRIPTION  **********/}
             <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
               <div className='Work-image-wrap'>
-                <Image
+                <ImageFadeIn
                   className='Work-image'
                   src={meetMeHalfway_small}
                   transitionTime='0.7s'
@@ -319,7 +320,7 @@ const Work = () => {
   return (
     <div>
       <Container className='Work-container' id='work'>
-        <Tab menu={{ secondary: true, style: { display: 'flex', justifyContent: 'center', fontSize: '1.9rem', marginLeft: '-45px' } }} panes={panes} />
+        <Tab menu={{ secondary: true }} className='Work-tab-menu' panes={panes} />
         <Divider className='Section-divider' />
       </Container>
     </div>

@@ -40,12 +40,12 @@ const Navbar = () => {
                 </Breadcrumb>
                 <Divider />
                 <Header as='h1' className='Navbar-header'>
-                    Hi! I'm Pauline Bantayan, a full-stack developer based in Los Angeles.
+                    Hi! I'm Pauline Bantayan, a Full Stack Developer based in LA.
                 </Header>
-                <Container text>
-                    <Header as='h2' inverted className='Navbar-text'>
-                        I love the process of transforming ideas into intuitive and immersive web applications through design and code.
-                    </Header>
+                <Container text textAlign='left'>
+                    <p className='Navbar-header-sub'>
+                        I specialize in transforming ideas into intuitive and immersive web applications through thoughtful design and code.
+                    </p>
                     <List link size='massive' className='Navbar-list'>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#work'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     </List>
                 </Container>
             </Container>
-        </React.Fragment>
+        </React.Fragment >
     );
 }
 

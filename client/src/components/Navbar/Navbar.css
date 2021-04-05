@@ -14,20 +14,24 @@
 
 .Navbar-header {
     color: #f595a5 !important;
-    font-size: 3rem !important;
-    padding: 2rem 0 !important;
 }
 
-.Navbar-text {
-    font-size: 2rem !important;
-    font-weight: 600 !important;
+.Navbar-header {
+    font-size: 3.2rem !important;
+    padding: 2rem 0 1rem 0 !important;
 }
 
-.Navbar-list {
-    text-align: left;
-    padding-left: 200px !important;
-    padding-top: 1rem !important;
+.Navbar-header-sub {
     font-size: 2.1rem !important;
+    font-weight: 600 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.ui.massive.link.list.Navbar-list {
+    text-align: left;
+    /* padding-left: 200px; */
+    padding-top: 1rem;
+    font-size: 2.1rem;
 }
 
 .Navbar-list-link {
@@ -58,4 +62,10 @@
     font-family: 'Noto Serif', serif;
     color: black;
     font-style: bold;
+}
+
+@media (max-width: 56.25em) {
+    div.ui.massive.link.list.Navbar-list {
+        padding-left: 0;
+    }
 }

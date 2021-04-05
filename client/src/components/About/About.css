@@ -12,9 +12,16 @@ i.file.alternate.outline.icon {
     font-size: 2rem;
 }
 
-.About-resume-button {
-    font-size: 1.6rem;
+div.ui.list.About-resume-list {
+    font-size: 1.4rem;
+    padding-left: 0;
 }
+
+i.file.alternate.outline.icon.About-resume-button {
+    font-size: 1.2rem;
+}
+
+/* tablet landscape */
 
 @media (max-width: 75em) {
     i.file.alternate.outline.icon {
@@ -25,6 +32,8 @@ i.file.alternate.outline.icon {
     }
 }
 
+/* tablet portable */
+
 @media (max-width: 56.25em) {
     i.file.alternate.outline.icon {
         font-size: 3rem;
@@ -33,6 +42,8 @@ i.file.alternate.outline.icon {
         font-size: 2rem;
     }
 }
+
+/* phone */
 
 @media (max-width: 37.5em) {
     .About-column {
