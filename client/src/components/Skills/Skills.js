@@ -40,7 +40,11 @@ const Skills = () => {
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon name='react' />
-                                    <List.Content>React</List.Content>
+                                    <List.Content>React + React Hooks</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-sass-plain'></i></List.Icon>
+                                    <List.Content>Sass</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon><i className='devicon-bootstrap-plain'></i></List.Icon>
@@ -81,7 +85,7 @@ const Skills = () => {
                                 </List.Item>
                             </List>
                         </Grid.Column>
-                        <Grid.Column mobile={5} tablet={4} computer={4}  className='Skills-column'>
+                        <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
                             <Header as='h3' content='Tools' className='Skills-header' />
                             <List>
                                 <List.Item>
@@ -89,33 +93,41 @@ const Skills = () => {
                                     <List.Content>Git</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='github alternate' />
+                                    <List.Icon><i className="devicon-github-original" /></List.Icon>
                                     <List.Content>GitHub</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='gitlab' />
-                                    <List.Content>GitLab</List.Content>
+                                    <List.Icon><i className="devicon-npm-original-wordmark" /></List.Icon>
+                                    <List.Content>npm</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className="devicon-yarn-plain" /></List.Icon>
+                                    <List.Content>Yarn</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon><i className='devicon-heroku-original' /></List.Icon>
                                     <List.Content>Heroku</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='chrome' />
-                                    <List.Content>Chrome Developer Tools</List.Content>
+                                    <List.Icon><i className="devicon-firebase-plain" /></List.Icon>
+                                    <List.Content>Firebase</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon><i className='devicon-visualstudio-plain' /></List.Icon>
                                     <List.Content>Visual Studio Code</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='trello' />
-                                    <List.Content>Trello</List.Content>
+                                    <List.Icon><i className='devicon-wordpress-plain' /></List.Icon>
+                                    <List.Content>WordPress</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-woocommerce-plain' /></List.Icon>
+                                    <List.Content>Woo Commerce</List.Content>
                                 </List.Item>
                             </List>
                         </Grid.Column>
                     </Grid.Row>
-                    <Divider className='Section-divider'/>
+                    <Divider className='Section-divider' />
                 </Grid>
             </Container >
         </div >
