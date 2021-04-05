@@ -40,7 +40,7 @@ const Navbar = () => {
                 </Breadcrumb>
                 <Divider />
                 <Header as='h1' className='Navbar-header'>
-                    Hi! I'm Pauline Bantayan, a front-end developer based in Los Angeles.
+                    Hi! I'm Pauline Bantayan, a full-stack developer based in Los Angeles.
                 </Header>
                 <Container text>
                     <Header as='h2' inverted className='Navbar-text'>

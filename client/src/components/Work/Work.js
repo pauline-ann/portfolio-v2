@@ -49,8 +49,8 @@ const Work = () => {
                 <Divider hidden />
                 <Header as='h2' content="K'dara" className='Work-header' />
                 <p className='Work-text'>
-                  Full website revamp.
-              </p>
+                  Assisted client in redesigning and developing a new WordPress website for a CBD company in Los Angeles.
+                </p>
               </Grid.Column>
               {/**********  GRIFFITH PARK  **********/}
               {/**********  DESCRIPTION  **********/}
@@ -74,7 +74,7 @@ const Work = () => {
                 <Divider hidden />
                 <Header as='h2' content='Griffith Park' className='Work-header' />
                 <p className='Work-text'>
-                  Collaborated with the Department of Recreation and Parks to create this informative website for Griffith Park in Los Angeles, CA.
+                  Worked with the City of Los Angeles Department of Recreation and Parks to add new features and maintain upkeep for the Griffith Park website.
               </p>
                 <Divider hidden />
               </Grid.Column>
@@ -103,7 +103,7 @@ const Work = () => {
                 <Divider hidden />
                 <Header as='h2' content='Runyon Canyon' className='Work-header' />
                 <p className='Work-text'>
-                  Collaborated with the Department of Recreation and Parks to create this informative website for Runyon Canyon Park in Los Angeles, CA.
+                  Collaborated with the City of Los Angeles Department of Recreation and Parks to create this informative website for the popular Runyon Canyon Park.
               </p>
               </Grid.Column>
               {/**********  Swim LA **********/}
@@ -166,6 +166,9 @@ const Work = () => {
               <p className='Work-text'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
+              <List size='huge'>
+                <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/blog-react' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
+              </List>
               <Divider hidden />
             </Grid.Column>
             {/**********  OUTLANDISH BLOG  **********/}
@@ -219,7 +222,7 @@ const Work = () => {
               <p className='Work-text'>
                 A promotional website designed and built for a fictional video game, The Legend of Marceline. Built to be modern, highly responsive, and filled with animations using HTML, Sass, and one line of JavaScript.              </p>
               <List size='huge'>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank' rel='noreferrer'>View Source Code</a>} />
+                <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
               </List>
               <Divider hidden />
             </Grid.Column>
@@ -243,11 +246,11 @@ const Work = () => {
                 </div>
               </div>
               <Divider hidden />
-              <Header as='h2' content='Plants' className='Work-header' />
+              <Header as='h2' content='Plant Store' className='Work-header' />
               <p className='Work-text'>
                 A very simple layout template for a plant store featuring a sleek and minimal design that follows the color palette of the header. Includes a responsive navbar and image hover effects.</p>
               <List size='huge'>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank' rel='noreferrer'>View Source Code</a>} />
+                <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
               </List>
               <Divider hidden />
             </Grid.Column>
@@ -271,12 +274,41 @@ const Work = () => {
                 </div>
               </div>
               <Divider hidden />
-              <Header as='h2' content='Productivity' className='Work-header' />
+              <Header as='h2' content='Productivity App' className='Work-header' />
               <p className='Work-text'>
                 Zephyr Node is a React web application that seeks to help users reach their productivity goals.  Features include user log-in, a quote generator, flashcards, to-do lists, reminders, notes, and a homepage that summarizes all of the user's information.
               </p>
               <List size='huge'>
-                <List.Item icon='github' content={<a href='https://github.com/pauline-ann/Zephyr-Node' className='listLink'>View Source Code</a>} />
+                <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/Zephyr-Node' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
+              </List>
+            </Grid.Column>
+            {/**********  MEET ME HALFWAY  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <div className='Work-image-wrap'>
+                <Image
+                  className='Work-image'
+                  src={meetMeHalfway_small}
+                  transitionTime='0.7s'
+                  alt='meetMeHalfway_small'
+                  fluid
+                />
+                <div className='Work-image-description'>
+                  <a href='https://pauline-ann.github.io/Meet-Me-Halfway/' target='_blank' rel='noreferrer'
+                  ><Icon
+                      name='linkify'
+                      color='grey'
+                      link
+                      size='big' /></a>
+                </div>
+              </div>
+              <Divider hidden />
+              <Header as='h2' content='Maps & Food' className='Work-header' />
+              <p className='Work-text'>
+                Meet Me Halfway utilizes the Google Maps and Yelp APIs to ease the process of making plans with friends. This app populates businesses/restaurants onto a map, based off of a middle point between 2 addresses.
+              </p>
+              <List size='huge'>
+                <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/Meet-Me-Halfway' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
               </List>
             </Grid.Column>
           </Grid>
