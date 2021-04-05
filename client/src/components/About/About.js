@@ -35,7 +35,7 @@ const About = () => {
                   When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing or painting, trying out new recipes, playing video games, or backpacking and exploring the world!
                 </p>
                 <Divider hidden />
-                <List className='About-resume-list' >
+                <List className='About-resume-list' size='large' >
                   <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink About-resume-button'>View Resume</a>} />
                 </List>
               </Container>

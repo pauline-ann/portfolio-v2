@@ -3,6 +3,10 @@
     padding-top: 5rem;
 }
 
+.Footer-container > a.back-to-top:hover {
+    text-decoration: none;
+}
+
 i.huge.icon {
     font-size: 3.8rem !important;
     transition: transform .3s;

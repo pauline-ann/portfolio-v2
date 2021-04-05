@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div>
             <Container textAlign='center' className='Footer-container'>
-                <a href='#top'>
+                <a href='#top' className='back-to-top'>
                     <Icon name='chevron up' size='huge' />
                 </a>
                 <Divider hidden section/>
