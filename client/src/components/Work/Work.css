@@ -23,8 +23,8 @@
     backface-visibility: hidden;
     filter: drop-shadow(7px 7px 15px rgb(37, 30, 43));
 }
-/* 
-.Work-image-description {
+
+/* .Work-image-description {
     position: absolute;
     text-align: center;
     font-size: 2rem;
