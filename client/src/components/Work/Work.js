@@ -42,8 +42,7 @@ const Work = () => {
                   <Divider hidden />
                   <Header as='h2' content="K'dara" className='Work-header' />
                   <p className='Work-text'>
-                    Assisted client in redesigning and developing a new WordPress website for a CBD company in Los Angeles.
-                </p>
+                    Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
                 </a>
               </Grid.Column>
               {/**********  GRIFFITH PARK  **********/}
@@ -61,8 +60,8 @@ const Work = () => {
                   <Divider hidden />
                   <Header as='h2' content='Griffith Park' className='Work-header' />
                   <p className='Work-text'>
-                    Worked with the City of Los Angeles Department of Recreation and Parks to add new features and maintain upkeep for the Griffith Park website.
-              </p>
+                    Added new features and new information to the Griffith Park homepage to welcome their new Parkline Shuttle program, alongside maintaining regular upkeep.
+                  </p>
                   <Divider hidden />
                 </a>
               </Grid.Column>
@@ -83,7 +82,7 @@ const Work = () => {
                   <Divider hidden />
                   <Header as='h2' content='Runyon Canyon' className='Work-header' />
                   <p className='Work-text'>
-                    Collaborated with the City of Los Angeles Department of Recreation and Parks to create this informative website for the popular Runyon Canyon Park.
+                    Collaborated with the Department of Recreation and Parks to create an informational webpage for the popular Runyon Canyon Park in Los Angeles.
               </p>
                 </a>
               </Grid.Column>
@@ -102,7 +101,7 @@ const Work = () => {
                   <Divider hidden />
                   <Header as='h2' content='Swim LA' className='Work-header' />
                   <p className='Work-text'>
-                    Collaborated with the Department of Recreation and Parks to help create this promotional website for Swim LA, a swimming program to teach the youth in Los Angeles, CA.
+                    Created a website for Swim LA, a swimming program to teach the youth in Los Angeles, as per the Governor’s request.
               </p>
                   <Divider hidden />
                 </a>
@@ -132,7 +131,7 @@ const Work = () => {
                 <Divider hidden />
                 <Header as='h2' content='MERN Stack Blog' className='Work-header' />
                 <p className='Work-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Foodie is a full stack blogging application built on MongoDB, Express, React, and Node.js. Foodies welcome!
                 </p>
                 <List size='huge'>
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/blog-react' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
@@ -257,8 +256,8 @@ const Work = () => {
   ]
 
   return (
-    <div>
-      <Container className='Work-container' id='work'>
+    <div id='work'>
+      <Container className='Work-container'>
         <Tab menu={{ secondary: true }} className='Work-tab-menu' panes={panes} />
         <Divider className='Section-divider' />
       </Container>

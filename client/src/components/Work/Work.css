@@ -7,8 +7,8 @@
 }
 
 .Work-container {
-    padding-top: 9em;
     padding-bottom: 5em;
+    padding-top: 1em;
 }
 
 .Work-image-wrap {
@@ -21,7 +21,7 @@
     height: auto;
     transition: .3s ease;
     backface-visibility: hidden;
-    filter: drop-shadow(7px 7px 10px rgb(52, 39, 61));
+    filter: drop-shadow(7px 7px 15px rgb(37, 30, 43));
 }
 
 .Work-image-wrap:hover .Work-image {
