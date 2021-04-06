@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Divider, List, Icon, Tab, Image } from 'semantic-ui-react';
+import { Grid, Container, Header, Divider, List, Tab, Reveal, Image } from 'semantic-ui-react';
 import ImageFadeIn from 'react-image-fade-in';
 
 // CSS
@@ -32,18 +32,25 @@ const Work = () => {
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <a href='https://kdara.com/' target='_blank' rel='noreferrer'>
                   <div className='Work-image-wrap'>
-                    <ImageFadeIn
-                      className='Work-image'
-                      src={kdara_small}
-                      alt='kdara_small'
-                      fluid
-                    />
+                    <Reveal animated='fade in'>
+                      <Reveal.Content visible>
+                        <ImageFadeIn
+                          className='Work-image'
+                          src={kdara_small}
+                          alt='kdara_small'
+                          fluid
+                        />
+                      </Reveal.Content>
+                      <Reveal.Content hidden>
+                        <Image src={kdara_small} className='Work-image-hidden'/>
+                      </Reveal.Content>
+                    </Reveal>
+                    <Header as='h2' content="K'dara" className='Work-header' />
+                    <p className='Work-text'>
+                      Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
                   </div>
-                  <Divider hidden />
-                  <Header as='h2' content="K'dara" className='Work-header' />
-                  <p className='Work-text'>
-                    Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
                 </a>
+                <Divider hidden />
               </Grid.Column>
               {/**********  GRIFFITH PARK  **********/}
               {/**********  DESCRIPTION  **********/}
