@@ -16,10 +16,10 @@ const Navbar = () => {
             <Container className='Navbar-container' textAlign='center' id='top'>
                 <a href='/'>
                     <Header as='h2'>
-                        <Image src={avatar} className='Navbar-icon' />
+                        <Image src={avatar} className='Navbar-icon animated-med animatedFadeIn fadeIn' />
                     </Header>
                 </a>
-                <Breadcrumb size='massive'>
+                <Breadcrumb size='massive' className='animated-med animatedFadeIn fadeIn'>
                     <a href='https://www.linkedin.com/in/pauline-ann/'>
                         <Breadcrumb.Section className="Navbar-navlink">
                             LinkedIn
@@ -39,14 +39,14 @@ const Navbar = () => {
                     </a>
                 </Breadcrumb>
                 <Divider />
-                <Header as='h1' className='Navbar-header'>
+                <Header as='h1' className='Navbar-header animated-fast animatedFadeInUp fadeInUp'>
                     Hi! I'm Pauline Bantayan, a Full Stack Developer based in Los Angeles.
                 </Header>
                 <Container text textAlign='left'>
-                    <p className='Navbar-header-sub'>
+                    <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp'>
                         I specialize in transforming ideas into intuitive and interactive websites through thoughtful design and programming.
                     </p>
-                    <List link size='massive' className='Navbar-list'>
+                    <List link size='massive' className='Navbar-list animated-slow animatedFadeInUp fadeInUp'>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#work'>
                                 <Icon name='right chevron' />Explore my projects

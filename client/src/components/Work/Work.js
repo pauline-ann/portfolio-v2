@@ -27,28 +27,13 @@ const Work = () => {
         <Tab.Pane attached={false} basic>
           <Grid>
             <Grid.Row>
-              {/* <Grid.Column mobile={16} tablet={8} computer={8} className='Project-top-column Project-column'>
-              <div className='Work-image-wrap'>
-                <Image
-                  className='Work-image'
-                  src={outlandish_small}
-                  alt='outlandish_small'
-                  type='image/jp2'
-                  fluid
-                />
-              </div>
-              <Divider hidden />
-              <Header as='h2' content='Blog' className='Work-header' />
-              <p>
-                Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.</p>
-              <Divider hidden />
-            </Grid.Column> */}
               {/**********  K'DARA  **********/}
               {/**********  DESCRIPTION  **********/}
               <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
                 <a href='https://kdara.com/' target='_blank' rel='noreferrer'>
                   <div className='Work-image-wrap'>
                     <ImageFadeIn
+                      opacityTransition={1.2}
                       className='Work-image'
                       src={kdara_small}
                       alt='kdara_small'
@@ -67,6 +52,7 @@ const Work = () => {
                 <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank' rel='noreferrer'>
                   <div className='Work-image-wrap'>
                     <ImageFadeIn
+                      opacityTransition={1.2}
                       className='Work-image'
                       src={griffith_small}
                       alt='griffith_small'
@@ -88,6 +74,7 @@ const Work = () => {
                 <a href='https://www.laparks.org/runyon' target='_blank' rel='noreferrer'>
                   <div className='Work-image-wrap'>
                     <ImageFadeIn
+                      opacityTransition={1.2}
                       className='Work-image'
                       src={runyon_small}
                       alt='runyon_small'
@@ -106,6 +93,7 @@ const Work = () => {
                 <a href='https://www.swimla.org/' target='_blank' rel='noreferrer'>
                   <div className='Work-image-wrap'>
                     <ImageFadeIn
+                      opacityTransition={1.2}
                       className='Work-image'
                       src={learntoswim_small}
                       alt='learntoswim_small'
@@ -134,6 +122,7 @@ const Work = () => {
               <a href='https://foodie-react-blog.herokuapp.com/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={foodie_small}
                     alt='foodie_small'
@@ -158,6 +147,7 @@ const Work = () => {
               <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={outlandish_small}
                     alt='outlandish_small'
@@ -178,6 +168,7 @@ const Work = () => {
               <a href='https://adventure-game-lom.herokuapp.com/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={lom_small}
                     alt='lom_small'
@@ -199,6 +190,7 @@ const Work = () => {
               <a href='https://pauline-ann.github.io/template-1/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={plants_small}
                     alt='plants_small'
@@ -220,6 +212,7 @@ const Work = () => {
               <a href='https://zephyr-node.herokuapp.com/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={zephyr_small} r
                     alt='zephyr_small'
@@ -241,6 +234,7 @@ const Work = () => {
               <a href='https://pauline-ann.github.io/Meet-Me-Halfway/' target='_blank' rel='noreferrer'>
                 <div className='Work-image-wrap'>
                   <ImageFadeIn
+                    opacityTransition={1.2}
                     className='Work-image'
                     src={meetMeHalfway_small}
                     transitionTime='0.7s'
