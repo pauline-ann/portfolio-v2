@@ -1,6 +1,6 @@
 //Dependencies
 import React from 'react';
-import { Container, Grid, Header, List, Image, Divider } from 'semantic-ui-react';
+import { Container, Grid, Header, List, Image, Divider, Reveal } from 'semantic-ui-react';
 
 //Image
 import Me from '../../assets/images/grad.jpg';
@@ -42,12 +42,23 @@ const About = () => {
             </Grid.Column>
             <Grid.Column mobile={8} tablet={4} computer={4}>
               <Container fluid>
-                <Image
-                  centered
-                  src={Me}
-                  alt='graduation-profile'
-                  className='About-image'
-                />
+                <Reveal animated='fade'>
+                  <Reveal.Content visible>
+                    <Image
+                      centered
+                      src={Me}
+                      alt='graduation-profile'
+                      className='About-image'
+                    />
+                  </Reveal.Content>
+                  <Reveal.Content hidden>
+                    <Image
+                      centered
+                      src={Me}
+                      alt='graduation-profile'
+                      className='About-image'
+                    />                  </Reveal.Content>
+                </Reveal>
               </Container>
             </Grid.Column>
           </Grid.Row>

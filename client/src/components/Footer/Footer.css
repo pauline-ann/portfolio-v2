@@ -3,7 +3,7 @@
     padding-top: 5rem;
 }
 
-.Footer-container > a.back-to-top:hover {
+.Footer-container>a.back-to-top:hover {
     text-decoration: none;
 }
 
@@ -15,4 +15,25 @@ i.huge.icon {
 i.huge.icon:hover {
     color: slategrey;
     transform: scale(1.2);
+}
+
+p.back-to-top-text {
+    visibility: hidden;
+    font-size: 1.4rem;
+    color: #f595a5; 
+    animation: fadeIn 2s;
+    padding-top: 1rem;
+}
+
+.back-to-top:hover~.back-to-top-text {
+    visibility: visible;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
