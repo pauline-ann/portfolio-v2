@@ -72,6 +72,10 @@ i.github.alternate.icon {
     font-size: 2rem;
 }
 
+div.Project-column:hover > * {
+    text-decoration: none;
+}
+
 /* big desktop */
 
 @media (max-width: 112.5em) {
