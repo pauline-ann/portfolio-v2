@@ -4,7 +4,7 @@ import { Container, Grid, Header, List, Image, Divider, Reveal } from 'semantic-
 
 //Image
 import Me from '../../assets/images/grad.jpg';
-import Resume from '../../assets/document/PaulineBantayanResume2020.pdf';
+import Resume from '../../assets/document/PaulineBantayanResume2021.pdf';
 
 //CSS
 import './About.css';
