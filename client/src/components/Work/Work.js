@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Divider, List, Tab, Reveal, Image, Icon } from 'semantic-ui-react';
+import { Grid, Container, Header, Divider, List, Tab, Reveal, Image, Icon, Modal, Button } from 'semantic-ui-react';
 import ImageFadeIn from 'react-image-fade-in';
 
 // CSS
@@ -18,7 +18,14 @@ import plants_small from '../../assets/images/project_img/plants_small.jpg';
 import zephyr_small from '../../assets/images/project_img/zephyr_small.jpg';
 import meetMeHalfway_small from '../../assets/images/project_img/mmh_small.jpg';
 
+// Gifs
+import before from '../../assets/images/project_img/kdara-before.gif';
+import after from '../../assets/images/project_img/kdara-after.gif';
+
 const Work = () => {
+
+  const [openBefore, setOpenBefore] = React.useState(false)
+  const [openAfter, setOpenAfter] = React.useState(false)
 
   const panes = [
     {
@@ -43,8 +50,40 @@ const Work = () => {
                   <Header as='h2' content="K'dara" className='Work-header' />
                   <p className='Work-text'>
                     Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
-                  <Divider hidden />
                 </a>
+                <Modal
+                  onClose={() => setOpenBefore(false)}
+                  onOpen={() => setOpenBefore(true)}
+                  open={openBefore}
+                  trigger={
+                    <List size='huge'>
+                      <List.Item icon='caret right' content={<a>Before Website Revamp</a>} />
+                    </List>
+                  }
+                  closeIcon
+                >
+                  <Modal.Header className='Work-modal-header'>Before</Modal.Header>
+                  <Modal.Content image>
+                    <Image src={before} fluid />
+                  </Modal.Content>
+                </Modal>
+                <Modal
+                  onClose={() => setOpenAfter(false)}
+                  onOpen={() => setOpenAfter(true)}
+                  open={openAfter}
+                  trigger={
+                    <List size='huge'>
+                      <List.Item icon='caret right' content={<a>After Website Revamp</a>} />
+                    </List>
+                  }
+                  closeIcon
+                >
+                  <Modal.Header className='Work-modal-header'>After</Modal.Header>
+                  <Modal.Content image>
+                    <Image src={after} fluid />
+                  </Modal.Content>
+                </Modal>
+                <Divider hidden />
               </Grid.Column>
               {/**********  GRIFFITH PARK  **********/}
               {/**********  DESCRIPTION  **********/}
@@ -102,8 +141,7 @@ const Work = () => {
                   </div>
                   <Header as='h2' content='Swim LA' className='Work-header' />
                   <p className='Work-text'>
-                    Created a website for Swim LA, a swimming program to teach the youth in Los Angeles, as per the Governor’s request.
-              </p>
+                    Created a website for Swim LA, a swimming program to teach the youth in Los Angeles, as per the Governor’s request.</p>
                   <Divider hidden />
                 </a>
               </Grid.Column>

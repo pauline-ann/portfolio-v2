@@ -76,6 +76,11 @@ div.Project-column:hover > * {
     text-decoration: none;
 }
 
+.Work-modal-header {
+    font-size: 2rem !important;
+    text-align: center;
+}
+
 /* big desktop */
 
 @media (max-width: 112.5em) {
