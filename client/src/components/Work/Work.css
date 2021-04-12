@@ -58,7 +58,7 @@ h2.ui.header.Work-header {
 }
 
 .ui.secondary.menu>a.item {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-style: bold;
 }
 
@@ -70,7 +70,8 @@ h2.ui.header.Work-header {
     display: flex;
     justify-content: center;
     font-size: 1.9rem;
-    margin-left: -45px;
+    margin-left: -60px;
+    margin-bottom: 4rem;
 }
 
 i.github.alternate.icon {
@@ -114,6 +115,9 @@ div.Project-column:hover > * {
 
 @media (max-width: 37.5em) {
     .Work-tab-menu>div.ui.secondary.menu {
-        margin-left: 0;
+        margin-left: -5px;
+    }
+    .ui.secondary.menu>a.item {
+        font-size: 2.3rem;
     }
 }

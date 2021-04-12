@@ -2,7 +2,7 @@
 import React from 'react';
 import { Grid, Container, Header, Divider, List, Tab, Image, Modal } from 'semantic-ui-react';
 import ImageFadeIn from 'react-image-fade-in';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // CSS
 import './Work.css';
@@ -30,128 +30,125 @@ const Work = () => {
 
   const panes = [
     {
-      menuItem: 'Professional',
+      menuItem: 'PROFESSIONAL',
       render: () =>
         <Tab.Pane attached={false} basic>
-          <Grid>
-            <Grid.Row>
-              {/**********  K'DARA  **********/}
-              {/**********  DESCRIPTION  **********/}
-              <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
-                <a href='https://kdara.com/' target='_blank' rel='noreferrer'>
-                  <div className='Work-image-wrap'>
-                    <ImageFadeIn
-                      opacityTransition={1.3}
-                      className='Work-image'
-                      src={kdara_small}
-                      alt='kdara_small'
-                      fluid
-                    />
-                  </div>
-                  <Header as='h2' content="K'dara" className='Work-header' />
-                  <p className='Work-text'>
-                    Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
-                </a>
-                <Modal
-                  onClose={() => setOpenBefore(false)}
-                  onOpen={() => setOpenBefore(true)}
-                  open={openBefore}
-                  trigger={
-                    <List size='huge'>
-                      <List.Item icon='caret right' as={Link} content={'Before Website Revamp'} />
-                    </List>
-                  }
-                  closeIcon
-                >
-                  <Modal.Header className='Work-modal-header'>Before</Modal.Header>
-                  <Modal.Content image>
-                    <Image src={before} fluid />
-                  </Modal.Content>
-                </Modal>
-                <Modal
-                  onClose={() => setOpenAfter(false)}
-                  onOpen={() => setOpenAfter(true)}
-                  open={openAfter}
-                  trigger={
-                    <List size='huge'>
-                      <List.Item icon='caret right' as={Link} content={'After Website Revamp'} />
-                    </List>
-                  }
-                  closeIcon
-                >
-                  <Modal.Header className='Work-modal-header'>After</Modal.Header>
-                  <Modal.Content image>
-                    <Image src={after} fluid />
-                  </Modal.Content>
-                </Modal>
-                <Divider hidden />
-              </Grid.Column>
-              {/**********  GRIFFITH PARK  **********/}
-              {/**********  DESCRIPTION  **********/}
-              <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
-                <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank' rel='noreferrer'>
-                  <div className='Work-image-wrap'>
-                    <ImageFadeIn
-                      opacityTransition={1.3}
-                      className='Work-image'
-                      src={griffith_small}
-                      alt='griffith_small'
-                      fluid
-                    />
-                  </div>
-                  <Header as='h2' content='Griffith Park' className='Work-header' />
-                  <p className='Work-text'>
-                    Added new features and new information to the Griffith Park homepage to welcome their new Parkline Shuttle program, alongside maintaining regular upkeep.
+          <Grid stackable>
+            {/**********  K'DARA  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <a href='https://kdara.com/' target='_blank' rel='noreferrer'>
+                <div className='Work-image-wrap'>
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className='Work-image'
+                    src={kdara_small}
+                    alt='kdara_small'
+                    fluid
+                  />
+                </div>
+                <Header as='h2' content="K'dara" className='Work-header' />
+                <p className='Work-text'>
+                  Complete redesign and rebranding for an e-commerce website hosted on WordPress. Implemented new features and plug-ins into the existing site to modernize and improve performance.</p>
+              </a>
+              <Modal
+                onClose={() => setOpenBefore(false)}
+                onOpen={() => setOpenBefore(true)}
+                open={openBefore}
+                trigger={
+                  <List size='huge'>
+                    <List.Item icon='caret right' as={Link} content={'Before Website Revamp'} />
+                  </List>
+                }
+                closeIcon
+              >
+                <Modal.Header className='Work-modal-header'>Before</Modal.Header>
+                <Modal.Content image>
+                  <Image src={before} fluid />
+                </Modal.Content>
+              </Modal>
+              <Modal
+                onClose={() => setOpenAfter(false)}
+                onOpen={() => setOpenAfter(true)}
+                open={openAfter}
+                trigger={
+                  <List size='huge'>
+                    <List.Item icon='caret right' as={Link} content={'After Website Revamp'} />
+                  </List>
+                }
+                closeIcon
+              >
+                <Modal.Header className='Work-modal-header'>After</Modal.Header>
+                <Modal.Content image>
+                  <Image src={after} fluid />
+                </Modal.Content>
+              </Modal>
+              <Divider hidden section />
+            </Grid.Column>
+            {/**********  GRIFFITH PARK  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <a href='https://www.laparks.org/griffithpark/griffith-park-home-page' target='_blank' rel='noreferrer'>
+                <div className='Work-image-wrap'>
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className='Work-image'
+                    src={griffith_small}
+                    alt='griffith_small'
+                    fluid
+                  />
+                </div>
+                <Header as='h2' content='Griffith Park' className='Work-header' />
+                <p className='Work-text'>
+                  Added new features and new information to the Griffith Park homepage to welcome their new Parkline Shuttle program, alongside maintaining regular upkeep.
                   </p>
-                  <Divider hidden />
-                </a>
-              </Grid.Column>
-            </Grid.Row>
-            <Grid.Row>
-              {/**********  RUNYON CANYON  **********/}
-              {/**********  DESCRIPTION  **********/}
-              <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
-                <a href='https://www.laparks.org/runyon' target='_blank' rel='noreferrer'>
-                  <div className='Work-image-wrap'>
-                    <ImageFadeIn
-                      opacityTransition={1.3}
-                      className='Work-image'
-                      src={runyon_small}
-                      alt='runyon_small'
-                      fluid
-                    />
-                  </div>
-                  <Header as='h2' content='Runyon Canyon' className='Work-header' />
-                  <p className='Work-text'>
-                    Collaborated with the Department of Recreation and Parks to create an informational webpage for the popular Runyon Canyon Park in Los Angeles.
+                <Divider hidden section />
+              </a>
+            </Grid.Column>
+            {/**********  RUNYON CANYON  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <a href='https://www.laparks.org/runyon' target='_blank' rel='noreferrer'>
+                <div className='Work-image-wrap'>
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className='Work-image'
+                    src={runyon_small}
+                    alt='runyon_small'
+                    fluid
+                  />
+                </div>
+                <Header as='h2' content='Runyon Canyon' className='Work-header' />
+                <p className='Work-text'>
+                  Collaborated with the Department of Recreation and Parks to create an informational webpage for the popular Runyon Canyon Park in Los Angeles.
               </p>
-                </a>
-              </Grid.Column>
-              {/**********  Swim LA **********/}
-              {/**********  DESCRIPTION  **********/}
-              <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
-                <a href='https://www.swimla.org/' target='_blank' rel='noreferrer'>
-                  <div className='Work-image-wrap'>
-                    <ImageFadeIn
-                      opacityTransition={1.3}
-                      className='Work-image'
-                      src={learntoswim_small}
-                      alt='learntoswim_small'
-                      fluid
-                    />
-                  </div>
-                  <Header as='h2' content='Swim LA' className='Work-header' />
-                  <p className='Work-text'>
-                    Created a website for Swim LA, a swimming program to teach the youth in Los Angeles, as per the Governor’s request.</p>
-                  <Divider hidden />
-                </a>
-              </Grid.Column>
-            </Grid.Row>
+              </a>
+              <Divider hidden section />
+            </Grid.Column>
+            {/**********  Swim LA **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column mobile={16} tablet={8} computer={8} className='Project-column'>
+              <a href='https://www.swimla.org/' target='_blank' rel='noreferrer'>
+                <div className='Work-image-wrap'>
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className='Work-image'
+                    src={learntoswim_small}
+                    alt='learntoswim_small'
+                    fluid
+                  />
+                </div>
+                <Header as='h2' content='Swim LA' className='Work-header' />
+                <p className='Work-text'>
+                  Created a website for Swim LA, a swimming program to teach the youth in Los Angeles, as per the Governor’s request.</p>
+                <Divider hidden section />
+              </a>
+            </Grid.Column>
           </Grid >
         </Tab.Pane >,
     },
     {
-      menuItem: 'Personal',
+      menuItem: 'PERSONAL',
       render: () =>
         <Tab.Pane attached={false} basic>
           <Grid stackable>
@@ -176,7 +173,7 @@ const Work = () => {
                 <List size='huge'>
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/blog-react' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
                 </List>
-                <Divider hidden />
+                <Divider hidden section />
               </a>
 
             </Grid.Column>
@@ -198,7 +195,7 @@ const Work = () => {
                 <p className='Work-text'>
                   Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.
                 </p>
-                <Divider hidden />
+                <Divider hidden section />
               </a>
             </Grid.Column>
             {/**********  LEGEND OF MARCELINE  **********/}
@@ -220,7 +217,7 @@ const Work = () => {
                 <List size='huge'>
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/adventure-game' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
                 </List>
-                <Divider hidden />
+                <Divider hidden section />
               </a>
             </Grid.Column>
             {/**********  PLANT STORE  **********/}
@@ -242,7 +239,7 @@ const Work = () => {
                 <List size='huge'>
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
                 </List>
-                <Divider hidden />
+                <Divider hidden section />
               </a>
             </Grid.Column>
             {/**********  ZEPHYR NODE  **********/}
@@ -266,6 +263,7 @@ const Work = () => {
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/Zephyr-Node' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
                 </List>
               </a>
+              <Divider hidden section />
             </Grid.Column>
             {/**********  MEET ME HALFWAY  **********/}
             {/**********  DESCRIPTION  **********/}
