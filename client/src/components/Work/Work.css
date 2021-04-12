@@ -57,6 +57,11 @@ h2.ui.header.Work-header {
     color: #edf7f6 !important;
 }
 
+.ui.secondary.menu>a.item {
+    font-size: 2.2rem;
+    font-style: bold;
+}
+
 .ui.secondary.menu>a.active.item, .ui.secondary.menu>a.active.item:hover {
     background: rgba(65, 59, 100, 0.5);
 }
@@ -103,7 +108,6 @@ div.Project-column:hover > * {
     h2.ui.header.Work-header {
         font-size: 2.6rem !important;
     }
-    
 }
 
 /* phone */

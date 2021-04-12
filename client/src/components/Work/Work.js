@@ -1,7 +1,8 @@
 // Dependencies
 import React from 'react';
-import { Grid, Container, Header, Divider, List, Tab, Reveal, Image, Icon, Modal, Button } from 'semantic-ui-react';
+import { Grid, Container, Header, Divider, List, Tab, Image, Modal } from 'semantic-ui-react';
 import ImageFadeIn from 'react-image-fade-in';
+import {Link} from 'react-router-dom'
 
 // CSS
 import './Work.css';
@@ -57,7 +58,7 @@ const Work = () => {
                   open={openBefore}
                   trigger={
                     <List size='huge'>
-                      <List.Item icon='caret right' content={<a>Before Website Revamp</a>} />
+                      <List.Item icon='caret right' as={Link} content={'Before Website Revamp'} />
                     </List>
                   }
                   closeIcon
@@ -73,7 +74,7 @@ const Work = () => {
                   open={openAfter}
                   trigger={
                     <List size='huge'>
-                      <List.Item icon='caret right' content={<a>After Website Revamp</a>} />
+                      <List.Item icon='caret right' as={Link} content={'After Website Revamp'} />
                     </List>
                   }
                   closeIcon

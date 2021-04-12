@@ -29,7 +29,7 @@ const About = () => {
                   I enjoy work when I am challenged to think both creatively and critically in new ways. Being that web development is constantly evolving, I find joy in doing my best to keep up with emerging trends in the industry and finding ways to implement them into my own work.
                 </p>
                 <p>
-                  When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing and painting, solving puzzles, playing video games, or <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>backpacking and exploring the world!</a>
+                  When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing and painting, solving puzzles, playing video games, journaling, or <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>backpacking and exploring the world!</a>
                 </p>
                 <Divider hidden />
                 <List className='About-resume-list' size='large' >
