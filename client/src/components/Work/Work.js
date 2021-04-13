@@ -30,7 +30,7 @@ const Work = () => {
 
   const panes = [
     {
-      menuItem: 'PROFESSIONAL',
+      menuItem: 'Professional',
       render: () =>
         <Tab.Pane attached={false} basic>
           <Grid stackable>
@@ -148,7 +148,7 @@ const Work = () => {
         </Tab.Pane >,
     },
     {
-      menuItem: 'PERSONAL',
+      menuItem: 'Personal',
       render: () =>
         <Tab.Pane attached={false} basic>
           <Grid stackable>
