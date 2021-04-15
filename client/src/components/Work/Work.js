@@ -193,7 +193,7 @@ const Work = () => {
                 </div>
                 <Header as='h2' content='WordPress Blog' className='Work-header' />
                 <p className='Work-text'>
-                  Outlandish is an travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.
+                  Outlandish is a travel blog powered by WordPress. I enhanced our website's performance (image optimization, mobile responsiveness, SEO) and tailored the WordPress theme's CSS to achieve our desired function and design.
                 </p>
                 <Divider hidden section />
               </a>
@@ -235,7 +235,7 @@ const Work = () => {
                 </div>
                 <Header as='h2' content='Plant Store' className='Work-header' />
                 <p className='Work-text'>
-                  A very simple layout template for a plant store featuring a sleek and minimal design that follows the color palette of the header. Includes a responsive navbar and image hover effects.</p>
+                  A minimalistic layout template for a plant store featuring a sleek design that follows the color palette of the header. Includes a responsive navbar and image hover effects.</p>
                 <List size='huge'>
                   <List.Item icon='github alternate' content={<a href='https://github.com/pauline-ann/template-1' className='listLink' target='_blank' rel='noreferrer'>View Source Code + README</a>} />
                 </List>
