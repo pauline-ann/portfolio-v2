@@ -1,0 +1,18 @@
+.Error-container {
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Error-contents {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.Error-header {
+    margin-bottom: 20px;
+}

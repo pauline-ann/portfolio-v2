@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
   /* Global definition defining 1rem = 10px */
   font-size: 62.5%;
-  height: 100%; 
+  height: 100%;
   width: 100%;
 }
 
@@ -42,11 +42,13 @@ i {
   color: #edf7f6 !important;
 }
 
-a, a.listLink {
+a,
+a.listLink {
   color: #f595a5 !important;
 }
 
-a:hover, a.listLink:hover {
+a:hover,
+a.listLink:hover {
   color: #fabfc9 !important;
   text-decoration: underline;
 }
@@ -61,6 +63,7 @@ a:hover, a.listLink:hover {
   html {
     font-size: 70% !important;
   }
+
   .Section-header {
     font-size: 3rem !important;
   }
@@ -80,6 +83,7 @@ a:hover, a.listLink:hover {
   html {
     font-size: 58% !important;
   }
+
   .Section-header {
     text-align: center;
     font-size: 3.5rem !important;
@@ -92,6 +96,7 @@ a:hover, a.listLink:hover {
   html {
     font-size: 50.25% !important;
   }
+
   .Section-header {
     text-align: center;
     font-size: 4.2rem !important;
