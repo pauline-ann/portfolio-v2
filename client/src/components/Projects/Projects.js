@@ -1,5 +1,5 @@
 // Dependencies
-import React from "react";
+import React from "react"
 import {
   Grid,
   Container,
@@ -9,32 +9,32 @@ import {
   Tab,
   Image,
   Modal,
-} from "semantic-ui-react";
-import ImageFadeIn from "react-image-fade-in";
-import { Link } from "react-router-dom";
+} from "semantic-ui-react"
+import ImageFadeIn from "react-image-fade-in"
+import { Link } from "react-router-dom"
 
 // CSS
-import "./Work.css";
+import "./Projects.css"
 
 // Images
-import kdara_small from "../../assets/images/project_img/kdara_small.jpg";
-import foodie_small from "../../assets/images/project_img/foodie_small.jpg";
-import outlandish_small from "../../assets/images/project_img/outlandish_small.jpg";
-import griffith_small from "../../assets/images/project_img/griffith_small.jpg";
-import runyon_small from "../../assets/images/project_img/runyon_small.jpg";
-import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg";
-import lom_small from "../../assets/images/project_img/lom_small.jpg";
-import plants_small from "../../assets/images/project_img/plants_small.jpg";
-import zephyr_small from "../../assets/images/project_img/zephyr_small.jpg";
-import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg";
+import kdara_small from "../../assets/images/project_img/kdara_small.jpg"
+import foodie_small from "../../assets/images/project_img/foodie_small.jpg"
+import outlandish_small from "../../assets/images/project_img/outlandish_small.jpg"
+import griffith_small from "../../assets/images/project_img/griffith_small.jpg"
+import runyon_small from "../../assets/images/project_img/runyon_small.jpg"
+import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg"
+import lom_small from "../../assets/images/project_img/lom_small.jpg"
+import plants_small from "../../assets/images/project_img/plants_small.jpg"
+import zephyr_small from "../../assets/images/project_img/zephyr_small.jpg"
+import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg"
 
 // Gifs
-import before from "../../assets/images/project_img/kdara-before.gif";
-import after from "../../assets/images/project_img/kdara-after.gif";
+import before from "../../assets/images/project_img/kdara-before.gif"
+import after from "../../assets/images/project_img/kdara-after.gif"
 
 const Work = () => {
-  const [openBefore, setOpenBefore] = React.useState(false);
-  const [openAfter, setOpenAfter] = React.useState(false);
+  const [openBefore, setOpenBefore] = React.useState(false)
+  const [openAfter, setOpenAfter] = React.useState(false)
 
   const panes = [
     {
@@ -507,7 +507,7 @@ const Work = () => {
         </Tab.Pane>
       ),
     },
-  ];
+  ]
 
   return (
     <div id="work">
@@ -520,7 +520,7 @@ const Work = () => {
         <Divider className="Section-divider" />
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Work;
+export default Work
