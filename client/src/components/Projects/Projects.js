@@ -21,7 +21,6 @@ import kdara_small from "../../assets/images/project_img/kdara_small.jpg"
 import foodie_small from "../../assets/images/project_img/foodie_small.jpg"
 import outlandish_small from "../../assets/images/project_img/outlandish_small.jpg"
 import griffith_small from "../../assets/images/project_img/griffith_small.jpg"
-import runyon_small from "../../assets/images/project_img/runyon_small.jpg"
 import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg"
 import lom_small from "../../assets/images/project_img/lom_small.jpg"
 import plants_small from "../../assets/images/project_img/plants_small.jpg"
@@ -145,41 +144,6 @@ const Work = () => {
                 </p>
                 <Divider hidden section />
               </a>
-            </Grid.Column>
-            {/**********  RUNYON CANYON  **********/}
-            {/**********  DESCRIPTION  **********/}
-            <Grid.Column
-              mobile={16}
-              tablet={8}
-              computer={8}
-              className="Project-column"
-            >
-              <a
-                href="https://www.laparks.org/runyon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="Work-image-wrap">
-                  <ImageFadeIn
-                    opacityTransition={1.3}
-                    className="Work-image"
-                    src={runyon_small}
-                    alt="runyon_small"
-                    fluid
-                  />
-                </div>
-                <Header
-                  as="h2"
-                  content="Runyon Canyon"
-                  className="Work-header"
-                />
-                <p className="Work-text">
-                  Collaborated with the Department of Recreation and Parks to
-                  create an informational webpage for the popular Runyon Canyon
-                  Park in Los Angeles.
-                </p>
-              </a>
-              <Divider hidden section />
             </Grid.Column>
             {/**********  Swim LA **********/}
             {/**********  DESCRIPTION  **********/}
