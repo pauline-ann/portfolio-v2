@@ -1,13 +1,13 @@
 //Dependencies
-import React from 'react';
-import { Container, Grid, Header, List, Image, Divider, Reveal } from 'semantic-ui-react';
+import React from 'react'
+import { Container, Grid, Header, List, Image, Divider, Reveal } from 'semantic-ui-react'
 
 //Image
-import Me from '../../assets/images/grad.jpg';
-import Resume from '../../assets/document/PaulineBantayanResume2021.pdf';
+import Me from '../../assets/images/grad.jpg'
+import Resume from '../../assets/document/PaulineBantayanResume2021.pdf'
 
 //CSS
-import './About.css';
+import './About.css'
 
 const About = () => {
 
@@ -23,13 +23,16 @@ const About = () => {
             <Grid.Column mobile={16} tablet={8} computer={8} className='About-column'>
               <Container fluid>
                 <p>
-                  Curious and goal-oriented at heart, I am always open to new ideas and striving for self-improvement. I chose to pursue web development when I realized how much the field aligns with my innate drive to solve problems, learn continuously, and get in touch with my creativity.
+                  Curious and goal-oriented at heart, I am energized when I'm exposed to new ideas and challenged to think both creatively and critically in new ways.
                 </p>
                 <p>
-                  I enjoy work when I am challenged to think both creatively and critically in new ways. Being that web development is constantly evolving, I find joy in doing my best to keep up with emerging trends in the industry and finding ways to implement them into my own work.
+                  I chose to pursue web development when I realized how much the field aligns with my innate drive to solve problems, learn continuously, and get in touch with my creativity.
                 </p>
                 <p>
-                  When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing and painting, solving puzzles, playing video games, journaling, or <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>backpacking and exploring the world!</a>
+                  Being that web development is constantly evolving, I find joy in doing my best to keep up with emerging trends in the industry and finding ways to implement them into my own work.
+                </p>
+                <p>
+                  When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing and painting, solving puzzles, playing video games, or <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>backpacking and exploring the world!</a>
                 </p>
                 <Divider hidden />
                 <List className='About-resume-list' size='large' >
@@ -62,7 +65,7 @@ const About = () => {
         </Grid>
       </Container>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About
