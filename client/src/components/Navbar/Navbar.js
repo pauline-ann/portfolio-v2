@@ -40,7 +40,7 @@ const Navbar = () => {
                 </Breadcrumb>
                 <Divider />
                 <Header as='h1' className='Navbar-header animated-fast animatedFadeInUp fadeInUp'>
-                    Hi! I'm Pauline Bantayan, a Full Stack Developer based in Los Angeles.
+                    Hi! I'm Pauline, a Software Developer based in Los Angeles.
                 </Header>
                 <Container text textAlign='left'>
                     <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp'>
