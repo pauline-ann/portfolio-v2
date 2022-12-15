@@ -24,7 +24,6 @@ import griffith_small from "../../assets/images/project_img/griffith_small.jpg"
 import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg"
 import lom_small from "../../assets/images/project_img/lom_small.jpg"
 import plants_small from "../../assets/images/project_img/plants_small.jpg"
-import zephyr_small from "../../assets/images/project_img/zephyr_small.jpg"
 import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg"
 
 // Gifs
@@ -37,10 +36,97 @@ const Work = () => {
 
   const panes = [
     {
-      menuItem: "Professional",
+      menuItem: "Featured",
       render: () => (
         <Tab.Pane attached={false} basic>
           <Grid stackable>
+            {/**********  TWITTER BOT **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column
+              mobile={16}
+              tablet={8}
+              computer={8}
+              className="Project-top-column Project-column"
+            >
+              <a
+                href="https://twitter.com/space_generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="Work-image-wrap">
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className="Work-image"
+                    src={twitterbot_small}
+                    alt="twitterbot_small"
+                    type="image/jp2"
+                    fluid
+                  />
+                </div>
+                <Header
+                  as="h2"
+                  content="Twitter Bot"
+                  className="Work-header"
+                />
+                <p className="Work-text">
+                  A Twitter bot that posts photos (and videos!) from the NASA
+                  "Astronomy Picture of the Day" API daily.
+                </p>
+                <List size="huge">
+                  <List.Item
+                    icon="github alternate"
+                    content={
+                      <a
+                        href="https://github.com/pauline-ann/NASA-photo-twitter-bot"
+                        className="listLink"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Source Code + README
+                      </a>
+                    }
+                  />
+                </List>
+                <Divider hidden section />
+              </a>
+            </Grid.Column>
+            {/**********  OUTLANDISH BLOG  **********/}
+            {/**********  DESCRIPTION  **********/}
+            <Grid.Column
+              mobile={16}
+              tablet={8}
+              computer={8}
+              className="Project-top-column Project-column"
+            >
+              <a
+                href="https://outlandish.blog/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="Work-image-wrap">
+                  <ImageFadeIn
+                    opacityTransition={1.3}
+                    className="Work-image"
+                    src={outlandish_small}
+                    alt="outlandish_small"
+                    type="image/jp2"
+                    fluid
+                  />
+                </div>
+                <Header
+                  as="h2"
+                  content="WordPress Blog"
+                  className="Work-header"
+                />
+                <p className="Work-text">
+                  Outlandish is a travel blog powered by WordPress. I enhanced
+                  our website's performance (image optimization, mobile
+                  responsiveness, SEO) and tailored the WordPress theme's CSS to
+                  achieve our desired function and design.
+                </p>
+                <Divider hidden section />
+              </a>
+            </Grid.Column>
             {/**********  K'DARA  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column
@@ -184,59 +270,9 @@ const Work = () => {
       render: () => (
         <Tab.Pane attached={false} basic>
           <Grid stackable>
-            {/**********  TWITTER BOT **********/}
+            {/* *********  FOODIE BLOG  ********* */}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column
-              mobile={16}
-              tablet={8}
-              computer={8}
-              className="Project-top-column Project-column"
-            >
-              <a
-                href="https://twitter.com/space_generator"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="Work-image-wrap">
-                  <ImageFadeIn
-                    opacityTransition={1.3}
-                    className="Work-image"
-                    src={twitterbot_small}
-                    alt="twitterbot_small"
-                    type="image/jp2"
-                    fluid
-                  />
-                </div>
-                <Header
-                  as="h2"
-                  content="Twitter Bot"
-                  className="Work-header"
-                />
-                <p className="Work-text">
-                  A Twitter bot that posts photos (and videos!) from the NASA
-                  "Astronomy Picture of the Day" API daily.
-                </p>
-                <List size="huge">
-                  <List.Item
-                    icon="github alternate"
-                    content={
-                      <a
-                        href="https://github.com/pauline-ann/NASA-photo-twitter-bot"
-                        className="listLink"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        View Source Code + README
-                      </a>
-                    }
-                  />
-                </List>
-                <Divider hidden section />
-              </a>
-            </Grid.Column>
-            {/**********  FOODIE BLOG  **********/}
-            {/**********  DESCRIPTION  **********/}
-            <Grid.Column
+            {/* <Grid.Column
               mobile={16}
               tablet={8}
               computer={8}
@@ -283,47 +319,10 @@ const Work = () => {
                 </List>
                 <Divider hidden section />
               </a>
-            </Grid.Column>
-            {/**********  OUTLANDISH BLOG  **********/}
-            {/**********  DESCRIPTION  **********/}
-            <Grid.Column
-              mobile={16}
-              tablet={8}
-              computer={8}
-              className="Project-top-column Project-column"
-            >
-              <a
-                href="https://outlandish.blog/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="Work-image-wrap">
-                  <ImageFadeIn
-                    opacityTransition={1.3}
-                    className="Work-image"
-                    src={outlandish_small}
-                    alt="outlandish_small"
-                    type="image/jp2"
-                    fluid
-                  />
-                </div>
-                <Header
-                  as="h2"
-                  content="WordPress Blog"
-                  className="Work-header"
-                />
-                <p className="Work-text">
-                  Outlandish is a travel blog powered by WordPress. I enhanced
-                  our website's performance (image optimization, mobile
-                  responsiveness, SEO) and tailored the WordPress theme's CSS to
-                  achieve our desired function and design.
-                </p>
-                <Divider hidden section />
-              </a>
-            </Grid.Column>
+            </Grid.Column> */}
             {/**********  LEGEND OF MARCELINE  **********/}
             {/**********  DESCRIPTION  **********/}
-            <Grid.Column
+            {/* <Grid.Column
               mobile={16}
               tablet={8}
               computer={8}
@@ -367,7 +366,7 @@ const Work = () => {
                 </List>
                 <Divider hidden section />
               </a>
-            </Grid.Column>
+            </Grid.Column> */}
             {/**********  PLANT STORE  **********/}
             {/**********  DESCRIPTION  **********/}
             <Grid.Column
@@ -413,59 +412,6 @@ const Work = () => {
                 </List>
                 <Divider hidden section />
               </a>
-            </Grid.Column>
-            {/**********  ZEPHYR NODE  **********/}
-            {/**********  DESCRIPTION  **********/}
-            <Grid.Column
-              mobile={16}
-              tablet={8}
-              computer={8}
-              className="Project-top-column Project-column"
-            >
-              <a
-                href="https://zephyr-node.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="Work-image-wrap">
-                  <ImageFadeIn
-                    opacityTransition={1.3}
-                    className="Work-image"
-                    src={zephyr_small}
-                    r
-                    alt="zephyr_small"
-                    fluid
-                  />
-                </div>
-                <Header
-                  as="h2"
-                  content="Productivity App"
-                  className="Work-header"
-                />
-                <p className="Work-text">
-                  Zephyr Node is a React web application that seeks to help
-                  users reach their productivity goals. Features include user
-                  log-in, a quote generator, flashcards, to-do lists, reminders,
-                  notes, and a homepage that summarizes all of the user's
-                  information.
-                </p>
-                <List size="huge">
-                  <List.Item
-                    icon="github alternate"
-                    content={
-                      <a
-                        href="https://github.com/pauline-ann/Zephyr-Node"
-                        className="listLink"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        View Source Code + README
-                      </a>
-                    }
-                  />
-                </List>
-              </a>
-              <Divider hidden section />
             </Grid.Column>
           </Grid>
         </Tab.Pane>
