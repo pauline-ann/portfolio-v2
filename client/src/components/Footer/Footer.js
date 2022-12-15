@@ -1,9 +1,9 @@
 //Dependencies
-import React from 'react';
+import React from 'react'
 import { Container, Divider, Icon } from 'semantic-ui-react'
 
 //CSS
-import './Footer.css';
+import './Footer.css'
 
 const Footer = () => {
 
@@ -14,11 +14,11 @@ const Footer = () => {
                     <Icon name='angle double up' size='huge' />
                 </a>
                 <p className='back-to-top-text'>Back to Top</p>
-                <Divider hidden section/>
-                Powered by <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>React <i className='devicon-react-original' /></a> — Developed and Designed by Pauline Ann Bantayan © 2021
+                <Divider hidden section />
+                Made with <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>React <i className='devicon-react-original' /></a> — © 2022 Pauline Ann Bantayan
             </Container>
         </div>
-    );
+    )
 }
 
-export default Footer;
+export default Footer
