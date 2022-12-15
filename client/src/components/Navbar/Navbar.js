@@ -1,15 +1,15 @@
 //Dependencies
-import React from "react";
+import React from "react"
 import { Image, Breadcrumb, Container, Header, Divider, Icon, List } from 'semantic-ui-react'
 
 //CSS
-import "./Navbar.css";
+import "./Navbar.css"
 
-import avatar from '../../assets/images/pb-avatar.png';
+import avatar from '../../assets/images/paupixel.ico'
 
 const Navbar = () => {
 
-    const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com');
+    const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com')
 
     return (
         <React.Fragment>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <a href='https://www.linkedin.com/in/pauline-ann/'>
                         <Breadcrumb.Section className="Navbar-navlink">
                             LinkedIn
-                            </Breadcrumb.Section>
+                        </Breadcrumb.Section>
                     </a>
                     <Breadcrumb.Divider icon='moon' className='breadcrumb-divider' />
                     <a href='https://github.com/pauline-ann'>
@@ -50,23 +50,23 @@ const Navbar = () => {
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#work'>
                                 <Icon name='right chevron' />Explore my projects
-                        </a>
+                            </a>
                         </List.Item>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#skills'>
                                 <Icon name='right chevron' />View my technical background
-                        </a>
+                            </a>
                         </List.Item>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#about'>
                                 <Icon name='right chevron' />Learn more about me
-                        </a>
+                            </a>
                         </List.Item>
                     </List>
                 </Container>
             </Container>
         </React.Fragment >
-    );
+    )
 }
 
-export default Navbar;
+export default Navbar
