@@ -20,56 +20,68 @@ const Skills = () => {
                             <Header as='h2' content='Skills' className='Section-header' />
                         </Grid.Column>
                         <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
-                            <Header as='h3' content='Front End' className='Skills-header' />
+                            {/* <Header as='h3' content='Languages + Frameworks' className='Skills-header' /> */}
                             <List>
                                 <List.Item>
-                                    <List.Icon name='html5' />
-                                    <List.Content>HTML</List.Content>
+                                    <List.Icon name='react' />
+                                    <List.Content>React</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='css3' />
-                                    <List.Content>CSS</List.Content>
+                                    <List.Icon><i className='devicon-redux-plain' /></List.Icon>
+                                    <List.Content>Redux</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-typescript-plain' /></List.Icon>
+                                    <List.Content>TypeScript</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon name='js' />
                                     <List.Content>JavaScript</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-jquery-plain' /></List.Icon>
-                                    <List.Content>jQuery</List.Content>
+                                    <List.Icon name='html5' />
+                                    <List.Content>HTML</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon name='react' />
-                                    <List.Content>React + React Hooks</List.Content>
+                                    <List.Icon><i className='devicon-css3-plain' /></List.Icon>
+                                    <List.Content>CSS3</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon><i className='devicon-sass-plain'></i></List.Icon>
                                     <List.Content>Sass</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-bootstrap-plain'></i></List.Icon>
-                                    <List.Content>Bootstrap</List.Content>
+                                    <List.Icon><i className='devicon-jquery-plain' /></List.Icon>
+                                    <List.Content>jQuery</List.Content>
                                 </List.Item>
                             </List>
                         </Grid.Column>
                         <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
-                            <Header as='h3' content='Back End' className='Skills-header' />
+                            {/* <Header as='h3' content='Back End' className='Skills-header' /> */}
                             <List>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-express-original' /></List.Icon>
-                                    <List.Content>Express</List.Content>
+                                    <List.Icon><i className='devicon-graphql-plain' /></List.Icon>
+                                    <List.Content>GraphQL</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-mongodb-plain' /></List.Icon>
+                                    <List.Content>MongoDB</List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-googlecloud-plain' /></List.Icon>
+                                    <List.Content>Google Cloud</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon name='node' />
                                     <List.Content>Node</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-mysql-plain' /></List.Icon>
-                                    <List.Content>MySQL</List.Content>
+                                    <List.Icon><i className='devicon-express-original' /></List.Icon>
+                                    <List.Content>Express</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-mongodb-plain' /></List.Icon>
-                                    <List.Content>MongoDB</List.Content>
+                                    <List.Icon><i className='devicon-mysql-plain' /></List.Icon>
+                                    <List.Content>MySQL</List.Content>
                                 </List.Item>
                                 <List.Item>
                                     <List.Icon name='python' />
@@ -79,15 +91,15 @@ const Skills = () => {
                                     <List.Icon><i className='devicon-sequelize-plain' /></List.Icon>
                                     <List.Content>Sequelize</List.Content>
                                 </List.Item>
-                                <List.Item>
-                                    <List.Icon name='wordpress' />
-                                    <List.Content>WordPress</List.Content>
-                                </List.Item>
                             </List>
                         </Grid.Column>
                         <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
-                            <Header as='h3' content='Tools' className='Skills-header' />
+                            {/* <Header as='h3' content='Tools' className='Skills-header' /> */}
                             <List>
+                                <List.Item>
+                                    <List.Icon><i className='devicon-figma-plain' /></List.Icon>
+                                    <List.Content>Figma</List.Content>
+                                </List.Item>
                                 <List.Item>
                                     <List.Icon name='git' />
                                     <List.Content>Git</List.Content>
@@ -113,16 +125,8 @@ const Skills = () => {
                                     <List.Content>Firebase</List.Content>
                                 </List.Item>
                                 <List.Item>
-                                    <List.Icon><i className='devicon-visualstudio-plain' /></List.Icon>
-                                    <List.Content>Visual Studio Code</List.Content>
-                                </List.Item>
-                                <List.Item>
                                     <List.Icon><i className='devicon-wordpress-plain' /></List.Icon>
                                     <List.Content>WordPress</List.Content>
-                                </List.Item>
-                                <List.Item>
-                                    <List.Icon><i className='devicon-woocommerce-plain' /></List.Icon>
-                                    <List.Content>Woo Commerce</List.Content>
                                 </List.Item>
                             </List>
                         </Grid.Column>
