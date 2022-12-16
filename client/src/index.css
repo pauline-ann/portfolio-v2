@@ -29,12 +29,13 @@ body {
   color: #6F755F !important;
 }
 
-.Section-header {
-  font-family: 'Assistant', sans-serif !important;
+h2.Section-header {
+  font-family: 'PixelFont', sans-serif !important;
   font-weight: 600 !important;
   padding-bottom: .7em !important;
   color: #A3A653 !important;
-  font-size: 3.5rem !important;
+  font-size: 4.5rem !important;
+  letter-spacing: 2px;
 }
 
 code {

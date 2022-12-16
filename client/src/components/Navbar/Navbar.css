@@ -20,10 +20,11 @@
 }
 
 .Navbar-header-sub {
-    font-size: 2.1rem !important;
-    letter-spacing: 1px;
+    font-size: 3rem !important;
+    letter-spacing: 2px;
     font-weight: 600 !important;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'PixelFont', sans-serif;
 }
 
 div.ui.massive.link.list.Navbar-list {
