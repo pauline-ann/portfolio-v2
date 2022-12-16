@@ -10,7 +10,7 @@ import avatarHover from '../../assets/images/pau-wink.png'
 
 const Navbar = () => {
     const [index, setIndex] = useState(0)
-    const titleArray = ['a full stack web developer', 'a software developer', 'an artist', 'a wannabe game dev']
+    const titleArray = ['a full stack web developer', 'a software developer', 'an artist', 'a wannabe game dev', 'a human (?)']
     const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com')
 
     const nextTitle = () => {
@@ -71,7 +71,7 @@ const Navbar = () => {
                         </List.Item>
                         {/* <List.Item as='a' className='Navbar-list-link'>
                             <a href='#about'>
-                                <Icon name='right chevron' />Contemplate art
+                                <Icon name='right chevron' />Art
                             </a>
                         </List.Item> */}
                         <List.Item as='a' className='Navbar-list-link'>
