@@ -45,7 +45,7 @@ const Navbar = () => {
                 </Header>
                 <Container text textAlign='center'>
                     <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp'>
-                        I specialize in transforming ideas into intuitive websites through thoughtful design and implementation.
+                        I transform ideas into intuitive websites through thoughtful design and implementation.
                     </p>
                     <List link size='massive' className='Navbar-list animated-slow animatedFadeInUp fadeInUp'>
                         <List.Item as='a' className='Navbar-list-link'>
