@@ -11,10 +11,11 @@
 }
 
 .Project-toggle {
-    font-size: 21px;
+    font-size: 24px;
     cursor: pointer;
     text-decoration: underline;
     margin-top: 25px;
+    font-weight: bold;
 }
 
 .Project-toggle>i {
