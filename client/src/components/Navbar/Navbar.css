@@ -18,6 +18,13 @@
     font-size: 5.5rem !important;
     padding: 2rem 0 1rem 0 !important;
     line-height: 1 !important;
+
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .Navbar-header-sub {
@@ -25,6 +32,10 @@
     font-weight: 400 !important;
     margin-bottom: 0;
     color: #A3A653;
+}
+
+.Navbar-title {
+    cursor: pointer;
 }
 
 div.ui.massive.link.list.Navbar-list {

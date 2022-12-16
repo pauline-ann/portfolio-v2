@@ -1,5 +1,5 @@
 //Dependencies
-import React from "react"
+import React, { useState } from "react"
 import { Image, Breadcrumb, Container, Header, Divider, Icon, List } from 'semantic-ui-react'
 
 //CSS
@@ -9,8 +9,17 @@ import avatar from '../../assets/images/paupixel.ico'
 import avatarHover from '../../assets/images/pau-wink.png'
 
 const Navbar = () => {
-
+    const [index, setIndex] = useState(0)
+    const titleArray = ['a full stack web developer', 'a software developer', 'an artist', 'a wannabe game dev']
     const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com')
+
+    const nextTitle = () => {
+        if (index < titleArray.length - 1) {
+            setIndex(index + 1)
+        } else {
+            setIndex(0)
+        }
+    }
 
     return (
         <React.Fragment>
@@ -42,7 +51,7 @@ const Navbar = () => {
                 <Divider />
                 <Header as='h1' className='Navbar-header font-face-pixel animated-fast animatedFadeInUp fadeInUp'>
                     Hi there, I'm Pauline! <br />
-                    I'm a full stack web developer.
+                    I'm <span className="Navbar-title" onClick={() => nextTitle()}>{titleArray[index]}</span>
                 </Header>
                 <Container text textAlign='center'>
                     <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp font-face-pixel'>
