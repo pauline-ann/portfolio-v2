@@ -33,7 +33,7 @@ h2.Section-header {
   font-weight: 600 !important;
   padding-bottom: .7em !important;
   color: #A3A653 !important;
-  font-size: 4.5rem !important;
+  font-size: 4rem !important;
   letter-spacing: 2px;
 }
 
@@ -67,48 +67,104 @@ a.listLink:hover {
   margin: 5rem 1rem !important;
 }
 
-/* big desktop */
-
-@media (max-width: 112.5em) {
-  html {
-    font-size: 70% !important;
-  }
-
-  .Section-header {
-    font-size: 3rem !important;
-  }
-}
-
 /* tablet landscape */
 
-@media (max-width: 75em) {
+@media (max-width: 1180px) {
+
   html {
-    font-size: 56.25% !important;
+    font-size: 72% !important;
+  }
+
+  div.content div.header {
+    font-size: 21px;
+  }
+
+  div.ui.massive.link.list.Navbar-list {
+    font-size: 1.8em;
+  }
+
+  h2.Section-header {
+    font-size: 4rem !important;
   }
 }
 
 /* tablet portable */
 
-@media (max-width: 56.25em) {
-  html {
+@media (max-width: 820px) {
+  /* html {
     font-size: 58% !important;
+  } */
+
+  h2.Section-header {
+    font-size: 3.7rem !important;
   }
 
-  .Section-header {
-    text-align: center;
-    font-size: 3.5rem !important;
+  div.content div.header {
+    font-size: 1.7rem;
+  }
+
+  i.icon.project-icon,
+  i.icons.project-icon {
+    font-size: 1.5em !important;
+  }
+
+  .ui.list,
+  ol.ui.list,
+  ul.ui.list {
+    margin-top: 2em !important;
+    padding-left: 0 !important;
+  }
+
+  h2.ui.header.Work-header {
+    font-size: 1.5em !important;
+  }
+
+  i.file.alternate.outline.icon {
+    font-size: 2.7rem;
+  }
+
+  .About-resume-button {
+    font-size: 1.7rem;
   }
 }
 
 /* phone */
 
-@media (max-width: 37.5em) {
+@media (max-width: 414px) {
   html {
-    font-size: 50.25% !important;
+    font-size: 71% !important;
   }
 
-  .Section-header {
+  h2.Section-header {
     text-align: center;
-    font-size: 4.2rem !important;
+    font-size: 5rem !important;
+  }
+
+  .ui.list,
+  ol.ui.list,
+  ul.ui.list {
+    margin-top: 2em;
+    padding-left: 0 !important;
+  }
+
+  h2.ui.header.Work-header {
+    font-size: 1.7em !important;
+  }
+
+  i.icon.project-icon,
+  i.icons.project-icon {
+    font-size: 1.5em !important;
+  }
+
+  .About-column {
+    padding: 0 2rem 5rem 2rem !important;
+  }
+
+  i.file.alternate.outline.icon {
+    font-size: 2.9rem;
+  }
+
+  .About-resume-button {
+    font-size: 1.9rem;
   }
 }

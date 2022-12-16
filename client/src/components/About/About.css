@@ -13,7 +13,7 @@
 }
 
 i.file.alternate.outline.icon {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 div.ui.list.About-resume-list {
@@ -21,45 +21,5 @@ div.ui.list.About-resume-list {
 }
 
 i.file.alternate.outline.icon.About-resume-button {
-    font-size: 1.2rem;
-}
-
-/* tablet landscape */
-
-@media (max-width: 75em) {
-    i.file.alternate.outline.icon {
-        font-size: 2.8rem;
-    }
-
-    .About-resume-button {
-        font-size: 1.8rem;
-    }
-}
-
-/* tablet portable */
-
-@media (max-width: 56.25em) {
-    i.file.alternate.outline.icon {
-        font-size: 3rem;
-    }
-
-    .About-resume-button {
-        font-size: 2rem;
-    }
-}
-
-/* phone */
-
-@media (max-width: 37.5em) {
-    .About-column {
-        padding: 0 2rem 2rem 2rem !important;
-    }
-
-    i.file.alternate.outline.icon {
-        font-size: 2.9rem;
-    }
-
-    .About-resume-button {
-        font-size: 2.1rem;
-    }
+    font-size: 1.4rem !important;
 }

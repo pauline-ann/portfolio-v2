@@ -68,7 +68,7 @@
 
 h2.ui.header.Work-header {
     color: #747A5D !important;
-    font-size: 2.5rem !important;
+    font-size: 2.2rem !important;
 }
 
 .Work-text {
@@ -95,7 +95,7 @@ h2.ui.header.Work-header {
 }
 
 i.github.alternate.icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 div.Project-column:hover>* {
@@ -112,38 +112,7 @@ div.Project-column:hover>* {
     margin: 6rem 1rem 0 1rem !important;
 }
 
-/* big desktop */
-
-@media (max-width: 112.5em) {
-    h2.ui.header.Work-header {
-        font-size: 2.2rem !important;
-    }
-}
-
-/* tablet landscape */
-
-@media (max-width: 75em) {
-    h2.ui.header.Work-header {
-        font-size: 2.3rem !important;
-    }
-}
-
-/*  tablet portable */
-
-@media (max-width: 56.25em) {
-    h2.ui.header.Work-header {
-        font-size: 2.6rem !important;
-    }
-}
-
-/* phone */
-
-@media (max-width: 37.5em) {
-    .Work-tab-menu>div.ui.secondary.menu {
-        margin-left: -5px;
-    }
-
-    .ui.secondary.menu>a.item {
-        font-size: 2.3rem;
-    }
+i.icon.project-icon,
+i.icons.project-icon {
+    font-size: 1.2em !important;
 }
