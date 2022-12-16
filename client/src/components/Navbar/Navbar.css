@@ -40,7 +40,7 @@
 
 div.ui.massive.link.list.Navbar-list {
     padding-top: 1.5rem;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     display: inline-block;
     text-align: left;
 }
@@ -70,17 +70,34 @@ div.ui.massive.link.list.Navbar-list {
     color: #f6d72c !important;
 }
 
-/*  tablet portable */
+/* tablet landscape */
 
-@media (max-width: 56.25em) {
+@media (max-width: 1180px) {
+    .Navbar-icon {
+        min-width: 90px;
+    }
+}
+
+/* tablet portable */
+
+@media (max-width: 820px) {
+    .Navbar-icon {
+        min-width: 85px;
+    }
+
     div.ui.massive.link.list.Navbar-list {
         padding-left: 0;
     }
 }
 
+
 /* phone */
 
-@media (max-width: 37.5em) {
+@media (max-width: 414px) {
+    .Navbar-icon {
+        min-width: 80px;
+    }
+
     .Navbar-header-sub {
         text-align: center;
     }
@@ -181,29 +198,4 @@ div.ui.massive.link.list.Navbar-list {
     animation-fill-mode: both;
     -webkit-animation-duration: 2s;
     -webkit-animation-fill-mode: both
-}
-
-/* tablet landscape */
-
-@media (max-width: 1180px) {
-    .Navbar-icon {
-        min-width: 90px;
-    }
-}
-
-/* tablet portable */
-
-@media (max-width: 820px) {
-    .Navbar-icon {
-        min-width: 85px;
-    }
-}
-
-
-/* phone */
-
-@media (max-width: 414px) {
-    .Navbar-icon {
-        min-width: 80px;
-    }
 }
