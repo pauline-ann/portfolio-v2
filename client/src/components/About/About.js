@@ -35,30 +35,32 @@ const About = () => {
                   When I'm not coding, you may find me enjoying my favorite leisure activities such as drawing and painting, solving puzzles, playing video games, or <a href='https://outlandish.blog/' target='_blank' rel='noreferrer'>backpacking and exploring the world!</a>
                 </p>
                 <Divider hidden />
-                <List className='About-resume-list' size='large' >
+                <List className='About-resume-list' >
                   <List.Item icon='file alternate outline' content={<a href={Resume} className='listLink About-resume-button'>View Resume</a>} />
                 </List>
               </Container>
             </Grid.Column>
             <Grid.Column mobile={8} tablet={4} computer={4}>
               <Container fluid>
-                <Reveal animated='fade'>
-                  <Reveal.Content visible>
-                    <Image
-                      centered
-                      src={Me}
-                      alt='graduation-profile'
-                      className='About-image'
-                    />
-                  </Reveal.Content>
-                  <Reveal.Content hidden>
-                    <Image
-                      centered
-                      src={Me}
-                      alt='graduation-profile'
-                      className='About-image'
-                    />                  </Reveal.Content>
-                </Reveal>
+                <Grid>
+                  <Reveal animated='fade'>
+                    <Reveal.Content visible>
+                      <Image
+                        centered
+                        src={Me}
+                        alt='graduation-profile'
+                        className='About-image'
+                      />
+                    </Reveal.Content>
+                    <Reveal.Content hidden>
+                      <Image
+                        centered
+                        src={Me}
+                        alt='graduation-profile'
+                        className='About-image'
+                      />                  </Reveal.Content>
+                  </Reveal>
+                </Grid>
               </Container>
             </Grid.Column>
           </Grid.Row>

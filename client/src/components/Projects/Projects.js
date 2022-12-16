@@ -38,9 +38,9 @@ const Work = () => {
 
   const displayIcon = () => {
     if (isHidden) {
-      return <Icon name="angle down" />
+      return <Icon className="project-icon" name="angle down" />
     }
-    return <Icon name="angle up" />
+    return <Icon className="project-icon" name="angle up" />
   }
 
   return (
@@ -80,10 +80,10 @@ const Work = () => {
               A pizza-themed Pokémon-inspired role playing game (RPG) that runs in the browser. Written with vanilla JavaScript, HTML, and CSS.
             </p>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
-              <Icon link name='github' />
+              <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -121,10 +121,10 @@ const Work = () => {
               "Astronomy Picture of the Day" API daily.
             </p>
             <a href="https://github.com/pauline-ann/NASA-photo-twitter-bot" target="_blank" rel="noreferrer">
-              <Icon link name='github' />
+              <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://twitter.com/space_generator" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -164,7 +164,7 @@ const Work = () => {
               achieve our desired function and design.
             </p>
             <a href="https://outlandish.blog/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -194,14 +194,14 @@ const Work = () => {
               into the existing site to modernize and improve performance.
             </p>
             <a href="https://kdara.com/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Modal
               onClose={() => setOpenBefore(false)}
               onOpen={() => setOpenBefore(true)}
               open={openBefore}
               trigger={
-                <Icon link name='meh' />
+                <Icon className="project-icon" link name='meh' />
               }
               closeIcon
             >
@@ -217,7 +217,7 @@ const Work = () => {
               onOpen={() => setOpenAfter(true)}
               open={openAfter}
               trigger={
-                <Icon link name='smile' />
+                <Icon className="project-icon" link name='smile' />
               }
               closeIcon
             >
@@ -263,7 +263,7 @@ const Work = () => {
               alongside maintaining regular upkeep.
             </p>
             <a href="https://www.laparks.org/griffithpark/griffith-park-home-page" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -296,7 +296,7 @@ const Work = () => {
               youth in Los Angeles, as per the Governor’s request.
             </p>
             <a href="https://www.swimla.org/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -334,10 +334,10 @@ const Work = () => {
               Express, React, and Node.js. Foodies welcome!
             </p>
             <a href="https://github.com/pauline-ann/blog-react" target="_blank" rel="noreferrer">
-              <Icon link name='github' />
+              <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://foodie-react-blog.herokuapp.com/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -372,10 +372,10 @@ const Work = () => {
               one line of JavaScript.{" "}
             </p>
             <a href="https://github.com/pauline-ann/adventure-game" target="_blank" rel="noreferrer">
-              <Icon link name='github' />
+              <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://adventure-game-lom.herokuapp.com/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
@@ -409,10 +409,10 @@ const Work = () => {
               Includes a responsive navbar and image hover effects.
             </p>
             <a href="https://github.com/pauline-ann/template-1" target="_blank" rel="noreferrer">
-              <Icon link name='github' />
+              <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://pauline-ann.github.io/template-1/" target="_blank" rel="noreferrer">
-              <Icon link name='world' />
+              <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>

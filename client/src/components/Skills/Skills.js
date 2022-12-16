@@ -14,12 +14,12 @@ const Skills = () => {
         <div className='skills-div' id='skills'>
             <Container className='Skills-container' id='skills'>
                 <Grid>
-                    <Grid.Row columns={4} >
+                    <Grid.Row columns={4} className="Skills-row" >
                         {/**********  PAGE HEADER  **********/}
                         <Grid.Column mobile={16} tablet={4} computer={4}>
                             <Header as='h2' content='Skills' className='Section-header' />
                         </Grid.Column>
-                        <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
+                        <Grid.Column mobile={16} tablet={4} computer={4} className='Skills-column'>
                             {/* <Header as='h3' content='Languages + Frameworks' className='Skills-header' /> */}
                             <List>
                                 <List.Item>
@@ -56,7 +56,7 @@ const Skills = () => {
                                 </List.Item>
                             </List>
                         </Grid.Column>
-                        <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
+                        <Grid.Column mobile={16} tablet={4} computer={4} className='Skills-column'>
                             {/* <Header as='h3' content='Back End' className='Skills-header' /> */}
                             <List>
                                 <List.Item>
@@ -93,7 +93,7 @@ const Skills = () => {
                                 </List.Item>
                             </List>
                         </Grid.Column>
-                        <Grid.Column mobile={5} tablet={4} computer={4} className='Skills-column'>
+                        <Grid.Column mobile={16} tablet={4} computer={4} className='Skills-column'>
                             {/* <Header as='h3' content='Tools' className='Skills-header' /> */}
                             <List>
                                 <List.Item>
