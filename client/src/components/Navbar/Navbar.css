@@ -25,6 +25,7 @@
     font-weight: 600 !important;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'PixelFont', sans-serif;
+    margin-bottom: 0;
 }
 
 div.ui.massive.link.list.Navbar-list {
@@ -36,6 +37,7 @@ div.ui.massive.link.list.Navbar-list {
 
 .Navbar-list-link {
     text-decoration: none;
+    margin-bottom: 12px;
 }
 
 .Navbar-list-link:hover {

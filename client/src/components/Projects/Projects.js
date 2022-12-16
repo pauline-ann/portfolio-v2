@@ -42,7 +42,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-top-column Project-column"
           >
@@ -82,7 +82,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-top-column Project-column"
           >
@@ -123,7 +123,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-top-column Project-column"
           >
@@ -163,7 +163,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-column"
           >
@@ -235,7 +235,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-column"
           >
@@ -273,7 +273,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-column"
           >
@@ -306,7 +306,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           {/* <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-top-column Project-column"
           >
@@ -347,7 +347,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           {/* <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-column"
           >
@@ -385,7 +385,7 @@ const Work = () => {
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
-            tablet={8}
+            tablet={16}
             computer={8}
             className="Project-top-column Project-column"
           >
