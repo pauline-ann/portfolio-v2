@@ -34,6 +34,14 @@ import after from "../../assets/images/project_img/kdara-after.gif"
 const Work = () => {
   const [openBefore, setOpenBefore] = useState(false)
   const [openAfter, setOpenAfter] = useState(false)
+  const [isHidden, setIsHidden] = useState(true)
+
+  const displayIcon = () => {
+    if (isHidden) {
+      return <Icon name="angle down" />
+    }
+    return <Icon name="angle up" />
+  }
 
   return (
     <div id="work">
@@ -69,7 +77,7 @@ const Work = () => {
               className="Work-header"
             />
             <p className="Work-text">
-              A pizza-themed Pokémon-inspired role playing game (RPG) that runs in the browser. Written with vanilla JavaScript, HTML, CSS.
+              A pizza-themed Pokémon-inspired role playing game (RPG) that runs in the browser. Written with vanilla JavaScript, HTML, and CSS.
             </p>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
               <Icon link name='github' />
@@ -85,7 +93,7 @@ const Work = () => {
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-top-column Project-column"
+            className="Project-column"
           >
             <div className="Work-image-wrap">
               <a
@@ -220,14 +228,13 @@ const Work = () => {
             </Modal>
             <Divider hidden section />
           </Grid.Column>
-          {/* TODO hide the projects below this, show once click "see more" */}
           {/**********  GRIFFITH PARK  **********/}
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-column"
+            className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a
@@ -265,7 +272,7 @@ const Work = () => {
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-column"
+            className={`Project-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a
@@ -292,13 +299,13 @@ const Work = () => {
             </a>
             <Divider hidden section />
           </Grid.Column>
-          {/* *********  FOODIE BLOG  ********* */}
+          {/**********  FOODIE BLOG  **********/}
           {/**********  DESCRIPTION  **********/}
-          {/* <Grid.Column
+          <Grid.Column
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-top-column Project-column"
+            className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a
@@ -332,14 +339,14 @@ const Work = () => {
               <Icon link name='world' />
             </a>
             <Divider hidden section />
-          </Grid.Column> */}
+          </Grid.Column>
           {/**********  LEGEND OF MARCELINE  **********/}
           {/**********  DESCRIPTION  **********/}
-          {/* <Grid.Column
+          <Grid.Column
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-column"
+            className={`Project-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a
@@ -370,14 +377,14 @@ const Work = () => {
               <Icon link name='world' />
             </a>
             <Divider hidden section />
-          </Grid.Column> */}
+          </Grid.Column>
           {/**********  PLANT STORE  **********/}
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-top-column Project-column"
+            className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a
@@ -409,6 +416,10 @@ const Work = () => {
             <Divider hidden section />
           </Grid.Column>
         </Grid>
+        <Container textAlign="center">
+          <div className="Project-toggle" onClick={() => setIsHidden(!isHidden)}>{isHidden ? "Show more" : "Show less"}{displayIcon()}</div>
+
+        </Container>
         <Divider className="Projects-divider" />
       </Container>
     </div >

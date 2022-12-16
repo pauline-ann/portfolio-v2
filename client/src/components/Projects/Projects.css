@@ -6,6 +6,21 @@
     padding: .8rem 1rem !important;
 }
 
+.Project-hidden {
+    display: none !important;
+}
+
+.Project-toggle {
+    font-size: 21px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.Project-toggle>i {
+    text-decoration: none;
+}
+
 .Project-modal-list>.item {
     font-size: 18px;
 }
