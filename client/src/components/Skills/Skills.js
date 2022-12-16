@@ -1,9 +1,9 @@
 // Dependencies
-import React from 'react';
-import { Grid, Container, Header, Divider, List } from 'semantic-ui-react';
+import React from 'react'
+import { Grid, Container, Header, Divider, List } from 'semantic-ui-react'
 
 // CSS
-import './Skills.css';
+import './Skills.css'
 
 // Images
 
@@ -127,11 +127,11 @@ const Skills = () => {
                             </List>
                         </Grid.Column>
                     </Grid.Row>
-                    <Divider className='Section-divider' />
+                    <Divider className='Section-divider' hidden />
                 </Grid>
             </Container >
         </div >
-    );
+    )
 }
 
-export default Skills;
+export default Skills
