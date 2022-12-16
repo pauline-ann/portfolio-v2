@@ -11,6 +11,7 @@ div.content div.description {
 
 .Education-row {
     padding: 0 !important;
+    margin-bottom: 55px;
 }
 
 @media (max-width: 112.5em) {

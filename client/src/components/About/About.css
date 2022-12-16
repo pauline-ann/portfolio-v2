@@ -3,9 +3,13 @@
 }
 
 .About-image {
-    animation: fadeIn ease 1s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    animation: fadeIn ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.About-container {
+    padding: 60px 0;
 }
 
 i.file.alternate.outline.icon {
@@ -26,6 +30,7 @@ i.file.alternate.outline.icon.About-resume-button {
     i.file.alternate.outline.icon {
         font-size: 2.8rem;
     }
+
     .About-resume-button {
         font-size: 1.8rem;
     }
@@ -37,6 +42,7 @@ i.file.alternate.outline.icon.About-resume-button {
     i.file.alternate.outline.icon {
         font-size: 3rem;
     }
+
     .About-resume-button {
         font-size: 2rem;
     }
@@ -48,9 +54,11 @@ i.file.alternate.outline.icon.About-resume-button {
     .About-column {
         padding: 0 2rem 2rem 2rem !important;
     }
+
     i.file.alternate.outline.icon {
         font-size: 2.9rem;
     }
+
     .About-resume-button {
         font-size: 2.1rem;
     }
