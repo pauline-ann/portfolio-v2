@@ -43,12 +43,13 @@ code {
 }
 
 i {
-  color: #eacc52 !important;
+  /* color: #eacc52 !important; */
   /* color: #A3A653 !important; */
+  color: #d0d45a !important;
 }
 
 i.icon {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a,
