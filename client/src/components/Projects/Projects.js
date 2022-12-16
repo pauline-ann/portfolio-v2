@@ -71,7 +71,7 @@ const Work = () => {
               Browser RPG. Made with vanilla JS, HTML, CSS.
             </p>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
-              <Icon link name='github alternate' />
+              <Icon link name='github' />
             </a>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
               <Icon link name='world' />
@@ -112,7 +112,7 @@ const Work = () => {
               "Astronomy Picture of the Day" API daily.
             </p>
             <a href="https://github.com/pauline-ann/NASA-photo-twitter-bot" target="_blank" rel="noreferrer">
-              <Icon link name='github alternate' />
+              <Icon link name='github' />
             </a>
             <a href="https://twitter.com/space_generator" target="_blank" rel="noreferrer">
               <Icon link name='world' />
@@ -336,7 +336,7 @@ const Work = () => {
               Express, React, and Node.js. Foodies welcome!
             </p>
             <a href="https://github.com/pauline-ann/blog-react" target="_blank" rel="noreferrer">
-              <Icon link name='github alternate' />
+              <Icon link name='github' />
             </a>
             <a href="https://foodie-react-blog.herokuapp.com/" target="_blank" rel="noreferrer">
               <Icon link name='world' />
@@ -374,7 +374,7 @@ const Work = () => {
               one line of JavaScript.{" "}
             </p>
             <a href="https://github.com/pauline-ann/adventure-game" target="_blank" rel="noreferrer">
-              <Icon link name='github alternate' />
+              <Icon link name='github' />
             </a>
             <a href="https://adventure-game-lom.herokuapp.com/" target="_blank" rel="noreferrer">
               <Icon link name='world' />
@@ -411,7 +411,7 @@ const Work = () => {
               Includes a responsive navbar and image hover effects.
             </p>
             <a href="https://github.com/pauline-ann/template-1" target="_blank" rel="noreferrer">
-              <Icon link name='github alternate' />
+              <Icon link name='github' />
             </a>
             <a href="https://pauline-ann.github.io/template-1/" target="_blank" rel="noreferrer">
               <Icon link name='world' />
