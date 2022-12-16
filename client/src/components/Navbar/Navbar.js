@@ -39,22 +39,28 @@ const Navbar = () => {
                     </a>
                 </Breadcrumb>
                 <Divider />
-                <Header as='h1' className='Navbar-header animated-fast animatedFadeInUp fadeInUp'>
-                    Hi! I'm Pauline, a Software Developer based in Los Angeles.
+                <Header as='h1' className='Navbar-header font-face-pixel animated-fast animatedFadeInUp fadeInUp'>
+                    Hi there, I'm Pauline! <br />
+                    I'm a full stack web developer.
                 </Header>
-                <Container text textAlign='left'>
+                <Container text textAlign='center'>
                     <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp'>
-                        I specialize in transforming ideas into intuitive and interactive websites through thoughtful design and programming.
+                        I specialize in transforming ideas into intuitive websites through thoughtful design and implementation.
                     </p>
                     <List link size='massive' className='Navbar-list animated-slow animatedFadeInUp fadeInUp'>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#work'>
-                                <Icon name='right chevron' />Explore my projects
+                                <Icon name='right chevron' />Explore projects
                             </a>
                         </List.Item>
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#skills'>
-                                <Icon name='right chevron' />View my technical background
+                                <Icon name='right chevron' />View technical skills
+                            </a>
+                        </List.Item>
+                        <List.Item as='a' className='Navbar-list-link'>
+                            <a href='#about'>
+                                <Icon name='right chevron' />Contemplate art
                             </a>
                         </List.Item>
                         <List.Item as='a' className='Navbar-list-link'>
