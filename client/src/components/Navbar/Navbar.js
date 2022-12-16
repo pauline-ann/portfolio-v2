@@ -58,11 +58,11 @@ const Navbar = () => {
                                 <Icon name='right chevron' />View technical skills
                             </a>
                         </List.Item>
-                        <List.Item as='a' className='Navbar-list-link'>
+                        {/* <List.Item as='a' className='Navbar-list-link'>
                             <a href='#about'>
                                 <Icon name='right chevron' />Contemplate art
                             </a>
-                        </List.Item>
+                        </List.Item> */}
                         <List.Item as='a' className='Navbar-list-link'>
                             <a href='#about'>
                                 <Icon name='right chevron' />Learn more about me
