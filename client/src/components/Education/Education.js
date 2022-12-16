@@ -1,9 +1,9 @@
 // Dependencies
-import React from 'react';
-import { Grid, Container, Header, Divider, List } from 'semantic-ui-react';
+import React from 'react'
+import { Grid, Container, Header, Divider, List } from 'semantic-ui-react'
 
 // CSS
-import './Education.css';
+import './Education.css'
 
 // Images
 
@@ -13,7 +13,7 @@ const Education = () => {
         <div className='education-div'>
             <Container className='Education-container' id='education'>
                 <Grid>
-                    <Grid.Row textAlign='left'>
+                    <Grid.Row textAlign='left' className='Education-row'>
                         {/**********  PAGE HEADER  **********/}
                         <Grid.Column mobile={16} tablet={4} computer={4}>
                             <Header as='h2' content='Education' className='Section-header' />
@@ -38,25 +38,6 @@ const Education = () => {
                                         </List.Description>
                                     </List.Content>
                                 </List.Item>
-                                <Divider />
-                                <List.Item>
-                                    <List.Icon name='book' />
-                                    <List.Content>
-                                        <List.Header>Udemy</List.Header>
-                                        <List.Description>
-                                            2019 | <a className='listLink' href='https://www.udemy.com/react-the-complete-guide-incl-redux/'>React - The Complete Guide (incl Hooks, React Router, Redux)</a>
-                                        </List.Description>
-                                    </List.Content>
-                                </List.Item>
-                                <List.Item>
-                                    <List.Icon name='book' />
-                                    <List.Content>
-                                        <List.Header>Udemy</List.Header>
-                                        <List.Description>
-                                            2019 | <a className='listLink' href='https://www.udemy.com/js-algorithms-and-data-structures-masterclass/'>JavaScript Algorithms and Data Structures Masterclass</a>
-                                        </List.Description>
-                                    </List.Content>
-                                </List.Item>
                             </List>
                         </Grid.Column>
                     </Grid.Row>
@@ -64,7 +45,7 @@ const Education = () => {
                 </Grid>
             </Container>
         </div >
-    );
+    )
 }
 
-export default Education;
+export default Education
