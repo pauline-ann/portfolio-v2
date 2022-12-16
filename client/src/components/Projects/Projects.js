@@ -25,6 +25,7 @@ import learntoswim_small from "../../assets/images/project_img/learntoswim_small
 import lom_small from "../../assets/images/project_img/lom_small.jpg"
 import plants_small from "../../assets/images/project_img/plants_small.jpg"
 import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg"
+import pizza_small from "../../assets/images/project_img/pizza-small.PNG"
 
 // Gifs
 import before from "../../assets/images/project_img/kdara-before.gif"
@@ -55,8 +56,8 @@ const Work = () => {
                 <ImageFadeIn
                   opacityTransition={1.3}
                   className="Work-image"
-                  src={twitterbot_small} // TODO
-                  alt="twitterbot_small"
+                  src={pizza_small}
+                  alt="browser_rpg_small"
                   type="image/jp2"
                   fluid
                 />
@@ -68,7 +69,7 @@ const Work = () => {
               className="Work-header"
             />
             <p className="Work-text">
-              Browser RPG. Made with vanilla JS, HTML, CSS.
+              A pizza-themed Pokémon-inspired role playing game (RPG) that runs in the browser. Written with vanilla JavaScript, HTML, CSS.
             </p>
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
               <Icon link name='github' />
@@ -192,13 +193,7 @@ const Work = () => {
               onOpen={() => setOpenBefore(true)}
               open={openBefore}
               trigger={
-                <List size="huge">
-                  <List.Item
-                    icon="caret right"
-                    as={Link}
-                    content={"Before Website Revamp"}
-                  />
-                </List>
+                <Icon link name='meh' />
               }
               closeIcon
             >
@@ -214,13 +209,7 @@ const Work = () => {
               onOpen={() => setOpenAfter(true)}
               open={openAfter}
               trigger={
-                <List size="huge">
-                  <List.Item
-                    icon="caret right"
-                    as={Link}
-                    content={"After Website Revamp"}
-                  />
-                </List>
+                <Icon link name='smile' />
               }
               closeIcon
             >
@@ -231,6 +220,7 @@ const Work = () => {
             </Modal>
             <Divider hidden section />
           </Grid.Column>
+          {/* TODO hide the projects below this, show once click "see more" */}
           {/**********  GRIFFITH PARK  **********/}
           {/**********  DESCRIPTION  **********/}
           <Grid.Column

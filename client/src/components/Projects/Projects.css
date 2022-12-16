@@ -6,6 +6,10 @@
     padding: .8rem 1rem !important;
 }
 
+.Project-modal-list>.item {
+    font-size: 18px;
+}
+
 .Work-container {
     padding-bottom: 5em;
     padding-top: 1em;
@@ -83,8 +87,9 @@ div.Project-column:hover>* {
 }
 
 .Work-modal-header {
-    font-size: 2rem !important;
+    font-size: 3rem !important;
     text-align: center;
+    color: #535840 !important;
 }
 
 .Projects-divider {
