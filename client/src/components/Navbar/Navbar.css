@@ -3,7 +3,7 @@
 }
 
 .Navbar-icon {
-    min-width: 80px;
+    min-width: 95px;
     height: auto;
     padding-bottom: 2rem;
 }
@@ -181,4 +181,29 @@ div.ui.massive.link.list.Navbar-list {
     animation-fill-mode: both;
     -webkit-animation-duration: 2s;
     -webkit-animation-fill-mode: both
+}
+
+/* tablet landscape */
+
+@media (max-width: 1180px) {
+    .Navbar-icon {
+        min-width: 90px;
+    }
+}
+
+/* tablet portable */
+
+@media (max-width: 820px) {
+    .Navbar-icon {
+        min-width: 85px;
+    }
+}
+
+
+/* phone */
+
+@media (max-width: 414px) {
+    .Navbar-icon {
+        min-width: 80px;
+    }
 }
