@@ -86,6 +86,22 @@ a.listLink:hover {
   h2.Section-header {
     font-size: 4rem !important;
   }
+
+  .Navbar-header {
+    font-size: 5.5rem !important;
+  }
+
+  h2.ui.header.Work-header {
+    font-size: 2.5rem !important;
+  }
+
+  i.file.alternate.outline.icon {
+    font-size: 2.7rem;
+  }
+
+  .About-resume-button {
+    font-size: 1.7rem;
+  }
 }
 
 /* tablet portable */
@@ -118,14 +134,6 @@ a.listLink:hover {
 
   h2.ui.header.Work-header {
     font-size: 1.5em !important;
-  }
-
-  i.file.alternate.outline.icon {
-    font-size: 2.7rem;
-  }
-
-  .About-resume-button {
-    font-size: 1.7rem;
   }
 }
 
