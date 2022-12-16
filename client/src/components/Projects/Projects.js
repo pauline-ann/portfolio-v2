@@ -445,7 +445,7 @@ const Work = () => {
             </a>
           </Grid.Column>
         </Grid>
-        <Divider className="Section-divider" />
+        <Divider className="Projects-divider" />
       </Container>
     </div>
   )

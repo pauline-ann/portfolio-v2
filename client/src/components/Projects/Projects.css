@@ -87,6 +87,10 @@ div.Project-column:hover>* {
     text-align: center;
 }
 
+.Projects-divider {
+    margin: 6rem 1rem 0 1rem !important;
+}
+
 /* big desktop */
 
 @media (max-width: 112.5em) {
