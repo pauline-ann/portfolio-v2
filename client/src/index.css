@@ -96,6 +96,7 @@ a.listLink:hover {
   } */
 
   h2.Section-header {
+    text-align: center;
     font-size: 3.7rem !important;
   }
 
@@ -136,7 +137,7 @@ a.listLink:hover {
   }
 
   h2.Section-header {
-    text-align: center;
+    text-align: center !important;
     font-size: 5rem !important;
   }
 
