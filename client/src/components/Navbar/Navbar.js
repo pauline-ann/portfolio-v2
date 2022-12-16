@@ -6,6 +6,7 @@ import { Image, Breadcrumb, Container, Header, Divider, Icon, List } from 'seman
 import "./Navbar.css"
 
 import avatar from '../../assets/images/paupixel.ico'
+import avatarHover from '../../assets/images/pau-wink.png'
 
 const Navbar = () => {
 
@@ -16,7 +17,7 @@ const Navbar = () => {
             <Container className='Navbar-container' textAlign='center' id='top'>
                 <a href='/'>
                     <Header as='h2'>
-                        <Image src={avatar} className='Navbar-icon animated-med animatedFadeIn fadeIn' />
+                        <Image src={avatar} className='Navbar-icon animated-med animatedFadeIn fadeIn' onMouseOver={e => e.currentTarget.src = avatarHover} onMouseOut={e => e.currentTarget.src = avatar} />
                     </Header>
                 </a>
                 <Breadcrumb size='massive' className='animated-med animatedFadeIn fadeIn'>
