@@ -20,7 +20,7 @@ i.huge.icon:hover {
 p.back-to-top-text {
     visibility: hidden;
     font-size: 1.4rem;
-    color: #f595a5; 
+    color: #6F755F;
     animation: fadeIn 2s;
     padding-top: 1rem;
 }
@@ -33,6 +33,7 @@ p.back-to-top-text {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }

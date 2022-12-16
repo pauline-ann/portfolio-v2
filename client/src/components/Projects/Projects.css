@@ -21,7 +21,6 @@
     height: auto;
     transition: .3s ease;
     backface-visibility: hidden;
-    filter: drop-shadow(7px 7px 15px rgb(37, 30, 43));
 }
 
 /* .Work-image-description {
@@ -48,13 +47,13 @@
 } */
 
 h2.ui.header.Work-header {
-    color: #edf7f6 !important;
+    color: #747A5D !important;
     font-size: 2.5rem !important;
 }
 
 .Work-text {
     font-size: 1.5rem;
-    color: #edf7f6 !important;
+    color: #6F755F !important;
 }
 
 .ui.secondary.menu>a.item {
@@ -62,8 +61,9 @@ h2.ui.header.Work-header {
     font-weight: bolder;
 }
 
-.ui.secondary.menu>a.active.item, .ui.secondary.menu>a.active.item:hover {
-    background: rgba(65, 59, 100, 0.5);
+.ui.secondary.menu>a.active.item,
+.ui.secondary.menu>a.active.item:hover {
+    background: rgb(200, 200, 200);
 }
 
 .Work-tab-menu>div.ui.secondary.menu {
@@ -78,7 +78,7 @@ i.github.alternate.icon {
     font-size: 2rem;
 }
 
-div.Project-column:hover > * {
+div.Project-column:hover>* {
     text-decoration: none;
 }
 
@@ -117,6 +117,7 @@ div.Project-column:hover > * {
     .Work-tab-menu>div.ui.secondary.menu {
         margin-left: -5px;
     }
+
     .ui.secondary.menu>a.item {
         font-size: 2.3rem;
     }
