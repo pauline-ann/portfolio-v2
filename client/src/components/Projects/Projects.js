@@ -235,6 +235,7 @@ const Work = () => {
             tablet={16}
             computer={8}
             className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
+            id='project-mid'
           >
             <div className="Work-image-wrap">
               <a
@@ -417,8 +418,13 @@ const Work = () => {
           </Grid.Column>
         </Grid>
         <Container textAlign="center">
-          <div className="Project-toggle" onClick={() => setIsHidden(!isHidden)}>{isHidden ? "Show more" : "Show less"}{displayIcon()}</div>
-
+          <a href={isHidden ? '#work' : '#project-mid'}>
+            <div className="Project-toggle" onClick={() => {
+              setIsHidden(!isHidden)
+            }}>{isHidden ? "Show more" : "Show less"}
+              {displayIcon()}
+            </div>
+          </a>
         </Container>
         <Divider className="Projects-divider" />
       </Container>
