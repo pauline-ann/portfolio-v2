@@ -73,6 +73,9 @@ const Work = () => {
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
               <Icon link name='github alternate' />
             </a>
+            <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column>
           {/**********  TWITTER BOT **********/}
@@ -111,6 +114,9 @@ const Work = () => {
             <a href="https://github.com/pauline-ann/NASA-photo-twitter-bot" target="_blank" rel="noreferrer">
               <Icon link name='github alternate' />
             </a>
+            <a href="https://twitter.com/space_generator" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column>
           {/**********  OUTLANDISH BLOG  **********/}
@@ -148,6 +154,9 @@ const Work = () => {
               responsiveness, SEO) and tailored the WordPress theme's CSS to
               achieve our desired function and design.
             </p>
+            <a href="https://outlandish.blog/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column>
           {/**********  K'DARA  **********/}
@@ -175,6 +184,9 @@ const Work = () => {
               hosted on WordPress. Implemented new features and plug-ins
               into the existing site to modernize and improve performance.
             </p>
+            <a href="https://kdara.com/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Modal
               onClose={() => setOpenBefore(false)}
               onOpen={() => setOpenBefore(true)}
@@ -252,6 +264,9 @@ const Work = () => {
               homepage to welcome their new Parkline Shuttle program,
               alongside maintaining regular upkeep.
             </p>
+            <a href="https://www.laparks.org/griffithpark/griffith-park-home-page" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column>
           {/**********  Swim LA **********/}
@@ -282,6 +297,9 @@ const Work = () => {
               Created a website for Swim LA, a swimming program to teach the
               youth in Los Angeles, as per the Governor’s request.
             </p>
+            <a href="https://www.swimla.org/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column>
           {/* *********  FOODIE BLOG  ********* */}
@@ -320,6 +338,9 @@ const Work = () => {
             <a href="https://github.com/pauline-ann/blog-react" target="_blank" rel="noreferrer">
               <Icon link name='github alternate' />
             </a>
+            <a href="https://foodie-react-blog.herokuapp.com/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column> */}
           {/**********  LEGEND OF MARCELINE  **********/}
@@ -355,6 +376,9 @@ const Work = () => {
             <a href="https://github.com/pauline-ann/adventure-game" target="_blank" rel="noreferrer">
               <Icon link name='github alternate' />
             </a>
+            <a href="https://adventure-game-lom.herokuapp.com/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
+            </a>
             <Divider hidden section />
           </Grid.Column> */}
           {/**********  PLANT STORE  **********/}
@@ -388,6 +412,9 @@ const Work = () => {
             </p>
             <a href="https://github.com/pauline-ann/template-1" target="_blank" rel="noreferrer">
               <Icon link name='github alternate' />
+            </a>
+            <a href="https://pauline-ann.github.io/template-1/" target="_blank" rel="noreferrer">
+              <Icon link name='world' />
             </a>
             <Divider hidden section />
           </Grid.Column>
