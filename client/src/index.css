@@ -20,7 +20,6 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Open Sans' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.5rem !important;
@@ -44,7 +43,12 @@ code {
 }
 
 i {
-  color: #747A5D !important;
+  color: #eacc52 !important;
+  /* color: #A3A653 !important; */
+}
+
+i.icon {
+  text-decoration: none;
 }
 
 a,

@@ -45,8 +45,9 @@ const Navbar = () => {
                     I'm a full stack web developer.
                 </Header>
                 <Container text textAlign='center'>
-                    <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp'>
-                        I transform ideas into intuitive websites through thoughtful design and implementation.
+                    <p className='Navbar-header-sub animated-med animatedFadeInUp fadeInUp font-face-pixel'>
+                        &#x1f334;
+                        Los Angeles, CA
                     </p>
                     <List link size='massive' className='Navbar-list animated-slow animatedFadeInUp fadeInUp'>
                         <List.Item as='a' className='Navbar-list-link'>
