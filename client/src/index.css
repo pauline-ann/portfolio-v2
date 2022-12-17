@@ -102,6 +102,10 @@ a.listLink:hover {
   .About-resume-button {
     font-size: 1.5rem;
   }
+
+  div.ui.massive.link.list.Navbar-list {
+    font-size: 1.7em;
+  }
 }
 
 /* tablet portable */
@@ -135,7 +139,7 @@ a.listLink:hover {
   }
 
   div.ui.massive.link.list.Navbar-list {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 }
 
@@ -177,5 +181,20 @@ a.listLink:hover {
 
   .About-resume-button {
     font-size: 1.9rem;
+  }
+
+  .Navbar-header {
+    font-size: 4.5rem !important;
+    padding: 2rem 0 1rem 0 !important
+  }
+
+  .Navbar-container {
+    padding: 4rem 0;
+  }
+
+  .ui.list,
+  ol.ui.list,
+  ul.ui.list {
+    margin: 1.2em 0 !important;
   }
 }
