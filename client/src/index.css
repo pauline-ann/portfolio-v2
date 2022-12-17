@@ -185,7 +185,8 @@ a.listLink:hover {
 
   .Navbar-header {
     font-size: 4.5rem !important;
-    padding: 2rem 0 1rem 0 !important
+    padding: 2rem 0 1rem 0 !important;
+    letter-spacing: 2px;
   }
 
   .Navbar-container {
