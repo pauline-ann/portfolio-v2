@@ -5,7 +5,7 @@ import { Image, Breadcrumb, Container, Header, Divider, Icon, List } from 'seman
 //CSS
 import "./Navbar.css"
 
-import avatar from '../../assets/images/paupixel.ico'
+import avatar from '../../assets/images/paupixel.png'
 import avatarHover from '../../assets/images/pau-wink.png'
 
 const Navbar = () => {
