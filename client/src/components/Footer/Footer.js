@@ -15,7 +15,7 @@ const Footer = () => {
                 </a>
                 <p className='back-to-top-text'>Back to Top</p>
                 <Divider hidden section />
-                Made with <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>React <i className='devicon-react-original' /></a> — © 2022 Pauline Ann Bantayan
+                Made with <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>React <i className='devicon-react-original' /></a> — © 2022
             </Container>
         </div>
     )

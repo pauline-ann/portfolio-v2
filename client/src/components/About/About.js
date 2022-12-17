@@ -40,26 +40,15 @@ const About = () => {
                 </List>
               </Container>
             </Grid.Column>
-            <Grid.Column mobile={8} tablet={4} computer={4}>
+            <Grid.Column mobile={16} tablet={8} computer={4}>
               <Container fluid>
                 <Grid>
-                  <Reveal animated='fade'>
-                    <Reveal.Content visible>
-                      <Image
-                        centered
-                        src={Me}
-                        alt='graduation-profile'
-                        className='About-image'
-                      />
-                    </Reveal.Content>
-                    <Reveal.Content hidden>
-                      <Image
-                        centered
-                        src={Me}
-                        alt='graduation-profile'
-                        className='About-image'
-                      />                  </Reveal.Content>
-                  </Reveal>
+                  <Image
+                    centered
+                    src={Me}
+                    alt='graduation-profile'
+                    className='About-image'
+                  />
                 </Grid>
               </Container>
             </Grid.Column>

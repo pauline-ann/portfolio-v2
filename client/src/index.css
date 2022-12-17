@@ -168,7 +168,7 @@ a.listLink:hover {
 
   i.icon.project-icon,
   i.icons.project-icon {
-    font-size: 1.5em !important;
+    font-size: 1.4em !important;
   }
 
   .About-column {
@@ -176,11 +176,11 @@ a.listLink:hover {
   }
 
   i.file.alternate.outline.icon {
-    font-size: 2.9rem;
+    font-size: 2.7rem;
   }
 
   .About-resume-button {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
   .Navbar-header {
@@ -197,5 +197,26 @@ a.listLink:hover {
   ol.ui.list,
   ul.ui.list {
     margin: 1.2em 0 !important;
+  }
+
+  h2.ui.header.Work-header {
+    font-size: 1.4em !important;
+  }
+
+  .Project-toggle {
+    font-size: 20px;
+  }
+
+  .Skills-container,
+  .About-container {
+    padding: 0;
+  }
+
+  .Education-container {
+    margin-top: -40px;
+  }
+
+  .Education-row {
+    margin-bottom: 0 !important;
   }
 }
