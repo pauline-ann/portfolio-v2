@@ -60,6 +60,7 @@ div.ui.massive.link.list.Navbar-list {
 
 .Navbar-navlink {
     color: #A3A653 !important;
+    font-size: 1.6rem;
 }
 
 .Navbar-navlink:hover {
