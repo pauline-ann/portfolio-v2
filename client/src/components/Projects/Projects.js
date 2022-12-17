@@ -5,13 +5,11 @@ import {
   Container,
   Header,
   Divider,
-  List,
   Image,
   Modal,
   Icon,
 } from "semantic-ui-react"
 import ImageFadeIn from "react-image-fade-in"
-import { Link } from "react-router-dom"
 
 // CSS
 import "./Projects.css"
