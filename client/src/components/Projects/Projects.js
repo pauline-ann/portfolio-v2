@@ -54,7 +54,7 @@ const Work = () => {
           >
             <div className="Work-image-wrap">
               <a
-                href="https://github.com/pauline-ann/browser-rpg"
+                href="https://browser-rpg.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -79,7 +79,7 @@ const Work = () => {
             <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
               <Icon className="project-icon" link name='github' />
             </a>
-            <a href="https://github.com/pauline-ann/browser-rpg" target="_blank" rel="noreferrer">
+            <a href="https://browser-rpg.herokuapp.com/" target="_blank" rel="noreferrer">
               <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
