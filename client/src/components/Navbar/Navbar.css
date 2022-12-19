@@ -71,43 +71,6 @@ div.ui.massive.link.list.Navbar-list {
     color: #f6d72c !important;
 }
 
-/* tablet landscape */
-
-@media (max-width: 1180px) {
-    .Navbar-icon {
-        min-width: 90px;
-    }
-}
-
-/* tablet portable */
-
-@media (max-width: 820px) {
-    .Navbar-icon {
-        min-width: 85px;
-    }
-
-    div.ui.massive.link.list.Navbar-list {
-        padding-left: 0;
-    }
-}
-
-
-/* phone */
-
-@media (max-width: 414px) {
-    .Navbar-icon {
-        min-width: 80px;
-    }
-
-    .Navbar-header-sub {
-        text-align: center;
-    }
-
-    div.ui.massive.link.list.Navbar-list {
-        padding-left: 35px;
-    }
-}
-
 /* Animation */
 
 /* Fade In Up */

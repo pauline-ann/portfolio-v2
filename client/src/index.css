@@ -91,6 +91,10 @@ a.listLink:hover {
     font-size: 5.5rem !important;
   }
 
+  .Navbar-icon {
+    min-width: 90px;
+  }
+
   h2.ui.header.Work-header {
     font-size: 2.2rem !important;
   }
@@ -126,6 +130,15 @@ a.listLink:hover {
     font-size: 1.5em !important;
   }
 
+  .Navbar-icon {
+    min-width: 85px;
+  }
+
+  div.ui.massive.link.list.Navbar-list {
+    padding-left: 0;
+    font-size: 1.8em;
+  }
+
   .ui.list,
   ol.ui.list,
   ul.ui.list {
@@ -136,10 +149,6 @@ a.listLink:hover {
 
   h2.ui.header.Work-header {
     font-size: 1.5em !important;
-  }
-
-  div.ui.massive.link.list.Navbar-list {
-    font-size: 1.8em;
   }
 }
 
@@ -155,11 +164,34 @@ a.listLink:hover {
     font-size: 5rem !important;
   }
 
+  .Navbar-icon {
+    min-width: 80px;
+  }
+
+  .Navbar-header-sub {
+    text-align: center;
+  }
+
+  div.ui.massive.link.list.Navbar-list {
+    padding-left: 35px;
+    font-size: 1.7em;
+  }
+
+  .Navbar-header {
+    font-size: 4.5rem !important;
+    padding: 2rem 0 1rem 0 !important;
+    letter-spacing: 2px;
+  }
+
+  .Navbar-container {
+    padding: 4rem 0;
+  }
+
   .ui.list,
   ol.ui.list,
   ul.ui.list {
-    margin-top: 2em;
     padding-left: 0 !important;
+    margin: 1.2em 0 !important;
   }
 
   h2.ui.header.Work-header {
@@ -181,22 +213,6 @@ a.listLink:hover {
 
   .About-resume-button {
     font-size: 1.7rem;
-  }
-
-  .Navbar-header {
-    font-size: 4.5rem !important;
-    padding: 2rem 0 1rem 0 !important;
-    letter-spacing: 2px;
-  }
-
-  .Navbar-container {
-    padding: 4rem 0;
-  }
-
-  .ui.list,
-  ol.ui.list,
-  ul.ui.list {
-    margin: 1.2em 0 !important;
   }
 
   h2.ui.header.Work-header {
