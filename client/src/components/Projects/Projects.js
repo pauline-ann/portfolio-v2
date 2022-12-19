@@ -21,7 +21,6 @@ import outlandish_small from "../../assets/images/project_img/outlandish_small.j
 import griffith_small from "../../assets/images/project_img/griffith_small.jpg"
 import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg"
 import lom_small from "../../assets/images/project_img/lom_small.jpg"
-import plants_small from "../../assets/images/project_img/plants_small.jpg"
 import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg"
 import pizza_small from "../../assets/images/project_img/pizza-small.PNG"
 
@@ -71,7 +70,7 @@ const Work = () => {
             </div>
             <Header
               as="h2"
-              content="Browser RPG"
+              content="Browser Game"
               className="Work-header"
             />
             <p className="Work-text">
@@ -362,7 +361,7 @@ const Work = () => {
                 />
               </a>
             </div>
-            <Header as="h2" content="Promotional" className="Work-header" />
+            <Header as="h2" content="Advanced CSS" className="Work-header" />
             <p className="Work-text">
               A promotional website designed and built for a fictional video
               game, The Legend of Marceline. Built to be modern, highly
@@ -373,43 +372,6 @@ const Work = () => {
               <Icon className="project-icon" link name='github' />
             </a>
             <a href="https://adventure-game-lom.herokuapp.com/" target="_blank" rel="noreferrer">
-              <Icon className="project-icon" link name='world' />
-            </a>
-            <Divider hidden section />
-          </Grid.Column>
-          {/**********  PLANT STORE  **********/}
-          {/**********  DESCRIPTION  **********/}
-          <Grid.Column
-            mobile={16}
-            tablet={16}
-            computer={8}
-            className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
-          >
-            <div className="Work-image-wrap">
-              <a
-                href="https://pauline-ann.github.io/template-1/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImageFadeIn
-                  opacityTransition={1.3}
-                  className="Work-image"
-                  src={plants_small}
-                  alt="plants_small"
-                  fluid
-                />
-              </a>
-            </div>
-            <Header as="h2" content="Plant Store" className="Work-header" />
-            <p className="Work-text">
-              A minimalistic layout template for a plant store featuring a
-              sleek design that follows the color palette of the header.
-              Includes a responsive navbar and image hover effects.
-            </p>
-            <a href="https://github.com/pauline-ann/template-1" target="_blank" rel="noreferrer">
-              <Icon className="project-icon" link name='github' />
-            </a>
-            <a href="https://pauline-ann.github.io/template-1/" target="_blank" rel="noreferrer">
               <Icon className="project-icon" link name='world' />
             </a>
             <Divider hidden section />
