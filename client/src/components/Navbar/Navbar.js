@@ -5,13 +5,15 @@ import { Image, Breadcrumb, Container, Header, Divider, Icon, List } from 'seman
 //CSS
 import "./Navbar.css"
 
+//Assets
 import avatar from '../../assets/images/paupixel.png'
 import avatarHover from '../../assets/images/pau-wink.png'
+import Resume from '../../assets/document/PaulineBantayanResume.pdf'
 
 const Navbar = () => {
     const [index, setIndex] = useState(0)
     const titleArray = ['a full-stack web developer', 'a software developer', 'an artist', 'a wannabe game dev', 'a human (?)']
-    const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com')
+    // const email = 'pauline'.concat('bantayan', '@', 'gmail', '.', 'com')
 
     const nextTitle = () => {
         if (index < titleArray.length - 1) {
@@ -42,9 +44,9 @@ const Navbar = () => {
                         </Breadcrumb.Section>
                     </a>
                     <Breadcrumb.Divider icon='star' className='breadcrumb-divider' />
-                    <a href={`mailto:${email}`}>
+                    <a href={Resume}>
                         <Breadcrumb.Section className="Navbar-navlink">
-                            Contact
+                            Resume
                         </Breadcrumb.Section>
                     </a>
                 </Breadcrumb>
