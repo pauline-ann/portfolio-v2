@@ -19,10 +19,10 @@ import kdara_small from "../../assets/images/project_img/kdara_small.jpg"
 import foodie_small from "../../assets/images/project_img/foodie_small.jpg"
 import outlandish_small from "../../assets/images/project_img/outlandish_small.jpg"
 import griffith_small from "../../assets/images/project_img/griffith_small.jpg"
-import learntoswim_small from "../../assets/images/project_img/learntoswim_small.jpg"
 import lom_small from "../../assets/images/project_img/lom_small.jpg"
 import twitterbot_small from "../../assets/images/project_img/twitterbot_small.jpg"
 import pizza_small from "../../assets/images/project_img/pizza-small.PNG"
+import twenty_small from "../../assets/images/project_img/2048.PNG"
 
 // Gifs
 import before from "../../assets/images/project_img/kdara-before.gif"
@@ -44,6 +44,46 @@ const Work = () => {
     <div id="work">
       <Container className="Work-container">
         <Grid stackable>
+          {/********** 2048 REACT **********/}
+          {/**********  DESCRIPTION  **********/}
+          <Grid.Column
+            mobile={16}
+            tablet={16}
+            computer={8}
+            className="Project-top-column Project-column"
+          >
+            <div className="Work-image-wrap">
+              <a
+                href="https://main--silly-froyo-4c70a7.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImageFadeIn
+                  opacityTransition={1.3}
+                  className="Work-image"
+                  src={twenty_small}
+                  alt="2048 game"
+                  type="image/jp2"
+                  fluid
+                />
+              </a>
+            </div>
+            <Header
+              as="h2"
+              content="2048 Game"
+              className="Work-header"
+            />
+            <p className="Work-text">
+              A React clone of the popular 2048 game where tiles are merged together until 2048 is reached. Built with React, Sass, and Vite. Arrow key, WASD key, and touch inputs are supported.
+            </p>
+            <a href="https://github.com/pauline-ann/2048-react" target="_blank" rel="noreferrer">
+              <Icon className="project-icon" link name='github' />
+            </a>
+            <a href="https://main--silly-froyo-4c70a7.netlify.app/" target="_blank" rel="noreferrer">
+              <Icon className="project-icon" link name='world' />
+            </a>
+            <Divider hidden section />
+          </Grid.Column>
           {/********** BROWSER RPG **********/}
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
@@ -70,7 +110,7 @@ const Work = () => {
             </div>
             <Header
               as="h2"
-              content="Browser Game"
+              content="Pizza RPG"
               className="Work-header"
             />
             <p className="Work-text">
@@ -171,7 +211,7 @@ const Work = () => {
             mobile={16}
             tablet={16}
             computer={8}
-            className="Project-column"
+            className={`Project-top-column Project-column ${isHidden && "Project-hidden"}`}
           >
             <div className="Work-image-wrap">
               <a href="https://kdara.com/" target="_blank" rel="noreferrer">
@@ -264,39 +304,7 @@ const Work = () => {
             </a>
             <Divider hidden section />
           </Grid.Column>
-          {/**********  Swim LA **********/}
-          {/**********  DESCRIPTION  **********/}
-          <Grid.Column
-            mobile={16}
-            tablet={16}
-            computer={8}
-            className={`Project-column Project-column ${isHidden && "Project-hidden"}`}
-          >
-            <div className="Work-image-wrap">
-              <a
-                href="https://www.swimla.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImageFadeIn
-                  opacityTransition={1.3}
-                  className="Work-image"
-                  src={learntoswim_small}
-                  alt="learntoswim_small"
-                  fluid
-                />
-              </a>
-            </div>
-            <Header as="h2" content="Swim LA" className="Work-header" />
-            <p className="Work-text">
-              Created a website for Swim LA, a swimming program to teach the
-              youth in Los Angeles, as per the Governor’s request.
-            </p>
-            <a href="https://www.swimla.org/" target="_blank" rel="noreferrer">
-              <Icon className="project-icon" link name='world' />
-            </a>
-            <Divider hidden section />
-          </Grid.Column>
+
           {/**********  FOODIE BLOG  **********/}
           {/**********  DESCRIPTION  **********/}
           <Grid.Column
